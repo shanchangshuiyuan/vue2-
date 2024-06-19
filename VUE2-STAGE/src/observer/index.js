@@ -10,6 +10,7 @@ class Observe {
 
     Object.defineProperty(data, "__ob__", {
       enumerable: false, //不可枚举
+      //  值指代的就是Observer的实例
       value: this
     })
     // data.__ob__ = this; //所有被劫持过的属性都有__ob__属性
@@ -35,6 +36,7 @@ class Observe {
   }
 
   walk(data) {
+    // 对象上的所有属性依次进行观测
     Object.keys(data).forEach((key) => {
       defineReactive(data, key, data[key]);
     });

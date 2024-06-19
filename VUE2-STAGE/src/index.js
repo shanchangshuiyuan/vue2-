@@ -6,6 +6,7 @@ function Vue(options) {
 }
 
 // 扩展原型
+// initMixin 把_init 方法挂载在 Vue 原型 供 Vue 实例调用
 initMixin(Vue)
 
 export default Vue;

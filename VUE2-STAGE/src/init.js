@@ -16,21 +16,22 @@ export function initMixin(Vue) {
     }
   };
 
-  Vue.prototype.$mount = function(el){
-
+  Vue.prototype.$mount = function (el) {
     const vm = this;
     const options = vm.$options;
     el = document.querySelector(el);
 
     // 把模版转换为 对应的渲染函数 => 虚拟dom概念 vnode =>diff算法 更新虚拟dom => 产生真实节点，更新
-    if(!options.render){ // 如果没有render函数，则使用template 目前没有render
+    if (!options.render) {
+      // 如果没有render函数，则使用template 目前没有render
       let template = options.template;
-      if(!template && el ){ // 如果没有template，但是有el，则使用el
+      if (!template && el) {
+        // 如果没有template，但是有el，则使用el
         template = el.outerHTML;
         let render = compileToFunction(template);
         options.render = render;
       }
     }
     //options.render就是渲染函数
-  }
+  };
 }

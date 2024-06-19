@@ -55,6 +55,7 @@
 
         Object.defineProperty(data, "__ob__", {
           enumerable: false, //不可枚举
+          //  值指代的就是Observer的实例
           value: this
         });
         // data.__ob__ = this; //所有被劫持过的属性都有__ob__属性
@@ -80,6 +81,7 @@
       }
 
       walk(data) {
+        // 对象上的所有属性依次进行观测
         Object.keys(data).forEach((key) => {
           defineReactive(data, key, data[key]);
         });
@@ -119,6 +121,7 @@
 
     function initState(vm) {
       const opts = vm.$options;
+      // 这里初始化的顺序依次是 prop>methods>data>computed>watch
       if (opts.data) {
         initData(vm);
       }
@@ -130,22 +133,26 @@
       }
     }
 
+    // 初始化data数据
     function initData(vm) {
       let data = vm.$options.data;
       // vue2中会将data的所有数据 进行数据劫持 Object.defineProperty
 
-      //data.call(vm) 将this指向vm并调用一下该方法 通过_data进行关联
+      //data.call(vm) 将this指向vm并调用一下该方法保证返回的是一个对象 通过_data进行关联
       data = vm._data = isFunction(data) ? data.call(vm) : data;
 
+      // 把data数据代理到vm 也就是Vue实例上面 我们可以使用this.a来访问this._data.a
       for (let key in data) {
         proxy(vm, "_data", key); //vm.name == 'xxx'
       }
 
-      //对数据进行观测
+      //对数据进行观测 --响应式数据核心
       observe(data);
     }
 
     //代理函数
+    // Object.defineProperty(object, key, { ... })：
+    // 在目标对象 object 上定义一个新的属性 key，并通过配置属性描述符（descriptor）来设置它的 getter 和 setter。
     function proxy(vm, source, key) {
       Object.defineProperty(vm, key, {
         get() {
@@ -172,16 +179,17 @@
         }
       };
 
-      Vue.prototype.$mount = function(el){
-
+      Vue.prototype.$mount = function (el) {
         const vm = this;
         const options = vm.$options;
         el = document.querySelector(el);
 
         // 把模版转换为 对应的渲染函数 => 虚拟dom概念 vnode =>diff算法 更新虚拟dom => 产生真实节点，更新
-        if(!options.render){ // 如果没有render函数，则使用template 目前没有render
+        if (!options.render) {
+          // 如果没有render函数，则使用template 目前没有render
           let template = options.template;
-          if(!template && el ){ // 如果没有template，但是有el，则使用el
+          if (!template && el) {
+            // 如果没有template，但是有el，则使用el
             template = el.outerHTML;
             let render = compileToFunction(template);
             options.render = render;
@@ -197,6 +205,7 @@
     }
 
     // 扩展原型
+    // initMixin 把_init 方法挂载在 Vue 原型 供 Vue 实例调用
     initMixin(Vue);
 
     return Vue;
