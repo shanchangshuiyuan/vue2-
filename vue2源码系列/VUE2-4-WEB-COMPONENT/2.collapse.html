@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <zgy-collapse>
+        <zgy-collapse-item title="node" name="1">
+            <div>Node js welcome</div>
+        </zgy-collapse-item>
+        <zgy-collapse-item title="vue" name="2">
+            <div>vue  welcome</div>
+        </zgy-collapse-item>
+        <zgy-collapse-item title="react" name="3">
+            <div>react welcome</div>
+        </zgy-collapse-item>
+    </zgy-collapse>
+
+
+    <template id="collapse_template">
+        <div class="zgy-collapse">
+            <slot></slot>
+        </div>
+    </template>
+
+    <template id="collapse_item_template">
+        <div class="zgy-collapse-item">
+            <div class="title"></div>
+            <div class="content">
+                <slot></slot>
+            </div>
+        </div>
+    </template>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

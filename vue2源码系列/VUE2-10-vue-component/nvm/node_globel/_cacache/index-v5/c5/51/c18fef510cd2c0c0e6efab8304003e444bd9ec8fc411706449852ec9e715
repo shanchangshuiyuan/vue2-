@@ -1,0 +1,2 @@
+
+8bb82625670fd8376c2a10f42958199a4cf216cd	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/prr/download/prr-1.0.1.tgz","integrity":null,"time":1721811159639,"size":"262","metadata":{"time":1721811159639,"url":"https://registry.npm.taobao.org/prr/download/prr-1.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:43 GMT","location":"https://registry.npmmirror.com/prr/download/prr-1.0.1.tgz"},"options":{"compress":true},"status":301}}

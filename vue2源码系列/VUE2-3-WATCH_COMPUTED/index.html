@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <!-- 当在页面中直接写fullname时 fullname不会去收集渲染watcher ， 因为fullname没有dep 没有收集的功能 -->
+  <!-- firstName 是在计算属性中使用的 ，所以他会收集计算属性watcher。 没有收集渲染watcher -->
+
+  <!-- 计算属性中的值应该记录 计算属性watcher 和渲染watcher -->
+
+  <!-- Dep.target上赋值一个渲染watcher ， 又将Dep.target设置为计算属性watcher-->
+
+  <body>
+    <div id="app">{{name}} -- {{fullName}}</div>
+    <!-- <script src="node_modules/vue/dist/vue.global.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+    <script src="dist/vue.js"></script>
+    <script>
+      const vm = new Vue({
+        el: "#app",
+        data: {
+          name: "zf",
+          age: 100,
+          firstName: "zhu",
+          lastName: "feng",
+        },
+        computed: {
+          // Object.defineProperty => getter
+          fullName: {
+            get() {
+              console.log("oooo");
+              return this.firstName + this.lastName;
+            },
+            set(newValue) {
+              console.log(newValue);
+            },
+          },
+        },
+      });
+
+      // setTimeout(() => {
+      //   vm.firstName = 111;
+      //   vm.firstName = 111;
+      //   vm.firstName = 111;
+      //   vm.firstName = 111;
+      //   vm.firstName = 111;
+      // },1000)
+
+      console.log(vm.fullName);
+      console.log(vm.fullName);
+
+      setTimeout(() => {
+        vm.firstName = "111";
+      }, 1000);
+      // const name = vm.fullName;
+      // console.log(name);
+
+      // vm.$watch('name', function (newVal, oldVal) {
+      //   console.log(newVal, oldVal);
+      // })
+
+      // setTimeout(() => {
+      //   vm.name = "111";
+      //   vm.age.n = 200;
+      // }, 1000);
+    </script>
+  </body>
+</html>
+
+<!-- Vue中的嵌套层次不能太深，否则会有大量递归 -->
+<!-- Vue中通过的是defineProperity,拦截了get set 如果不存在的属性不会拦截 -->
+<!-- Vue中的数组改索引与长度，是不会影响更新的，只能通过七个方法更新 -->

@@ -1,0 +1,1115 @@
+0 verbose cli F:\nvm\node\node.exe F:\nvm\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:F:\nvm\nvm\v20.11.1\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-3-WATCH_COMPUTED\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\zgy\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-3-WATCH_COMPUTED\nvm\node_globel\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 15ms
+17 timing npm:load:configload Completed in 15ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i vue
+22 verbose argv "i" "vue"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-3-WATCH_COMPUTED\nvm\node_globel\_logs\2024-07-04T08_23_30_025Z-
+26 verbose logfile F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-3-WATCH_COMPUTED\nvm\node_globel\_logs\2024-07-04T08_23_30_025Z-debug-0.log
+27 timing npm:load:logFile Completed in 12ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 63ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 230ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest vue@*
+37 http fetch GET 200 https://registry.npmmirror.com/vue 204ms (cache miss)
+38 silly fetch manifest typescript@*
+39 http fetch GET 200 https://registry.npmmirror.com/npm 565ms (cache miss)
+40 http fetch GET 200 https://registry.npmmirror.com/typescript 242ms (cache miss)
+41 silly placeDep ROOT vue@3.4.31 OK for: vue2-stage@1.0.0 want: *
+42 silly fetch manifest @vue/compiler-dom@3.4.31
+43 silly fetch manifest @vue/shared@3.4.31
+44 silly fetch manifest @vue/compiler-sfc@3.4.31
+45 silly fetch manifest @vue/server-renderer@3.4.31
+46 silly fetch manifest @vue/runtime-dom@3.4.31
+47 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-dom 67ms (cache miss)
+48 http fetch GET 200 https://registry.npmmirror.com/@vue%2fshared 68ms (cache miss)
+49 http fetch GET 200 https://registry.npmmirror.com/@vue%2fserver-renderer 189ms (cache miss)
+50 http fetch GET 200 https://registry.npmmirror.com/@vue%2fruntime-dom 208ms (cache miss)
+51 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-sfc 214ms (cache miss)
+52 timing idealTree:#root Completed in 741ms
+53 silly fetch manifest vue@3.4.31
+54 silly placeDep ROOT @vue/compiler-dom@3.4.31 OK for: vue@3.4.31 want: 3.4.31
+55 silly fetch manifest @vue/compiler-core@3.4.31
+56 silly placeDep ROOT @vue/compiler-sfc@3.4.31 OK for: vue@3.4.31 want: 3.4.31
+57 silly fetch manifest estree-walker@^2.0.2
+58 silly fetch manifest magic-string@^0.30.10
+59 silly fetch manifest postcss@^8.4.38
+60 silly fetch manifest source-map-js@^1.2.0
+61 silly fetch manifest @vue/compiler-ssr@3.4.31
+62 silly placeDep ROOT @vue/runtime-dom@3.4.31 OK for: vue@3.4.31 want: 3.4.31
+63 silly fetch manifest csstype@^3.1.3
+64 silly fetch manifest @vue/runtime-core@3.4.31
+65 silly fetch manifest @vue/reactivity@3.4.31
+66 silly placeDep ROOT @vue/server-renderer@3.4.31 OK for: vue@3.4.31 want: 3.4.31
+67 silly placeDep ROOT @vue/shared@3.4.31 OK for: vue@3.4.31 want: 3.4.31
+68 http fetch GET 200 https://registry.npmmirror.com/estree-walker 62ms (cache miss)
+69 http fetch GET 200 https://registry.npmmirror.com/source-map-js 62ms (cache miss)
+70 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-core 66ms (cache miss)
+71 http fetch GET 200 https://registry.npmmirror.com/magic-string 66ms (cache miss)
+72 http fetch GET 200 https://registry.npmmirror.com/postcss 69ms (cache miss)
+73 http fetch GET 200 https://registry.npmmirror.com/csstype 221ms (cache miss)
+74 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-ssr 242ms (cache miss)
+75 http fetch GET 200 https://registry.npmmirror.com/@vue%2fruntime-core 244ms (cache miss)
+76 http fetch GET 200 https://registry.npmmirror.com/@vue%2freactivity 247ms (cache miss)
+77 timing idealTree:node_modules/vue Completed in 257ms
+78 silly placeDep ROOT @vue/compiler-core@3.4.31 OK for: @vue/compiler-dom@3.4.31 want: 3.4.31
+79 silly fetch manifest entities@^4.5.0
+80 http fetch GET 200 https://registry.npmmirror.com/entities 50ms (cache miss)
+81 timing idealTree:node_modules/@vue/compiler-dom Completed in 55ms
+82 silly placeDep ROOT entities@4.5.0 OK for: @vue/compiler-core@3.4.31 want: ^4.5.0
+83 silly placeDep node_modules/@vue/compiler-core estree-walker@2.0.2 OK for: @vue/compiler-core@3.4.31 want: ^2.0.2
+84 silly placeDep ROOT source-map-js@1.2.0 OK for: @vue/compiler-core@3.4.31 want: ^1.2.0
+85 timing idealTree:node_modules/@vue/compiler-core Completed in 11ms
+86 silly placeDep ROOT @vue/compiler-ssr@3.4.31 OK for: @vue/compiler-sfc@3.4.31 want: 3.4.31
+87 silly placeDep node_modules/@vue/compiler-sfc estree-walker@2.0.2 OK for: @vue/compiler-sfc@3.4.31 want: ^2.0.2
+88 silly placeDep ROOT magic-string@0.30.10 OK for: @vue/compiler-sfc@3.4.31 want: ^0.30.10
+89 silly placeDep ROOT postcss@8.4.39 OK for: @vue/compiler-sfc@3.4.31 want: ^8.4.38
+90 silly fetch manifest nanoid@^3.3.7
+91 http fetch GET 200 https://registry.npmmirror.com/nanoid 50ms (cache miss)
+92 timing idealTree:node_modules/@vue/compiler-sfc Completed in 62ms
+93 timing idealTree:node_modules/@vue/compiler-ssr Completed in 0ms
+94 silly placeDep ROOT @vue/reactivity@3.4.31 OK for: @vue/runtime-dom@3.4.31 want: 3.4.31
+95 silly placeDep ROOT @vue/runtime-core@3.4.31 OK for: @vue/runtime-dom@3.4.31 want: 3.4.31
+96 silly placeDep ROOT csstype@3.1.3 OK for: @vue/runtime-dom@3.4.31 want: ^3.1.3
+97 timing idealTree:node_modules/@vue/runtime-dom Completed in 4ms
+98 timing idealTree:node_modules/@vue/reactivity Completed in 0ms
+99 timing idealTree:node_modules/@vue/runtime-core Completed in 0ms
+100 timing idealTree:node_modules/@vue/server-renderer Completed in 0ms
+101 timing idealTree:node_modules/@vue/shared Completed in 0ms
+102 timing idealTree:node_modules/csstype Completed in 0ms
+103 timing idealTree:node_modules/entities Completed in 0ms
+104 timing idealTree:node_modules/magic-string Completed in 0ms
+105 silly placeDep ROOT nanoid@3.3.7 OK for: postcss@8.4.39 want: ^3.3.7
+106 timing idealTree:node_modules/postcss Completed in 1ms
+107 timing idealTree:node_modules/nanoid Completed in 0ms
+108 timing idealTree:node_modules/source-map-js Completed in 0ms
+109 timing idealTree:node_modules/@vue/compiler-core/node_modules/estree-walker Completed in 0ms
+110 timing idealTree:node_modules/@vue/compiler-sfc/node_modules/estree-walker Completed in 0ms
+111 timing idealTree:buildDeps Completed in 1134ms
+112 timing idealTree:fixDepFlags Completed in 1ms
+113 timing idealTree Completed in 1371ms
+114 timing reify:loadTrees Completed in 1374ms
+115 timing reify:diffTrees Completed in 6ms
+116 silly reify moves {}
+117 timing reify:retireShallow Completed in 1ms
+118 timing reify:createSparse Completed in 105ms
+119 timing reify:loadBundles Completed in 0ms
+120 silly audit bulk request {
+120 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+120 silly audit   '@babel/code-frame': [ '7.24.7' ],
+120 silly audit   '@babel/compat-data': [ '7.24.7' ],
+120 silly audit   '@babel/core': [ '7.24.7' ],
+120 silly audit   '@babel/generator': [ '7.24.7' ],
+120 silly audit   '@babel/helper-annotate-as-pure': [ '7.24.7' ],
+120 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.24.7' ],
+120 silly audit   '@babel/helper-compilation-targets': [ '7.24.7' ],
+120 silly audit   '@babel/helper-create-class-features-plugin': [ '7.24.7' ],
+120 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.24.7' ],
+120 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.2' ],
+120 silly audit   '@babel/helper-environment-visitor': [ '7.24.7' ],
+120 silly audit   '@babel/helper-function-name': [ '7.24.7' ],
+120 silly audit   '@babel/helper-hoist-variables': [ '7.24.7' ],
+120 silly audit   '@babel/helper-member-expression-to-functions': [ '7.24.7' ],
+120 silly audit   '@babel/helper-module-imports': [ '7.24.7' ],
+120 silly audit   '@babel/helper-module-transforms': [ '7.24.7' ],
+120 silly audit   '@babel/helper-optimise-call-expression': [ '7.24.7' ],
+120 silly audit   '@babel/helper-plugin-utils': [ '7.24.7' ],
+120 silly audit   '@babel/helper-remap-async-to-generator': [ '7.24.7' ],
+120 silly audit   '@babel/helper-replace-supers': [ '7.24.7' ],
+120 silly audit   '@babel/helper-simple-access': [ '7.24.7' ],
+120 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.24.7' ],
+120 silly audit   '@babel/helper-split-export-declaration': [ '7.24.7' ],
+120 silly audit   '@babel/helper-string-parser': [ '7.24.7' ],
+120 silly audit   '@babel/helper-validator-identifier': [ '7.24.7' ],
+120 silly audit   '@babel/helper-validator-option': [ '7.24.7' ],
+120 silly audit   '@babel/helper-wrap-function': [ '7.24.7' ],
+120 silly audit   '@babel/helpers': [ '7.24.7' ],
+120 silly audit   '@babel/highlight': [ '7.24.7' ],
+120 silly audit   '@babel/parser': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-bugfix-firefox-class-in-computed-class-key': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.21.0-placeholder-for-preset-env.2' ],
+120 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+120 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+120 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+120 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+120 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+120 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+120 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+120 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+120 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+120 silly audit   '@babel/plugin-syntax-unicode-sets-regex': [ '7.18.6' ],
+120 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-block-scoping': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-class-properties': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-class-static-block': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-classes': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-computed-properties': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-destructuring': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-dynamic-import': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-for-of': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-function-name': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-json-strings': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-literals': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-modules-amd': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-modules-umd': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-new-target': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-object-super': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-parameters': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-private-methods': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-property-literals': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-regenerator': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-reserved-words': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-spread': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-template-literals': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-unicode-property-regex': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.24.7' ],
+120 silly audit   '@babel/plugin-transform-unicode-sets-regex': [ '7.24.7' ],
+120 silly audit   '@babel/preset-env': [ '7.24.7' ],
+120 silly audit   '@babel/preset-modules': [ '0.1.6-no-external-plugins' ],
+120 silly audit   '@babel/regjsgen': [ '0.8.0' ],
+120 silly audit   '@babel/runtime': [ '7.24.7' ],
+120 silly audit   '@babel/template': [ '7.24.7' ],
+120 silly audit   '@babel/traverse': [ '7.24.7' ],
+120 silly audit   '@babel/types': [ '7.24.7' ],
+120 silly audit   '@jridgewell/gen-mapping': [ '0.3.5' ],
+120 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+120 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+120 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+120 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+120 silly audit   'ansi-styles': [ '3.2.1' ],
+120 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.11' ],
+120 silly audit   'babel-plugin-polyfill-corejs3': [ '0.10.4' ],
+120 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.2' ],
+120 silly audit   browserslist: [ '4.23.1' ],
+120 silly audit   'caniuse-lite': [ '1.0.30001633' ],
+120 silly audit   chalk: [ '2.4.2' ],
+120 silly audit   'color-convert': [ '1.9.3' ],
+120 silly audit   'color-name': [ '1.1.3' ],
+120 silly audit   'convert-source-map': [ '2.0.0' ],
+120 silly audit   'core-js-compat': [ '3.37.1' ],
+120 silly audit   debug: [ '4.3.5' ],
+120 silly audit   'electron-to-chromium': [ '1.4.801' ],
+120 silly audit   escalade: [ '3.1.2' ],
+120 silly audit   'escape-string-regexp': [ '1.0.5' ],
+120 silly audit   'estree-walker': [ '0.6.1', '2.0.2' ],
+120 silly audit   esutils: [ '2.0.3' ],
+120 silly audit   fsevents: [ '2.3.3' ],
+120 silly audit   'function-bind': [ '1.1.2' ],
+120 silly audit   gensync: [ '1.0.0-beta.2' ],
+120 silly audit   globals: [ '11.12.0' ],
+120 silly audit   'has-flag': [ '3.0.0' ],
+120 silly audit   hasown: [ '2.0.2' ],
+120 silly audit   'is-core-module': [ '2.13.1' ],
+120 silly audit   'js-tokens': [ '4.0.0' ],
+120 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+120 silly audit   json5: [ '2.2.3' ],
+120 silly audit   'lodash.debounce': [ '4.0.8' ],
+120 silly audit   'lru-cache': [ '5.1.1' ],
+120 silly audit   ms: [ '2.1.2' ],
+120 silly audit   'node-releases': [ '2.0.14' ],
+120 silly audit   'path-parse': [ '1.0.7' ],
+120 silly audit   picocolors: [ '1.0.1' ],
+120 silly audit   regenerate: [ '1.4.2' ],
+120 silly audit   'regenerate-unicode-properties': [ '10.1.1' ],
+120 silly audit   'regenerator-runtime': [ '0.14.1' ],
+120 silly audit   'regenerator-transform': [ '0.15.2' ],
+120 silly audit   'regexpu-core': [ '5.3.2' ],
+120 silly audit   regjsparser: [ '0.9.1' ],
+120 silly audit   resolve: [ '1.22.8' ],
+120 silly audit   rollup: [ '2.79.1' ],
+120 silly audit   'rollup-plugin-babel': [ '4.4.0' ],
+120 silly audit   'rollup-pluginutils': [ '2.8.2' ],
+120 silly audit   semver: [ '6.3.1' ],
+120 silly audit   'supports-color': [ '5.5.0' ],
+120 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+120 silly audit   'to-fast-properties': [ '2.0.0' ],
+120 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+120 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+120 silly audit   'unicode-match-property-value-ecmascript': [ '2.1.0' ],
+120 silly audit   'unicode-property-aliases-ecmascript': [ '2.1.0' ],
+120 silly audit   'update-browserslist-db': [ '1.0.16' ],
+120 silly audit   yallist: [ '3.1.1' ],
+120 silly audit   vue: [ '3.4.31' ],
+120 silly audit   '@vue/compiler-dom': [ '3.4.31' ],
+120 silly audit   '@vue/compiler-sfc': [ '3.4.31' ],
+120 silly audit   '@vue/runtime-dom': [ '3.4.31' ],
+120 silly audit   '@vue/server-renderer': [ '3.4.31' ],
+120 silly audit   '@vue/shared': [ '3.4.31' ],
+120 silly audit   '@vue/compiler-core': [ '3.4.31' ],
+120 silly audit   entities: [ '4.5.0' ],
+120 silly audit   'source-map-js': [ '1.2.0' ],
+120 silly audit   '@vue/compiler-ssr': [ '3.4.31' ],
+120 silly audit   'magic-string': [ '0.30.10' ],
+120 silly audit   postcss: [ '8.4.39' ],
+120 silly audit   '@vue/reactivity': [ '3.4.31' ],
+120 silly audit   '@vue/runtime-core': [ '3.4.31' ],
+120 silly audit   csstype: [ '3.1.3' ],
+120 silly audit   nanoid: [ '3.3.7' ]
+120 silly audit }
+121 verbose reify failed optional dependency F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-3-WATCH_COMPUTED\node_modules\fsevents
+122 silly reify mark deleted [
+122 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-3-WATCH_COMPUTED\\node_modules\\fsevents'
+122 silly reify ]
+123 timing reifyNode:node_modules/fsevents Completed in 42ms
+124 silly tarball no local data for nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.7.tgz. Extracting by manifest.
+125 silly tarball no local data for @vue/runtime-core@https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.4.31.tgz. Extracting by manifest.
+126 silly tarball no local data for csstype@https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+127 silly tarball no local data for @vue/reactivity@https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.4.31.tgz. Extracting by manifest.
+128 silly tarball no local data for magic-string@https://registry.npmmirror.com/magic-string/-/magic-string-0.30.10.tgz. Extracting by manifest.
+129 silly tarball no local data for postcss@https://registry.npmmirror.com/postcss/-/postcss-8.4.39.tgz. Extracting by manifest.
+130 silly tarball no local data for @vue/compiler-ssr@https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.4.31.tgz. Extracting by manifest.
+131 silly tarball no local data for source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.0.tgz. Extracting by manifest.
+132 silly tarball no local data for entities@https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+133 silly tarball no local data for @vue/compiler-core@https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.4.31.tgz. Extracting by manifest.
+134 silly tarball no local data for @vue/shared@https://registry.npmmirror.com/@vue/shared/-/shared-3.4.31.tgz. Extracting by manifest.
+135 silly tarball no local data for @vue/server-renderer@https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.4.31.tgz. Extracting by manifest.
+136 silly tarball no local data for @vue/runtime-dom@https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.4.31.tgz. Extracting by manifest.
+137 silly tarball no local data for @vue/compiler-sfc@https://registry.npmmirror.com/@vue/compiler-sfc/-/compiler-sfc-3.4.31.tgz. Extracting by manifest.
+138 silly tarball no local data for @vue/compiler-dom@https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.4.31.tgz. Extracting by manifest.
+139 silly tarball no local data for yallist@https://registry.npmmirror.com/yallist/-/yallist-3.1.1.tgz. Extracting by manifest.
+140 silly tarball no local data for unicode-property-aliases-ecmascript@https://registry.npmmirror.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz. Extracting by manifest.
+141 silly tarball no local data for update-browserslist-db@https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.0.16.tgz. Extracting by manifest.
+142 silly tarball no local data for unicode-match-property-value-ecmascript@https://registry.npmmirror.com/unicode-match-property-value-ecmascript/-/unicode-match-property-value-ecmascript-2.1.0.tgz. Extracting by manifest.
+143 silly tarball no local data for unicode-match-property-ecmascript@https://registry.npmmirror.com/unicode-match-property-ecmascript/-/unicode-match-property-ecmascript-2.0.0.tgz. Extracting by manifest.
+144 silly tarball no local data for vue@https://registry.npmmirror.com/vue/-/vue-3.4.31.tgz. Extracting by manifest.
+145 silly tarball no local data for unicode-canonical-property-names-ecmascript@https://registry.npmmirror.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz. Extracting by manifest.
+146 silly tarball no local data for to-fast-properties@https://registry.npmmirror.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz. Extracting by manifest.
+147 silly tarball no local data for supports-preserve-symlinks-flag@https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz. Extracting by manifest.
+148 silly tarball no local data for supports-color@https://registry.npmmirror.com/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+149 silly tarball no local data for semver@https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+150 silly tarball no local data for rollup-pluginutils@https://registry.npmmirror.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz. Extracting by manifest.
+151 silly tarball no local data for rollup-plugin-babel@https://registry.npmmirror.com/rollup-plugin-babel/-/rollup-plugin-babel-4.4.0.tgz. Extracting by manifest.
+152 silly tarball no local data for resolve@https://registry.npmmirror.com/resolve/-/resolve-1.22.8.tgz. Extracting by manifest.
+153 silly tarball no local data for rollup@https://registry.npmmirror.com/rollup/-/rollup-2.79.1.tgz. Extracting by manifest.
+154 silly tarball no local data for regjsparser@https://registry.npmmirror.com/regjsparser/-/regjsparser-0.9.1.tgz. Extracting by manifest.
+155 silly tarball no local data for regexpu-core@https://registry.npmmirror.com/regexpu-core/-/regexpu-core-5.3.2.tgz. Extracting by manifest.
+156 silly tarball no local data for regenerator-runtime@https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz. Extracting by manifest.
+157 silly tarball no local data for regenerator-transform@https://registry.npmmirror.com/regenerator-transform/-/regenerator-transform-0.15.2.tgz. Extracting by manifest.
+158 silly tarball no local data for regenerate-unicode-properties@https://registry.npmmirror.com/regenerate-unicode-properties/-/regenerate-unicode-properties-10.1.1.tgz. Extracting by manifest.
+159 silly tarball no local data for regenerate@https://registry.npmmirror.com/regenerate/-/regenerate-1.4.2.tgz. Extracting by manifest.
+160 silly tarball no local data for picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.0.1.tgz. Extracting by manifest.
+161 silly tarball no local data for path-parse@https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz. Extracting by manifest.
+162 silly tarball no local data for node-releases@https://registry.npmmirror.com/node-releases/-/node-releases-2.0.14.tgz. Extracting by manifest.
+163 silly tarball no local data for ms@https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+164 silly tarball no local data for lru-cache@https://registry.npmmirror.com/lru-cache/-/lru-cache-5.1.1.tgz. Extracting by manifest.
+165 silly tarball no local data for lodash.debounce@https://registry.npmmirror.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz. Extracting by manifest.
+166 silly tarball no local data for json5@https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+167 silly tarball no local data for jsesc@https://registry.npmmirror.com/jsesc/-/jsesc-2.5.2.tgz. Extracting by manifest.
+168 silly tarball no local data for js-tokens@https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+169 silly tarball no local data for hasown@https://registry.npmmirror.com/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+170 silly tarball no local data for is-core-module@https://registry.npmmirror.com/is-core-module/-/is-core-module-2.13.1.tgz. Extracting by manifest.
+171 silly tarball no local data for has-flag@https://registry.npmmirror.com/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+172 silly tarball no local data for globals@https://registry.npmmirror.com/globals/-/globals-11.12.0.tgz. Extracting by manifest.
+173 silly tarball no local data for gensync@https://registry.npmmirror.com/gensync/-/gensync-1.0.0-beta.2.tgz. Extracting by manifest.
+174 silly tarball no local data for function-bind@https://registry.npmmirror.com/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+175 silly tarball no local data for esutils@https://registry.npmmirror.com/esutils/-/esutils-2.0.3.tgz. Extracting by manifest.
+176 silly tarball no local data for estree-walker@https://registry.npmmirror.com/estree-walker/-/estree-walker-0.6.1.tgz. Extracting by manifest.
+177 silly tarball no local data for escape-string-regexp@https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+178 silly tarball no local data for escalade@https://registry.npmmirror.com/escalade/-/escalade-3.1.2.tgz. Extracting by manifest.
+179 silly tarball no local data for electron-to-chromium@https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.801.tgz. Extracting by manifest.
+180 silly tarball no local data for debug@https://registry.npmmirror.com/debug/-/debug-4.3.5.tgz. Extracting by manifest.
+181 silly tarball no local data for core-js-compat@https://registry.npmmirror.com/core-js-compat/-/core-js-compat-3.37.1.tgz. Extracting by manifest.
+182 silly tarball no local data for convert-source-map@https://registry.npmmirror.com/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+183 silly tarball no local data for color-name@https://registry.npmmirror.com/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+184 silly tarball no local data for color-convert@https://registry.npmmirror.com/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+185 silly tarball no local data for chalk@https://registry.npmmirror.com/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+186 silly tarball no local data for caniuse-lite@https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001633.tgz. Extracting by manifest.
+187 silly tarball no local data for browserslist@https://registry.npmmirror.com/browserslist/-/browserslist-4.23.1.tgz. Extracting by manifest.
+188 silly tarball no local data for babel-plugin-polyfill-regenerator@https://registry.npmmirror.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.6.2.tgz. Extracting by manifest.
+189 silly tarball no local data for babel-plugin-polyfill-corejs3@https://registry.npmmirror.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.10.4.tgz. Extracting by manifest.
+190 silly tarball no local data for babel-plugin-polyfill-corejs2@https://registry.npmmirror.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.4.11.tgz. Extracting by manifest.
+191 silly tarball no local data for ansi-styles@https://registry.npmmirror.com/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+192 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz. Extracting by manifest.
+193 silly tarball no local data for @jridgewell/set-array@https://registry.npmmirror.com/@jridgewell/set-array/-/set-array-1.2.1.tgz. Extracting by manifest.
+194 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz. Extracting by manifest.
+195 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+196 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.5.tgz. Extracting by manifest.
+197 silly tarball no local data for @babel/types@https://registry.npmmirror.com/@babel/types/-/types-7.24.7.tgz. Extracting by manifest.
+198 silly tarball no local data for @babel/traverse@https://registry.npmmirror.com/@babel/traverse/-/traverse-7.24.7.tgz. Extracting by manifest.
+199 silly tarball no local data for @babel/template@https://registry.npmmirror.com/@babel/template/-/template-7.24.7.tgz. Extracting by manifest.
+200 silly tarball no local data for @babel/runtime@https://registry.npmmirror.com/@babel/runtime/-/runtime-7.24.7.tgz. Extracting by manifest.
+201 silly tarball no local data for @babel/regjsgen@https://registry.npmmirror.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz. Extracting by manifest.
+202 silly tarball no local data for @babel/preset-modules@https://registry.npmmirror.com/@babel/preset-modules/-/preset-modules-0.1.6-no-external-plugins.tgz. Extracting by manifest.
+203 silly tarball no local data for @babel/preset-env@https://registry.npmmirror.com/@babel/preset-env/-/preset-env-7.24.7.tgz. Extracting by manifest.
+204 silly tarball no local data for @babel/plugin-transform-unicode-sets-regex@https://registry.npmmirror.com/@babel/plugin-transform-unicode-sets-regex/-/plugin-transform-unicode-sets-regex-7.24.7.tgz. Extracting by manifest.
+205 silly tarball no local data for @babel/plugin-transform-unicode-regex@https://registry.npmmirror.com/@babel/plugin-transform-unicode-regex/-/plugin-transform-unicode-regex-7.24.7.tgz. Extracting by manifest.
+206 silly tarball no local data for @babel/plugin-transform-unicode-property-regex@https://registry.npmmirror.com/@babel/plugin-transform-unicode-property-regex/-/plugin-transform-unicode-property-regex-7.24.7.tgz. Extracting by manifest.
+207 silly tarball no local data for @babel/plugin-transform-unicode-escapes@https://registry.npmmirror.com/@babel/plugin-transform-unicode-escapes/-/plugin-transform-unicode-escapes-7.24.7.tgz. Extracting by manifest.
+208 silly tarball no local data for @babel/plugin-transform-typeof-symbol@https://registry.npmmirror.com/@babel/plugin-transform-typeof-symbol/-/plugin-transform-typeof-symbol-7.24.7.tgz. Extracting by manifest.
+209 silly tarball no local data for @babel/plugin-transform-template-literals@https://registry.npmmirror.com/@babel/plugin-transform-template-literals/-/plugin-transform-template-literals-7.24.7.tgz. Extracting by manifest.
+210 silly tarball no local data for @babel/plugin-transform-sticky-regex@https://registry.npmmirror.com/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.24.7.tgz. Extracting by manifest.
+211 silly tarball no local data for @babel/plugin-transform-spread@https://registry.npmmirror.com/@babel/plugin-transform-spread/-/plugin-transform-spread-7.24.7.tgz. Extracting by manifest.
+212 silly tarball no local data for @babel/plugin-transform-shorthand-properties@https://registry.npmmirror.com/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.24.7.tgz. Extracting by manifest.
+213 silly tarball no local data for @babel/plugin-transform-reserved-words@https://registry.npmmirror.com/@babel/plugin-transform-reserved-words/-/plugin-transform-reserved-words-7.24.7.tgz. Extracting by manifest.
+214 silly tarball no local data for @babel/plugin-transform-regenerator@https://registry.npmmirror.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.24.7.tgz. Extracting by manifest.
+215 silly tarball no local data for @babel/plugin-transform-property-literals@https://registry.npmmirror.com/@babel/plugin-transform-property-literals/-/plugin-transform-property-literals-7.24.7.tgz. Extracting by manifest.
+216 silly tarball no local data for @babel/plugin-transform-private-property-in-object@https://registry.npmmirror.com/@babel/plugin-transform-private-property-in-object/-/plugin-transform-private-property-in-object-7.24.7.tgz. Extracting by manifest.
+217 silly tarball no local data for @babel/plugin-transform-private-methods@https://registry.npmmirror.com/@babel/plugin-transform-private-methods/-/plugin-transform-private-methods-7.24.7.tgz. Extracting by manifest.
+218 silly tarball no local data for @babel/plugin-transform-parameters@https://registry.npmmirror.com/@babel/plugin-transform-parameters/-/plugin-transform-parameters-7.24.7.tgz. Extracting by manifest.
+219 silly tarball no local data for @babel/plugin-transform-optional-chaining@https://registry.npmmirror.com/@babel/plugin-transform-optional-chaining/-/plugin-transform-optional-chaining-7.24.7.tgz. Extracting by manifest.
+220 silly tarball no local data for @babel/plugin-transform-optional-catch-binding@https://registry.npmmirror.com/@babel/plugin-transform-optional-catch-binding/-/plugin-transform-optional-catch-binding-7.24.7.tgz. Extracting by manifest.
+221 silly tarball no local data for @babel/plugin-transform-object-super@https://registry.npmmirror.com/@babel/plugin-transform-object-super/-/plugin-transform-object-super-7.24.7.tgz. Extracting by manifest.
+222 silly tarball no local data for @babel/plugin-transform-object-rest-spread@https://registry.npmmirror.com/@babel/plugin-transform-object-rest-spread/-/plugin-transform-object-rest-spread-7.24.7.tgz. Extracting by manifest.
+223 silly tarball no local data for @babel/plugin-transform-numeric-separator@https://registry.npmmirror.com/@babel/plugin-transform-numeric-separator/-/plugin-transform-numeric-separator-7.24.7.tgz. Extracting by manifest.
+224 silly tarball no local data for @babel/plugin-transform-nullish-coalescing-operator@https://registry.npmmirror.com/@babel/plugin-transform-nullish-coalescing-operator/-/plugin-transform-nullish-coalescing-operator-7.24.7.tgz. Extracting by manifest.
+225 silly tarball no local data for @babel/plugin-transform-new-target@https://registry.npmmirror.com/@babel/plugin-transform-new-target/-/plugin-transform-new-target-7.24.7.tgz. Extracting by manifest.
+226 silly tarball no local data for @babel/plugin-transform-named-capturing-groups-regex@https://registry.npmmirror.com/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.24.7.tgz. Extracting by manifest.
+227 silly tarball no local data for @babel/plugin-transform-modules-umd@https://registry.npmmirror.com/@babel/plugin-transform-modules-umd/-/plugin-transform-modules-umd-7.24.7.tgz. Extracting by manifest.
+228 silly tarball no local data for @babel/plugin-transform-modules-systemjs@https://registry.npmmirror.com/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.24.7.tgz. Extracting by manifest.
+229 silly tarball no local data for @babel/plugin-transform-modules-commonjs@https://registry.npmmirror.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.24.7.tgz. Extracting by manifest.
+230 silly tarball no local data for @babel/plugin-transform-modules-amd@https://registry.npmmirror.com/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.24.7.tgz. Extracting by manifest.
+231 silly tarball no local data for @babel/plugin-transform-member-expression-literals@https://registry.npmmirror.com/@babel/plugin-transform-member-expression-literals/-/plugin-transform-member-expression-literals-7.24.7.tgz. Extracting by manifest.
+232 silly tarball no local data for @babel/plugin-transform-logical-assignment-operators@https://registry.npmmirror.com/@babel/plugin-transform-logical-assignment-operators/-/plugin-transform-logical-assignment-operators-7.24.7.tgz. Extracting by manifest.
+233 silly tarball no local data for @babel/plugin-transform-literals@https://registry.npmmirror.com/@babel/plugin-transform-literals/-/plugin-transform-literals-7.24.7.tgz. Extracting by manifest.
+234 silly tarball no local data for @babel/plugin-transform-json-strings@https://registry.npmmirror.com/@babel/plugin-transform-json-strings/-/plugin-transform-json-strings-7.24.7.tgz. Extracting by manifest.
+235 silly tarball no local data for @babel/plugin-transform-function-name@https://registry.npmmirror.com/@babel/plugin-transform-function-name/-/plugin-transform-function-name-7.24.7.tgz. Extracting by manifest.
+236 silly tarball no local data for @babel/plugin-transform-for-of@https://registry.npmmirror.com/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.24.7.tgz. Extracting by manifest.
+237 silly tarball no local data for @babel/plugin-transform-export-namespace-from@https://registry.npmmirror.com/@babel/plugin-transform-export-namespace-from/-/plugin-transform-export-namespace-from-7.24.7.tgz. Extracting by manifest.
+238 silly tarball no local data for @babel/plugin-transform-exponentiation-operator@https://registry.npmmirror.com/@babel/plugin-transform-exponentiation-operator/-/plugin-transform-exponentiation-operator-7.24.7.tgz. Extracting by manifest.
+239 silly tarball no local data for @babel/plugin-transform-dynamic-import@https://registry.npmmirror.com/@babel/plugin-transform-dynamic-import/-/plugin-transform-dynamic-import-7.24.7.tgz. Extracting by manifest.
+240 silly tarball no local data for @babel/plugin-transform-duplicate-keys@https://registry.npmmirror.com/@babel/plugin-transform-duplicate-keys/-/plugin-transform-duplicate-keys-7.24.7.tgz. Extracting by manifest.
+241 silly tarball no local data for @babel/plugin-transform-dotall-regex@https://registry.npmmirror.com/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.24.7.tgz. Extracting by manifest.
+242 silly tarball no local data for @babel/plugin-transform-destructuring@https://registry.npmmirror.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.24.7.tgz. Extracting by manifest.
+243 silly tarball no local data for @babel/plugin-transform-computed-properties@https://registry.npmmirror.com/@babel/plugin-transform-computed-properties/-/plugin-transform-computed-properties-7.24.7.tgz. Extracting by manifest.
+244 silly tarball no local data for @babel/plugin-transform-classes@https://registry.npmmirror.com/@babel/plugin-transform-classes/-/plugin-transform-classes-7.24.7.tgz. Extracting by manifest.
+245 silly tarball no local data for @babel/plugin-transform-class-static-block@https://registry.npmmirror.com/@babel/plugin-transform-class-static-block/-/plugin-transform-class-static-block-7.24.7.tgz. Extracting by manifest.
+246 silly tarball no local data for @babel/plugin-transform-class-properties@https://registry.npmmirror.com/@babel/plugin-transform-class-properties/-/plugin-transform-class-properties-7.24.7.tgz. Extracting by manifest.
+247 silly tarball no local data for @babel/plugin-transform-block-scoping@https://registry.npmmirror.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.24.7.tgz. Extracting by manifest.
+248 silly tarball no local data for @babel/plugin-transform-block-scoped-functions@https://registry.npmmirror.com/@babel/plugin-transform-block-scoped-functions/-/plugin-transform-block-scoped-functions-7.24.7.tgz. Extracting by manifest.
+249 silly tarball no local data for @babel/plugin-transform-async-to-generator@https://registry.npmmirror.com/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.24.7.tgz. Extracting by manifest.
+250 silly tarball no local data for @babel/plugin-transform-async-generator-functions@https://registry.npmmirror.com/@babel/plugin-transform-async-generator-functions/-/plugin-transform-async-generator-functions-7.24.7.tgz. Extracting by manifest.
+251 silly tarball no local data for @babel/plugin-transform-arrow-functions@https://registry.npmmirror.com/@babel/plugin-transform-arrow-functions/-/plugin-transform-arrow-functions-7.24.7.tgz. Extracting by manifest.
+252 silly tarball no local data for @babel/plugin-syntax-unicode-sets-regex@https://registry.npmmirror.com/@babel/plugin-syntax-unicode-sets-regex/-/plugin-syntax-unicode-sets-regex-7.18.6.tgz. Extracting by manifest.
+253 silly tarball no local data for @babel/plugin-syntax-top-level-await@https://registry.npmmirror.com/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.14.5.tgz. Extracting by manifest.
+254 silly tarball no local data for @babel/plugin-syntax-private-property-in-object@https://registry.npmmirror.com/@babel/plugin-syntax-private-property-in-object/-/plugin-syntax-private-property-in-object-7.14.5.tgz. Extracting by manifest.
+255 silly tarball no local data for @babel/plugin-syntax-optional-chaining@https://registry.npmmirror.com/@babel/plugin-syntax-optional-chaining/-/plugin-syntax-optional-chaining-7.8.3.tgz. Extracting by manifest.
+256 silly tarball no local data for @babel/plugin-syntax-optional-catch-binding@https://registry.npmmirror.com/@babel/plugin-syntax-optional-catch-binding/-/plugin-syntax-optional-catch-binding-7.8.3.tgz. Extracting by manifest.
+257 silly tarball no local data for @babel/plugin-syntax-object-rest-spread@https://registry.npmmirror.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.8.3.tgz. Extracting by manifest.
+258 silly tarball no local data for @babel/plugin-syntax-numeric-separator@https://registry.npmmirror.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz. Extracting by manifest.
+259 silly tarball no local data for @babel/plugin-syntax-nullish-coalescing-operator@https://registry.npmmirror.com/@babel/plugin-syntax-nullish-coalescing-operator/-/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz. Extracting by manifest.
+260 silly tarball no local data for @babel/plugin-syntax-logical-assignment-operators@https://registry.npmmirror.com/@babel/plugin-syntax-logical-assignment-operators/-/plugin-syntax-logical-assignment-operators-7.10.4.tgz. Extracting by manifest.
+261 silly tarball no local data for @babel/plugin-syntax-json-strings@https://registry.npmmirror.com/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.8.3.tgz. Extracting by manifest.
+262 silly tarball no local data for @babel/plugin-syntax-import-meta@https://registry.npmmirror.com/@babel/plugin-syntax-import-meta/-/plugin-syntax-import-meta-7.10.4.tgz. Extracting by manifest.
+263 silly tarball no local data for @babel/plugin-syntax-import-attributes@https://registry.npmmirror.com/@babel/plugin-syntax-import-attributes/-/plugin-syntax-import-attributes-7.24.7.tgz. Extracting by manifest.
+264 silly tarball no local data for @babel/plugin-syntax-import-assertions@https://registry.npmmirror.com/@babel/plugin-syntax-import-assertions/-/plugin-syntax-import-assertions-7.24.7.tgz. Extracting by manifest.
+265 silly tarball no local data for @babel/plugin-syntax-export-namespace-from@https://registry.npmmirror.com/@babel/plugin-syntax-export-namespace-from/-/plugin-syntax-export-namespace-from-7.8.3.tgz. Extracting by manifest.
+266 silly tarball no local data for @babel/plugin-syntax-dynamic-import@https://registry.npmmirror.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.8.3.tgz. Extracting by manifest.
+267 silly tarball no local data for @babel/plugin-syntax-class-static-block@https://registry.npmmirror.com/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz. Extracting by manifest.
+268 silly tarball no local data for @babel/plugin-syntax-class-properties@https://registry.npmmirror.com/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz. Extracting by manifest.
+269 silly tarball no local data for @babel/plugin-syntax-async-generators@https://registry.npmmirror.com/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.8.4.tgz. Extracting by manifest.
+270 silly tarball no local data for @babel/plugin-proposal-private-property-in-object@https://registry.npmmirror.com/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.21.0-placeholder-for-preset-env.2.tgz. Extracting by manifest.
+271 silly tarball no local data for @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@https://registry.npmmirror.com/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/-/plugin-bugfix-v8-static-class-fields-redefine-readonly-7.24.7.tgz. Extracting by manifest.
+272 silly tarball no local data for @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@https://registry.npmmirror.com/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/-/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.24.7.tgz. Extracting by manifest.
+273 silly tarball no local data for @babel/plugin-bugfix-firefox-class-in-computed-class-key@https://registry.npmmirror.com/@babel/plugin-bugfix-firefox-class-in-computed-class-key/-/plugin-bugfix-firefox-class-in-computed-class-key-7.24.7.tgz. Extracting by manifest.
+274 silly tarball no local data for @babel/parser@https://registry.npmmirror.com/@babel/parser/-/parser-7.24.7.tgz. Extracting by manifest.
+275 silly tarball no local data for @babel/highlight@https://registry.npmmirror.com/@babel/highlight/-/highlight-7.24.7.tgz. Extracting by manifest.
+276 silly tarball no local data for @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@https://registry.npmmirror.com/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/-/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.24.7.tgz. Extracting by manifest.
+277 silly tarball no local data for @babel/helpers@https://registry.npmmirror.com/@babel/helpers/-/helpers-7.24.7.tgz. Extracting by manifest.
+278 silly tarball no local data for @babel/helper-wrap-function@https://registry.npmmirror.com/@babel/helper-wrap-function/-/helper-wrap-function-7.24.7.tgz. Extracting by manifest.
+279 silly tarball no local data for @babel/helper-validator-option@https://registry.npmmirror.com/@babel/helper-validator-option/-/helper-validator-option-7.24.7.tgz. Extracting by manifest.
+280 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.24.7.tgz. Extracting by manifest.
+281 silly tarball no local data for @babel/helper-string-parser@https://registry.npmmirror.com/@babel/helper-string-parser/-/helper-string-parser-7.24.7.tgz. Extracting by manifest.
+282 silly tarball no local data for @babel/helper-split-export-declaration@https://registry.npmmirror.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.24.7.tgz. Extracting by manifest.
+283 silly tarball no local data for @babel/helper-skip-transparent-expression-wrappers@https://registry.npmmirror.com/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.24.7.tgz. Extracting by manifest.
+284 silly tarball no local data for @babel/helper-simple-access@https://registry.npmmirror.com/@babel/helper-simple-access/-/helper-simple-access-7.24.7.tgz. Extracting by manifest.
+285 silly tarball no local data for @babel/helper-replace-supers@https://registry.npmmirror.com/@babel/helper-replace-supers/-/helper-replace-supers-7.24.7.tgz. Extracting by manifest.
+286 silly tarball no local data for @babel/helper-remap-async-to-generator@https://registry.npmmirror.com/@babel/helper-remap-async-to-generator/-/helper-remap-async-to-generator-7.24.7.tgz. Extracting by manifest.
+287 silly tarball no local data for @babel/helper-plugin-utils@https://registry.npmmirror.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.24.7.tgz. Extracting by manifest.
+288 silly tarball no local data for @babel/helper-optimise-call-expression@https://registry.npmmirror.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.24.7.tgz. Extracting by manifest.
+289 silly tarball no local data for @babel/helper-module-transforms@https://registry.npmmirror.com/@babel/helper-module-transforms/-/helper-module-transforms-7.24.7.tgz. Extracting by manifest.
+290 silly tarball no local data for @babel/helper-module-imports@https://registry.npmmirror.com/@babel/helper-module-imports/-/helper-module-imports-7.24.7.tgz. Extracting by manifest.
+291 silly tarball no local data for @babel/helper-member-expression-to-functions@https://registry.npmmirror.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.24.7.tgz. Extracting by manifest.
+292 silly tarball no local data for @babel/helper-hoist-variables@https://registry.npmmirror.com/@babel/helper-hoist-variables/-/helper-hoist-variables-7.24.7.tgz. Extracting by manifest.
+293 silly tarball no local data for @babel/helper-function-name@https://registry.npmmirror.com/@babel/helper-function-name/-/helper-function-name-7.24.7.tgz. Extracting by manifest.
+294 silly tarball no local data for @babel/helper-environment-visitor@https://registry.npmmirror.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.24.7.tgz. Extracting by manifest.
+295 silly tarball no local data for @babel/helper-define-polyfill-provider@https://registry.npmmirror.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.6.2.tgz. Extracting by manifest.
+296 silly tarball no local data for @babel/helper-create-regexp-features-plugin@https://registry.npmmirror.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.24.7.tgz. Extracting by manifest.
+297 silly tarball no local data for @babel/helper-create-class-features-plugin@https://registry.npmmirror.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.24.7.tgz. Extracting by manifest.
+298 silly tarball no local data for @babel/helper-compilation-targets@https://registry.npmmirror.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.24.7.tgz. Extracting by manifest.
+299 silly tarball no local data for @babel/helper-builder-binary-assignment-operator-visitor@https://registry.npmmirror.com/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.24.7.tgz. Extracting by manifest.
+300 silly tarball no local data for @babel/helper-annotate-as-pure@https://registry.npmmirror.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.24.7.tgz. Extracting by manifest.
+301 silly tarball no local data for @babel/generator@https://registry.npmmirror.com/@babel/generator/-/generator-7.24.7.tgz. Extracting by manifest.
+302 silly tarball no local data for @babel/core@https://registry.npmmirror.com/@babel/core/-/core-7.24.7.tgz. Extracting by manifest.
+303 silly tarball no local data for @babel/compat-data@https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.24.7.tgz. Extracting by manifest.
+304 silly tarball no local data for @babel/code-frame@https://registry.npmmirror.com/@babel/code-frame/-/code-frame-7.24.7.tgz. Extracting by manifest.
+305 silly tarball no local data for @ampproject/remapping@https://registry.npmmirror.com/@ampproject/remapping/-/remapping-2.3.0.tgz. Extracting by manifest.
+306 silly tarball no local data for estree-walker@https://registry.npmmirror.com/estree-walker/-/estree-walker-2.0.2.tgz. Extracting by manifest.
+307 silly tarball no local data for estree-walker@https://registry.npmmirror.com/estree-walker/-/estree-walker-2.0.2.tgz. Extracting by manifest.
+308 silly tarball no local data for jsesc@https://registry.npmmirror.com/jsesc/-/jsesc-0.5.0.tgz. Extracting by manifest.
+309 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 274ms
+310 silly audit bulk request failed [object Object]
+311 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 275ms
+312 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+312 verbose audit error     at F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+312 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+312 verbose audit error     at async [getReport] (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:335:21)
+312 verbose audit error     at async AuditReport.run (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+312 verbose audit error   headers: [Object: null prototype] {
+312 verbose audit error     server: [ 'Tengine' ],
+312 verbose audit error     date: [ 'Thu, 04 Jul 2024 08:23:32 GMT' ],
+312 verbose audit error     'content-type': [ 'application/json' ],
+312 verbose audit error     'transfer-encoding': [ 'chunked' ],
+312 verbose audit error     connection: [ 'keep-alive' ],
+312 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+312 verbose audit error     via: [ 'kunlun5.cn814[,404666]' ],
+312 verbose audit error     'timing-allow-origin': [ '*' ],
+312 verbose audit error     eagleid: [ '2466d41917200814123835722e' ],
+312 verbose audit error     'x-fetch-attempts': [ '1' ]
+312 verbose audit error   },
+312 verbose audit error   statusCode: 404,
+312 verbose audit error   code: 'E404',
+312 verbose audit error   method: 'POST',
+312 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+312 verbose audit error   body: {
+312 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+312 verbose audit error   },
+312 verbose audit error   pkgid: undefined
+312 verbose audit error }
+313 silly audit error [object Object]
+314 timing auditReport:getReport Completed in 667ms
+315 silly audit report null
+316 timing reify:audit Completed in 667ms
+317 http fetch GET 200 https://cdn.npmmirror.com/packages/supports-color/5.5.0/supports-color-5.5.0.tgz 3041ms (cache miss)
+318 http fetch GET 200 https://cdn.npmmirror.com/packages/supports-preserve-symlinks-flag/1.0.0/supports-preserve-symlinks-flag-1.0.0.tgz 3046ms (cache miss)
+319 http fetch GET 200 https://cdn.npmmirror.com/packages/color-convert/1.9.3/color-convert-1.9.3.tgz 3012ms (cache miss)
+320 http fetch GET 200 https://cdn.npmmirror.com/packages/ansi-styles/3.2.1/ansi-styles-3.2.1.tgz 3029ms (cache miss)
+321 timing reifyNode:node_modules/ansi-styles Completed in 3172ms
+322 http fetch GET 200 https://cdn.npmmirror.com/packages/jsesc/0.5.0/jsesc-0.5.0.tgz 2918ms (cache miss)
+323 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerate/1.4.2/regenerate-1.4.2.tgz 3065ms (cache miss)
+324 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-import-meta/7.10.4/plugin-syntax-import-meta-7.10.4.tgz 2964ms (cache miss)
+325 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup-plugin-babel/4.4.0/rollup-plugin-babel-4.4.0.tgz 3093ms (cache miss)
+326 http fetch GET 200 https://cdn.npmmirror.com/packages/update-browserslist-db/1.0.16/update-browserslist-db-1.0.16.tgz 3102ms (cache miss)
+327 http fetch GET 200 https://cdn.npmmirror.com/packages/lodash.debounce/4.0.8/lodash.debounce-4.0.8.tgz 3081ms (cache miss)
+328 timing reifyNode:node_modules/lodash.debounce Completed in 3201ms
+329 http fetch GET 200 https://cdn.npmmirror.com/packages/convert-source-map/2.0.0/convert-source-map-2.0.0.tgz 3065ms (cache miss)
+330 timing reifyNode:node_modules/convert-source-map Completed in 3199ms
+331 http fetch GET 200 https://cdn.npmmirror.com/packages/has-flag/3.0.0/has-flag-3.0.0.tgz 3078ms (cache miss)
+332 timing reifyNode:node_modules/has-flag Completed in 3201ms
+333 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-canonical-property-names-ecmascript/2.0.0/unicode-canonical-property-names-ecmascript-2.0.0.tgz 3101ms (cache miss)
+334 timing reifyNode:node_modules/unicode-canonical-property-names-ecmascript Completed in 3203ms
+335 http fetch GET 200 https://cdn.npmmirror.com/packages/escalade/3.1.2/escalade-3.1.2.tgz 3070ms (cache miss)
+336 http fetch GET 200 https://cdn.npmmirror.com/packages/node-releases/2.0.14/node-releases-2.0.14.tgz 3087ms (cache miss)
+337 http fetch GET 200 https://cdn.npmmirror.com/packages/chalk/2.4.2/chalk-2.4.2.tgz 3065ms (cache miss)
+338 http fetch GET 200 https://cdn.npmmirror.com/packages/jsesc/2.5.2/jsesc-2.5.2.tgz 3084ms (cache miss)
+339 http fetch GET 200 https://cdn.npmmirror.com/packages/debug/4.3.5/debug-4.3.5.tgz 3071ms (cache miss)
+340 http fetch GET 200 https://cdn.npmmirror.com/packages/path-parse/1.0.7/path-parse-1.0.7.tgz 3091ms (cache miss)
+341 timing reifyNode:node_modules/path-parse Completed in 3207ms
+342 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jridgewell/resolve-uri/3.1.2/resolve-uri-3.1.2.tgz 3061ms (cache miss)
+343 http fetch GET 200 https://cdn.npmmirror.com/packages/is-core-module/2.13.1/is-core-module-2.13.1.tgz 3086ms (cache miss)
+344 http fetch GET 200 https://cdn.npmmirror.com/packages/to-fast-properties/2.0.0/to-fast-properties-2.0.0.tgz 3110ms (cache miss)
+345 timing reifyNode:node_modules/to-fast-properties Completed in 3213ms
+346 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-match-property-ecmascript/2.0.0/unicode-match-property-ecmascript-2.0.0.tgz 3113ms (cache miss)
+347 timing reifyNode:node_modules/unicode-match-property-ecmascript Completed in 3214ms
+348 http fetch GET 200 https://cdn.npmmirror.com/packages/color-name/1.1.3/color-name-1.1.3.tgz 3076ms (cache miss)
+349 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-class-properties/7.12.13/plugin-syntax-class-properties-7.12.13.tgz 2991ms (cache miss)
+350 timing reifyNode:node_modules/@babel/plugin-syntax-class-properties Completed in 3208ms
+351 http fetch GET 200 https://cdn.npmmirror.com/packages/function-bind/1.1.2/function-bind-1.1.2.tgz 3084ms (cache miss)
+352 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-private-property-in-object/7.14.5/plugin-syntax-private-property-in-object-7.14.5.tgz 3008ms (cache miss)
+353 timing reifyNode:node_modules/@babel/plugin-syntax-private-property-in-object Completed in 3209ms
+354 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/preset-modules/0.1.6-no-external-plugins/preset-modules-0.1.6-no-external-plugins.tgz 3059ms (cache miss)
+355 http fetch GET 200 https://cdn.npmmirror.com/packages/gensync/1.0.0-beta.2/gensync-1.0.0-beta.2.tgz 3089ms (cache miss)
+356 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jridgewell/gen-mapping/0.3.5/gen-mapping-0.3.5.tgz 3069ms (cache miss)
+357 http fetch GET 200 https://cdn.npmmirror.com/packages/esutils/2.0.3/esutils-2.0.3.tgz 3089ms (cache miss)
+358 http fetch GET 200 https://cdn.npmmirror.com/packages/picocolors/1.0.1/picocolors-1.0.1.tgz 3105ms (cache miss)
+359 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jridgewell/sourcemap-codec/1.4.15/sourcemap-codec-1.4.15.tgz 3074ms (cache miss)
+360 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-json-strings/7.8.3/plugin-syntax-json-strings-7.8.3.tgz 3005ms (cache miss)
+361 timing reifyNode:node_modules/@babel/plugin-syntax-json-strings Completed in 3217ms
+362 http fetch GET 200 https://cdn.npmmirror.com/packages/lru-cache/5.1.1/lru-cache-5.1.1.tgz 3121ms (cache miss)
+363 timing reifyNode:node_modules/lru-cache Completed in 3240ms
+364 http fetch GET 200 https://cdn.npmmirror.com/packages/js-tokens/4.0.0/js-tokens-4.0.0.tgz 3121ms (cache miss)
+365 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-optional-chaining/7.8.3/plugin-syntax-optional-chaining-7.8.3.tgz 3034ms (cache miss)
+366 timing reifyNode:node_modules/@babel/plugin-syntax-optional-chaining Completed in 3236ms
+367 http fetch GET 200 https://cdn.npmmirror.com/packages/ms/2.1.2/ms-2.1.2.tgz 3126ms (cache miss)
+368 timing reifyNode:node_modules/ms Completed in 3243ms
+369 http fetch GET 200 https://cdn.npmmirror.com/packages/babel-plugin-polyfill-regenerator/0.6.2/babel-plugin-polyfill-regenerator-0.6.2.tgz 3102ms (cache miss)
+370 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jridgewell/set-array/1.2.1/set-array-1.2.1.tgz 3099ms (cache miss)
+371 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-export-namespace-from/7.8.3/plugin-syntax-export-namespace-from-7.8.3.tgz 3026ms (cache miss)
+372 timing reifyNode:node_modules/@babel/plugin-syntax-export-namespace-from Completed in 3240ms
+373 http fetch GET 200 https://cdn.npmmirror.com/packages/regexpu-core/5.3.2/regexpu-core-5.3.2.tgz 3137ms (cache miss)
+374 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-optional-catch-binding/7.8.3/plugin-syntax-optional-catch-binding-7.8.3.tgz 3038ms (cache miss)
+375 timing reifyNode:node_modules/@babel/plugin-syntax-optional-catch-binding Completed in 3242ms
+376 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/regjsgen/0.8.0/regjsgen-0.8.0.tgz 3091ms (cache miss)
+377 timing reifyNode:node_modules/@babel/regjsgen Completed in 3246ms
+378 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-logical-assignment-operators/7.10.4/plugin-syntax-logical-assignment-operators-7.10.4.tgz 3034ms (cache miss)
+379 timing reifyNode:node_modules/@babel/plugin-syntax-logical-assignment-operators Completed in 3244ms
+380 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-top-level-await/7.14.5/plugin-syntax-top-level-await-7.14.5.tgz 3044ms (cache miss)
+381 timing reifyNode:node_modules/@babel/plugin-syntax-top-level-await Completed in 3245ms
+382 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-simple-access/7.24.7/helper-simple-access-7.24.7.tgz 3015ms (cache miss)
+383 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-string-parser/7.24.7/helper-string-parser-7.24.7.tgz 3019ms (cache miss)
+384 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-class-static-block/7.14.5/plugin-syntax-class-static-block-7.14.5.tgz 3033ms (cache miss)
+385 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-validator-option/7.24.7/helper-validator-option-7.24.7.tgz 3030ms (cache miss)
+386 timing reifyNode:node_modules/supports-color Completed in 3265ms
+387 http fetch GET 200 https://cdn.npmmirror.com/packages/yallist/3.1.1/yallist-3.1.1.tgz 3169ms (cache miss)
+388 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-unicode-sets-regex/7.18.6/plugin-syntax-unicode-sets-regex-7.18.6.tgz 3061ms (cache miss)
+389 timing reifyNode:node_modules/@babel/plugin-syntax-unicode-sets-regex Completed in 3261ms
+390 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerator-runtime/0.14.1/regenerator-runtime-0.14.1.tgz 3157ms (cache miss)
+391 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-environment-visitor/7.24.7/helper-environment-visitor-7.24.7.tgz 3022ms (cache miss)
+392 http fetch GET 200 https://cdn.npmmirror.com/packages/globals/11.12.0/globals-11.12.0.tgz 3147ms (cache miss)
+393 timing reifyNode:node_modules/@babel/plugin-syntax-class-static-block Completed in 3266ms
+394 timing reifyNode:node_modules/@babel/plugin-syntax-import-meta Completed in 3267ms
+395 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-dynamic-import/7.8.3/plugin-syntax-dynamic-import-7.8.3.tgz 3055ms (cache miss)
+396 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-async-generators/7.8.4/plugin-syntax-async-generators-7.8.4.tgz 3056ms (cache miss)
+397 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/code-frame/7.24.7/code-frame-7.24.7.tgz 3025ms (cache miss)
+398 timing reifyNode:node_modules/js-tokens Completed in 3287ms
+399 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-module-imports/7.24.7/helper-module-imports-7.24.7.tgz 3053ms (cache miss)
+400 http fetch GET 200 https://cdn.npmmirror.com/packages/escape-string-regexp/1.0.5/escape-string-regexp-1.0.5.tgz 3163ms (cache miss)
+401 timing reifyNode:node_modules/escape-string-regexp Completed in 3295ms
+402 timing reifyNode:node_modules/@babel/plugin-syntax-dynamic-import Completed in 3291ms
+403 timing reifyNode:node_modules/@babel/plugin-syntax-async-generators Completed in 3295ms
+404 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-compilation-targets/7.24.7/helper-compilation-targets-7.24.7.tgz 3052ms (cache miss)
+405 http fetch GET 200 https://cdn.npmmirror.com/packages/nanoid/3.3.7/nanoid-3.3.7.tgz 3227ms (cache miss)
+406 timing reifyNode:node_modules/yallist Completed in 3313ms
+407 timing reifyNode:node_modules/regenerator-runtime Completed in 3338ms
+408 timing reifyNode:node_modules/@babel/helper-simple-access Completed in 3332ms
+409 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-nullish-coalescing-operator/7.8.3/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz 3131ms (cache miss)
+410 timing reifyNode:node_modules/@babel/plugin-syntax-nullish-coalescing-operator Completed in 3337ms
+411 timing reifyNode:node_modules/regenerate Completed in 3344ms
+412 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-hoist-variables/7.24.7/helper-hoist-variables-7.24.7.tgz 3098ms (cache miss)
+413 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/compat-data/7.24.7/compat-data-7.24.7.tgz 3091ms (cache miss)
+414 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-property-aliases-ecmascript/2.1.0/unicode-property-aliases-ecmascript-2.1.0.tgz 3250ms (cache miss)
+415 timing reifyNode:node_modules/unicode-property-aliases-ecmascript Completed in 3349ms
+416 timing reifyNode:node_modules/@babel/helper-environment-visitor Completed in 3388ms
+417 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-numeric-separator/7.10.4/plugin-syntax-numeric-separator-7.10.4.tgz 3211ms (cache miss)
+418 timing reifyNode:node_modules/@babel/plugin-syntax-numeric-separator Completed in 3416ms
+419 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-private-property-in-object/7.21.0-placeholder-for-preset-env.2/plugin-proposal-private-property-in-object-7.21.0-placeholder-for-preset-env.2.tgz 3200ms (cache miss)
+420 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-match-property-value-ecmascript/2.1.0/unicode-match-property-value-ecmascript-2.1.0.tgz 3325ms (cache miss)
+421 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-object-rest-spread/7.8.3/plugin-syntax-object-rest-spread-7.8.3.tgz 3216ms (cache miss)
+422 timing reifyNode:node_modules/@babel/plugin-syntax-object-rest-spread Completed in 3420ms
+423 timing reifyNode:node_modules/globals Completed in 3446ms
+424 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-split-export-declaration/7.24.7/helper-split-export-declaration-7.24.7.tgz 3219ms (cache miss)
+425 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/highlight/7.24.7/highlight-7.24.7.tgz 3232ms (cache miss)
+426 timing reifyNode:node_modules/@babel/helper-hoist-variables Completed in 3484ms
+427 http fetch GET 200 https://cdn.npmmirror.com/packages/regjsparser/0.9.1/regjsparser-0.9.1.tgz 3390ms (cache miss)
+428 timing reifyNode:node_modules/node-releases Completed in 3501ms
+429 timing reifyNode:node_modules/babel-plugin-polyfill-regenerator Completed in 3501ms
+430 timing reifyNode:node_modules/@babel/helper-string-parser Completed in 3512ms
+431 timing reifyNode:node_modules/@babel/code-frame Completed in 3513ms
+432 timing reifyNode:node_modules/@babel/helper-split-export-declaration Completed in 3516ms
+433 timing reifyNode:node_modules/@babel/plugin-proposal-private-property-in-object Completed in 3520ms
+434 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-ssr/3.4.31/compiler-ssr-3.4.31.tgz 3445ms (cache miss)
+435 http fetch GET 200 https://cdn.npmmirror.com/packages/semver/6.3.1/semver-6.3.1.tgz 3450ms (cache miss)
+436 http fetch GET 200 https://cdn.npmmirror.com/packages/estree-walker/0.6.1/estree-walker-0.6.1.tgz 3425ms (cache miss)
+437 timing reifyNode:node_modules/unicode-match-property-value-ecmascript Completed in 3570ms
+438 timing reifyNode:node_modules/jsesc Completed in 3580ms
+439 timing reifyNode:node_modules/picocolors Completed in 3587ms
+440 timing reifyNode:node_modules/color-name Completed in 3586ms
+441 timing reifyNode:node_modules/regjsparser Completed in 3624ms
+442 timing reifyNode:node_modules/semver Completed in 3626ms
+443 timing reifyNode:node_modules/color-convert Completed in 3633ms
+444 timing reifyNode:node_modules/regexpu-core Completed in 3643ms
+445 timing reifyNode:node_modules/regjsparser/node_modules/jsesc Completed in 3645ms
+446 timing reifyNode:node_modules/@vue/compiler-ssr Completed in 3664ms
+447 timing reifyNode:node_modules/debug Completed in 3672ms
+448 timing reifyNode:node_modules/chalk Completed in 3675ms
+449 timing reifyNode:node_modules/estree-walker Completed in 3681ms
+450 timing reifyNode:node_modules/gensync Completed in 3718ms
+451 timing reifyNode:node_modules/@babel/highlight Completed in 3714ms
+452 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-property-regex/7.24.7/plugin-transform-unicode-property-regex-7.24.7.tgz 3645ms (cache miss)
+453 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-regex/7.24.7/plugin-transform-unicode-regex-7.24.7.tgz 3646ms (cache miss)
+454 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-export-namespace-from/7.24.7/plugin-transform-export-namespace-from-7.24.7.tgz 3629ms (cache miss)
+455 timing reifyNode:node_modules/esutils Completed in 3825ms
+456 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-regenerator/7.24.7/plugin-transform-regenerator-7.24.7.tgz 3721ms (cache miss)
+457 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-bugfix-firefox-class-in-computed-class-key/7.24.7/plugin-bugfix-firefox-class-in-computed-class-key-7.24.7.tgz 3669ms (cache miss)
+458 timing reifyNode:node_modules/@babel/plugin-transform-unicode-property-regex Completed in 3913ms
+459 timing reifyNode:node_modules/@babel/plugin-transform-unicode-regex Completed in 3913ms
+460 timing reifyNode:node_modules/@babel/plugin-transform-export-namespace-from Completed in 3912ms
+461 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-annotate-as-pure/7.24.7/helper-annotate-as-pure-7.24.7.tgz 3700ms (cache miss)
+462 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-class-properties/7.24.7/plugin-transform-class-properties-7.24.7.tgz 3754ms (cache miss)
+463 timing reifyNode:node_modules/@jridgewell/resolve-uri Completed in 3967ms
+464 timing reifyNode:node_modules/@jridgewell/set-array Completed in 3969ms
+465 timing reifyNode:node_modules/@babel/plugin-transform-regenerator Completed in 3970ms
+466 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-duplicate-keys/7.24.7/plugin-transform-duplicate-keys-7.24.7.tgz 3792ms (cache miss)
+467 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-sticky-regex/7.24.7/plugin-transform-sticky-regex-7.24.7.tgz 3823ms (cache miss)
+468 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-member-expression-literals/7.24.7/plugin-transform-member-expression-literals-7.24.7.tgz 3806ms (cache miss)
+469 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-optimise-call-expression/7.24.7/helper-optimise-call-expression-7.24.7.tgz 3753ms (cache miss)
+470 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-wrap-function/7.24.7/helper-wrap-function-7.24.7.tgz 3763ms (cache miss)
+471 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-async-to-generator/7.24.7/plugin-transform-async-to-generator-7.24.7.tgz 3795ms (cache miss)
+472 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-private-property-in-object/7.24.7/plugin-transform-private-property-in-object-7.24.7.tgz 3828ms (cache miss)
+473 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-escapes/7.24.7/plugin-transform-unicode-escapes-7.24.7.tgz 3842ms (cache miss)
+474 timing reifyNode:node_modules/update-browserslist-db Completed in 4033ms
+475 timing reifyNode:node_modules/@babel/plugin-bugfix-firefox-class-in-computed-class-key Completed in 4035ms
+476 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-template-literals/7.24.7/plugin-transform-template-literals-7.24.7.tgz 3879ms (cache miss)
+477 timing reifyNode:node_modules/@babel/helper-annotate-as-pure Completed in 4040ms
+478 timing reifyNode:node_modules/@babel/plugin-transform-class-properties Completed in 4043ms
+479 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-remap-async-to-generator/7.24.7/helper-remap-async-to-generator-7.24.7.tgz 3811ms (cache miss)
+480 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-class-static-block/7.24.7/plugin-transform-class-static-block-7.24.7.tgz 3850ms (cache miss)
+481 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-named-capturing-groups-regex/7.24.7/plugin-transform-named-capturing-groups-regex-7.24.7.tgz 3871ms (cache miss)
+482 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-import-attributes/7.24.7/plugin-syntax-import-attributes-7.24.7.tgz 3831ms (cache miss)
+483 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-block-scoped-functions/7.24.7/plugin-transform-block-scoped-functions-7.24.7.tgz 3848ms (cache miss)
+484 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-numeric-separator/7.24.7/plugin-transform-numeric-separator-7.24.7.tgz 3874ms (cache miss)
+485 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-spread/7.24.7/plugin-transform-spread-7.24.7.tgz 3886ms (cache miss)
+486 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-function-name/7.24.7/helper-function-name-7.24.7.tgz 3805ms (cache miss)
+487 http fetch GET 200 https://cdn.npmmirror.com/packages/estree-walker/2.0.2/estree-walker-2.0.2.tgz 3795ms (cache miss)
+488 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-amd/7.24.7/plugin-transform-modules-amd-7.24.7.tgz 3874ms (cache miss)
+489 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-nullish-coalescing-operator/7.24.7/plugin-transform-nullish-coalescing-operator-7.24.7.tgz 3879ms (cache miss)
+490 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/shared/3.4.31/shared-3.4.31.tgz 3974ms (cache miss)
+491 timing reifyNode:node_modules/@jridgewell/sourcemap-codec Completed in 4061ms
+492 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-optional-catch-binding/7.24.7/plugin-transform-optional-catch-binding-7.24.7.tgz 3889ms (cache miss)
+493 timing reifyNode:node_modules/@babel/plugin-transform-duplicate-keys Completed in 4061ms
+494 timing reifyNode:node_modules/@babel/plugin-transform-sticky-regex Completed in 4062ms
+495 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-new-target/7.24.7/plugin-transform-new-target-7.24.7.tgz 3890ms (cache miss)
+496 timing reifyNode:node_modules/@babel/plugin-transform-member-expression-literals Completed in 4064ms
+497 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-member-expression-to-functions/7.24.7/helper-member-expression-to-functions-7.24.7.tgz 3828ms (cache miss)
+498 timing reifyNode:node_modules/@babel/helper-optimise-call-expression Completed in 4063ms
+499 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-function-name/7.24.7/plugin-transform-function-name-7.24.7.tgz 3880ms (cache miss)
+500 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-bugfix-v8-static-class-fields-redefine-readonly/7.24.7/plugin-bugfix-v8-static-class-fields-redefine-readonly-7.24.7.tgz 3849ms (cache miss)
+501 timing reifyNode:node_modules/@babel/plugin-transform-async-to-generator Completed in 4071ms
+502 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-exponentiation-operator/7.24.7/plugin-transform-exponentiation-operator-7.24.7.tgz 3884ms (cache miss)
+503 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-shorthand-properties/7.24.7/plugin-transform-shorthand-properties-7.24.7.tgz 3914ms (cache miss)
+504 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-reserved-words/7.24.7/plugin-transform-reserved-words-7.24.7.tgz 3913ms (cache miss)
+505 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-typeof-symbol/7.24.7/plugin-transform-typeof-symbol-7.24.7.tgz 3920ms (cache miss)
+506 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-sets-regex/7.24.7/plugin-transform-unicode-sets-regex-7.24.7.tgz 3925ms (cache miss)
+507 timing reifyNode:node_modules/escalade Completed in 4091ms
+508 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.24.7/plugin-bugfix-safari-id-destructuring-collision-in-function-expression-7.24.7.tgz 3867ms (cache miss)
+509 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-umd/7.24.7/plugin-transform-modules-umd-7.24.7.tgz 3914ms (cache miss)
+510 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-replace-supers/7.24.7/helper-replace-supers-7.24.7.tgz 3872ms (cache miss)
+511 timing reifyNode:node_modules/@babel/plugin-transform-template-literals Completed in 4106ms
+512 timing reifyNode:node_modules/@babel/helper-remap-async-to-generator Completed in 4103ms
+513 timing reifyNode:node_modules/@babel/plugin-transform-class-static-block Completed in 4105ms
+514 timing reifyNode:node_modules/@babel/plugin-transform-named-capturing-groups-regex Completed in 4107ms
+515 timing reifyNode:node_modules/@babel/helper-wrap-function Completed in 4104ms
+516 timing reifyNode:node_modules/@babel/plugin-syntax-import-attributes Completed in 4105ms
+517 timing reifyNode:node_modules/@babel/plugin-transform-block-scoped-functions Completed in 4106ms
+518 timing reifyNode:node_modules/@babel/plugin-transform-numeric-separator Completed in 4108ms
+519 timing reifyNode:node_modules/@babel/plugin-transform-private-property-in-object Completed in 4108ms
+520 timing reifyNode:node_modules/@babel/plugin-transform-nullish-coalescing-operator Completed in 4119ms
+521 timing reifyNode:node_modules/@babel/plugin-transform-unicode-escapes Completed in 4121ms
+522 timing reifyNode:node_modules/is-core-module Completed in 4126ms
+523 timing reifyNode:node_modules/@vue/shared Completed in 4130ms
+524 timing reifyNode:node_modules/@babel/plugin-transform-optional-catch-binding Completed in 4126ms
+525 timing reifyNode:node_modules/@babel/plugin-transform-new-target Completed in 4129ms
+526 timing reifyNode:node_modules/@babel/helper-member-expression-to-functions Completed in 4125ms
+527 timing reifyNode:node_modules/@babel/plugin-transform-function-name Completed in 4129ms
+528 timing reifyNode:node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly Completed in 4128ms
+529 timing reifyNode:node_modules/@babel/plugin-transform-exponentiation-operator Completed in 4130ms
+530 timing reifyNode:node_modules/@babel/plugin-transform-spread Completed in 4131ms
+531 timing reifyNode:node_modules/@babel/plugin-transform-shorthand-properties Completed in 4132ms
+532 timing reifyNode:node_modules/@babel/plugin-transform-reserved-words Completed in 4132ms
+533 timing reifyNode:node_modules/@babel/plugin-transform-modules-amd Completed in 4132ms
+534 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-plugin-utils/7.24.7/helper-plugin-utils-7.24.7.tgz 3899ms (cache miss)
+535 timing reifyNode:node_modules/@babel/plugin-transform-typeof-symbol Completed in 4136ms
+536 timing reifyNode:node_modules/@babel/plugin-transform-unicode-sets-regex Completed in 4136ms
+537 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining/7.24.7/plugin-bugfix-v8-spread-parameters-in-optional-chaining-7.24.7.tgz 3913ms (cache miss)
+538 timing reifyNode:node_modules/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression Completed in 4137ms
+539 http fetch GET 200 https://cdn.npmmirror.com/packages/hasown/2.0.2/hasown-2.0.2.tgz 4023ms (cache miss)
+540 timing reifyNode:node_modules/@babel/helper-replace-supers Completed in 4143ms
+541 timing reifyNode:node_modules/@babel/helper-function-name Completed in 4166ms
+542 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-object-rest-spread/7.24.7/plugin-transform-object-rest-spread-7.24.7.tgz 3999ms (cache miss)
+543 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-destructuring/7.24.7/plugin-transform-destructuring-7.24.7.tgz 3979ms (cache miss)
+544 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-computed-properties/7.24.7/plugin-transform-computed-properties-7.24.7.tgz 3978ms (cache miss)
+545 timing reifyNode:node_modules/@babel/plugin-transform-modules-umd Completed in 4172ms
+546 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-async-generator-functions/7.24.7/plugin-transform-async-generator-functions-7.24.7.tgz 3977ms (cache miss)
+547 timing reifyNode:node_modules/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining Completed in 4176ms
+548 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-import-assertions/7.24.7/plugin-syntax-import-assertions-7.24.7.tgz 3964ms (cache miss)
+549 timing reifyNode:node_modules/@babel/plugin-syntax-import-assertions Completed in 4178ms
+550 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 4185ms
+551 timing reifyNode:node_modules/@babel/helper-plugin-utils Completed in 4215ms
+552 timing reifyNode:node_modules/hasown Completed in 4224ms
+553 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-arrow-functions/7.24.7/plugin-transform-arrow-functions-7.24.7.tgz 4021ms (cache miss)
+554 timing reifyNode:node_modules/@babel/plugin-transform-arrow-functions Completed in 4220ms
+555 timing reifyNode:node_modules/@babel/plugin-transform-object-rest-spread Completed in 4222ms
+556 timing reifyNode:node_modules/@babel/helper-validator-option Completed in 4223ms
+557 timing reifyNode:node_modules/@babel/plugin-transform-destructuring Completed in 4228ms
+558 timing reifyNode:node_modules/@babel/plugin-transform-computed-properties Completed in 4229ms
+559 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-dynamic-import/7.24.7/plugin-transform-dynamic-import-7.24.7.tgz 4042ms (cache miss)
+560 timing reifyNode:node_modules/@babel/plugin-transform-dynamic-import Completed in 4231ms
+561 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-for-of/7.24.7/plugin-transform-for-of-7.24.7.tgz 4048ms (cache miss)
+562 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-builder-binary-assignment-operator-visitor/7.24.7/helper-builder-binary-assignment-operator-visitor-7.24.7.tgz 3989ms (cache miss)
+563 timing reifyNode:node_modules/@babel/plugin-transform-async-generator-functions Completed in 4249ms
+564 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-object-super/7.24.7/plugin-transform-object-super-7.24.7.tgz 4081ms (cache miss)
+565 timing reifyNode:node_modules/@babel/plugin-transform-object-super Completed in 4252ms
+566 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-json-strings/7.24.7/plugin-transform-json-strings-7.24.7.tgz 4067ms (cache miss)
+567 timing reifyNode:node_modules/@babel/plugin-transform-json-strings Completed in 4252ms
+568 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-private-methods/7.24.7/plugin-transform-private-methods-7.24.7.tgz 4087ms (cache miss)
+569 timing reifyNode:node_modules/@babel/plugin-transform-private-methods Completed in 4255ms
+570 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-property-literals/7.24.7/plugin-transform-property-literals-7.24.7.tgz 4090ms (cache miss)
+571 timing reifyNode:node_modules/@babel/plugin-transform-property-literals Completed in 4255ms
+572 http fetch GET 200 https://cdn.npmmirror.com/packages/browserslist/4.23.1/browserslist-4.23.1.tgz 4118ms (cache miss)
+573 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-validator-identifier/7.24.7/helper-validator-identifier-7.24.7.tgz 4028ms (cache miss)
+574 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-literals/7.24.7/plugin-transform-literals-7.24.7.tgz 4072ms (cache miss)
+575 timing reifyNode:node_modules/@babel/plugin-transform-literals Completed in 4257ms
+576 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-dotall-regex/7.24.7/plugin-transform-dotall-regex-7.24.7.tgz 4066ms (cache miss)
+577 timing reifyNode:node_modules/@babel/plugin-transform-dotall-regex Completed in 4257ms
+578 timing reifyNode:node_modules/@jridgewell/gen-mapping Completed in 4262ms
+579 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-logical-assignment-operators/7.24.7/plugin-transform-logical-assignment-operators-7.24.7.tgz 4079ms (cache miss)
+580 timing reifyNode:node_modules/@babel/plugin-transform-logical-assignment-operators Completed in 4262ms
+581 timing reifyNode:node_modules/@babel/helper-builder-binary-assignment-operator-visitor Completed in 4263ms
+582 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-optional-chaining/7.24.7/plugin-transform-optional-chaining-7.24.7.tgz 4105ms (cache miss)
+583 timing reifyNode:node_modules/@babel/plugin-transform-optional-chaining Completed in 4275ms
+584 timing reifyNode:node_modules/@babel/plugin-transform-for-of Completed in 4309ms
+585 timing reifyNode:node_modules/browserslist Completed in 4316ms
+586 http fetch GET 200 https://cdn.npmmirror.com/packages/babel-plugin-polyfill-corejs2/0.4.11/babel-plugin-polyfill-corejs2-0.4.11.tgz 4176ms (cache miss)
+587 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 4315ms
+588 timing reifyNode:node_modules/babel-plugin-polyfill-corejs2 Completed in 4363ms
+589 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-systemjs/7.24.7/plugin-transform-modules-systemjs-7.24.7.tgz 4185ms (cache miss)
+590 timing reifyNode:node_modules/@babel/plugin-transform-modules-systemjs Completed in 4362ms
+591 timing reifyNode:node_modules/@babel/helper-module-imports Completed in 4360ms
+592 timing reifyNode:node_modules/function-bind Completed in 4368ms
+593 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-create-regexp-features-plugin/7.24.7/helper-create-regexp-features-plugin-7.24.7.tgz 4161ms (cache miss)
+594 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-skip-transparent-expression-wrappers/7.24.7/helper-skip-transparent-expression-wrappers-7.24.7.tgz 4179ms (cache miss)
+595 timing reifyNode:node_modules/@babel/helper-create-regexp-features-plugin Completed in 4417ms
+596 http fetch GET 200 https://cdn.npmmirror.com/packages/%40ampproject/remapping/2.3.0/remapping-2.3.0.tgz 4173ms (cache miss)
+597 timing reifyNode:node_modules/@babel/helper-skip-transparent-expression-wrappers Completed in 4462ms
+598 warn deprecated rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+599 timing reifyNode:node_modules/rollup-plugin-babel Completed in 4484ms
+600 timing reifyNode:node_modules/@ampproject/remapping Completed in 4476ms
+601 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-commonjs/7.24.7/plugin-transform-modules-commonjs-7.24.7.tgz 4375ms (cache miss)
+602 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-parameters/7.24.7/plugin-transform-parameters-7.24.7.tgz 4388ms (cache miss)
+603 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-classes/7.24.7/plugin-transform-classes-7.24.7.tgz 4363ms (cache miss)
+604 timing reifyNode:node_modules/@babel/plugin-transform-classes Completed in 4557ms
+605 timing reifyNode:node_modules/@babel/plugin-transform-parameters Completed in 4572ms
+606 timing reifyNode:node_modules/@babel/plugin-transform-modules-commonjs Completed in 4579ms
+607 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/server-renderer/3.4.31/server-renderer-3.4.31.tgz 4502ms (cache miss)
+608 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/reactivity/3.4.31/reactivity-3.4.31.tgz 4519ms (cache miss)
+609 timing reifyNode:node_modules/@vue/server-renderer Completed in 4610ms
+610 timing reifyNode:node_modules/@babel/compat-data Completed in 4605ms
+611 timing reifyNode:node_modules/@vue/reactivity Completed in 4625ms
+612 http fetch GET 200 https://cdn.npmmirror.com/packages/electron-to-chromium/1.4.801/electron-to-chromium-1.4.801.tgz 4514ms (cache miss)
+613 http fetch GET 200 https://cdn.npmmirror.com/packages/source-map-js/1.2.0/source-map-js-1.2.0.tgz 4572ms (cache miss)
+614 http fetch GET 200 https://cdn.npmmirror.com/packages/babel-plugin-polyfill-corejs3/0.10.4/babel-plugin-polyfill-corejs3-0.10.4.tgz 4515ms (cache miss)
+615 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-core/3.4.31/compiler-core-3.4.31.tgz 4571ms (cache miss)
+616 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-block-scoping/7.24.7/plugin-transform-block-scoping-7.24.7.tgz 4458ms (cache miss)
+617 timing reifyNode:node_modules/@babel/plugin-transform-block-scoping Completed in 4654ms
+618 timing reifyNode:node_modules/electron-to-chromium Completed in 4660ms
+619 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup-pluginutils/2.8.2/rollup-pluginutils-2.8.2.tgz 4559ms (cache miss)
+620 timing reifyNode:node_modules/@vue/compiler-core Completed in 4669ms
+621 timing reifyNode:node_modules/source-map-js Completed in 4678ms
+622 timing reifyNode:node_modules/babel-plugin-polyfill-corejs3 Completed in 4674ms
+623 http fetch GET 200 https://cdn.npmmirror.com/packages/magic-string/0.30.10/magic-string-0.30.10.tgz 4595ms (cache miss)
+624 timing reifyNode:node_modules/@babel/helper-compilation-targets Completed in 4669ms
+625 timing reifyNode:node_modules/rollup-pluginutils Completed in 4686ms
+626 http fetch GET 200 https://cdn.npmmirror.com/packages/%40jridgewell/trace-mapping/0.3.25/trace-mapping-0.3.25.tgz 4544ms (cache miss)
+627 timing reifyNode:node_modules/magic-string Completed in 4697ms
+628 http fetch GET 200 https://cdn.npmmirror.com/packages/estree-walker/2.0.2/estree-walker-2.0.2.tgz 4439ms (cache miss)
+629 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-module-transforms/7.24.7/helper-module-transforms-7.24.7.tgz 4459ms (cache miss)
+630 timing reifyNode:node_modules/@jridgewell/trace-mapping Completed in 4699ms
+631 timing reifyNode:node_modules/@vue/compiler-core/node_modules/estree-walker Completed in 4707ms
+632 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerator-transform/0.15.2/regenerator-transform-0.15.2.tgz 4594ms (cache miss)
+633 timing reifyNode:node_modules/@babel/helper-module-transforms Completed in 4703ms
+634 timing reifyNode:node_modules/regenerator-transform Completed in 4719ms
+635 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/template/7.24.7/template-7.24.7.tgz 4567ms (cache miss)
+636 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/runtime-core/3.4.31/runtime-core-3.4.31.tgz 4649ms (cache miss)
+637 timing reifyNode:node_modules/@babel/template Completed in 4728ms
+638 timing reifyNode:node_modules/@vue/runtime-core Completed in 4747ms
+639 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-dom/3.4.31/compiler-dom-3.4.31.tgz 4652ms (cache miss)
+640 http fetch GET 200 https://cdn.npmmirror.com/packages/json5/2.2.3/json5-2.2.3.tgz 4633ms (cache miss)
+641 timing reifyNode:node_modules/@vue/compiler-dom Completed in 4758ms
+642 timing reifyNode:node_modules/json5 Completed in 4766ms
+643 timing reifyNode:node_modules/@vue/compiler-sfc/node_modules/estree-walker Completed in 4781ms
+644 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-define-polyfill-provider/0.6.2/helper-define-polyfill-provider-0.6.2.tgz 4544ms (cache miss)
+645 timing reifyNode:node_modules/@babel/helper-define-polyfill-provider Completed in 4794ms
+646 http fetch GET 200 https://cdn.npmmirror.com/packages/csstype/3.1.3/csstype-3.1.3.tgz 4723ms (cache miss)
+647 timing reifyNode:node_modules/csstype Completed in 4807ms
+648 http fetch GET 200 https://cdn.npmmirror.com/packages/core-js-compat/3.37.1/core-js-compat-3.37.1.tgz 4671ms (cache miss)
+649 timing reifyNode:node_modules/nanoid Completed in 4814ms
+650 timing reifyNode:node_modules/core-js-compat Completed in 4823ms
+651 timing reifyNode:node_modules/@babel/preset-modules Completed in 4845ms
+652 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-create-class-features-plugin/7.24.7/helper-create-class-features-plugin-7.24.7.tgz 4609ms (cache miss)
+653 timing reifyNode:node_modules/@babel/helper-create-class-features-plugin Completed in 4851ms
+654 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/runtime-dom/3.4.31/runtime-dom-3.4.31.tgz 4772ms (cache miss)
+655 timing reifyNode:node_modules/@vue/runtime-dom Completed in 4872ms
+656 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/parser/7.24.7/parser-7.24.7.tgz 4716ms (cache miss)
+657 timing reifyNode:node_modules/@babel/parser Completed in 4942ms
+658 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-sfc/3.4.31/compiler-sfc-3.4.31.tgz 4879ms (cache miss)
+659 timing reifyNode:node_modules/@vue/compiler-sfc Completed in 4981ms
+660 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/generator/7.24.7/generator-7.24.7.tgz 4798ms (cache miss)
+661 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/preset-env/7.24.7/preset-env-7.24.7.tgz 4895ms (cache miss)
+662 timing reifyNode:node_modules/@babel/preset-env Completed in 5050ms
+663 timing reifyNode:node_modules/@babel/generator Completed in 5050ms
+664 http fetch GET 200 https://cdn.npmmirror.com/packages/postcss/8.4.39/postcss-8.4.39.tgz 5011ms (cache miss)
+665 timing reifyNode:node_modules/postcss Completed in 5102ms
+666 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/traverse/7.24.7/traverse-7.24.7.tgz 5044ms (cache miss)
+667 http fetch GET 200 https://cdn.npmmirror.com/packages/entities/4.5.0/entities-4.5.0.tgz 5110ms (cache miss)
+668 timing reifyNode:node_modules/@babel/traverse Completed in 5196ms
+669 timing reifyNode:node_modules/entities Completed in 5203ms
+670 http fetch GET 200 https://cdn.npmmirror.com/packages/vue/3.4.31/vue-3.4.31.tgz 5141ms (cache miss)
+671 timing reifyNode:node_modules/vue Completed in 5245ms
+672 http fetch GET 200 https://cdn.npmmirror.com/packages/resolve/1.22.8/resolve-1.22.8.tgz 5320ms (cache miss)
+673 timing reifyNode:node_modules/resolve Completed in 5431ms
+674 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup/2.79.1/rollup-2.79.1.tgz 5323ms (cache miss)
+675 timing reifyNode:node_modules/rollup Completed in 5436ms
+676 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/core/7.24.7/core-7.24.7.tgz 5303ms (cache miss)
+677 timing reifyNode:node_modules/@babel/core Completed in 5552ms
+678 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/runtime/7.24.7/runtime-7.24.7.tgz 5813ms (cache miss)
+679 timing reifyNode:node_modules/@babel/runtime Completed in 5967ms
+680 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/types/7.24.7/types-7.24.7.tgz 5876ms (cache miss)
+681 timing reifyNode:node_modules/@babel/types Completed in 6025ms
+682 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helpers/7.24.7/helpers-7.24.7.tgz 5859ms (cache miss)
+683 timing reifyNode:node_modules/@babel/helpers Completed in 6086ms
+684 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerate-unicode-properties/10.1.1/regenerate-unicode-properties-10.1.1.tgz 6489ms (cache miss)
+685 timing reifyNode:node_modules/regenerate-unicode-properties Completed in 6603ms
+686 http fetch GET 200 https://cdn.npmmirror.com/packages/caniuse-lite/1.0.30001633/caniuse-lite-1.0.30001633.tgz 7377ms (cache miss)
+687 timing reifyNode:node_modules/caniuse-lite Completed in 7516ms
+688 timing reify:unpack Completed in 7522ms
+689 timing reify:unretire Completed in 0ms
+690 timing build:queue Completed in 5ms
+691 timing build:link:node_modules/json5 Completed in 18ms
+692 timing build:link:node_modules/@babel/parser Completed in 19ms
+693 timing build:link:node_modules/regjsparser/node_modules/jsesc Completed in 17ms
+694 timing build:link:node_modules/jsesc Completed in 18ms
+695 timing build:link:node_modules/browserslist Completed in 19ms
+696 timing build:link:node_modules/regjsparser Completed in 19ms
+697 timing build:link:node_modules/nanoid Completed in 19ms
+698 timing build:link:node_modules/semver Completed in 18ms
+699 timing build:link:node_modules/resolve Completed in 19ms
+700 timing build:link:node_modules/rollup Completed in 18ms
+701 timing build:link:node_modules/update-browserslist-db Completed in 18ms
+702 timing build:link Completed in 20ms
+703 timing build:deps Completed in 25ms
+704 timing build Completed in 25ms
+705 timing reify:build Completed in 26ms
+706 timing reify:trash Completed in 1ms
+707 timing reify:save Completed in 115ms
+708 timing reify Completed in 9325ms
+709 silly ADD node_modules/nanoid
+710 silly ADD node_modules/csstype
+711 silly ADD node_modules/@vue/runtime-core
+712 silly ADD node_modules/@vue/reactivity
+713 silly ADD node_modules/postcss
+714 silly ADD node_modules/magic-string
+715 silly ADD node_modules/@vue/compiler-ssr
+716 silly ADD node_modules/source-map-js
+717 silly ADD node_modules/entities
+718 silly ADD node_modules/@vue/compiler-core
+719 silly ADD node_modules/@vue/compiler-core/node_modules/estree-walker
+720 silly ADD node_modules/@vue/shared
+721 silly ADD node_modules/@vue/server-renderer
+722 silly ADD node_modules/@vue/runtime-dom
+723 silly ADD node_modules/@vue/compiler-sfc
+724 silly ADD node_modules/@vue/compiler-sfc/node_modules/estree-walker
+725 silly ADD node_modules/@vue/compiler-dom
+726 silly ADD node_modules/vue
+727 silly ADD node_modules/yallist
+728 silly ADD node_modules/update-browserslist-db
+729 silly ADD node_modules/unicode-property-aliases-ecmascript
+730 silly ADD node_modules/unicode-match-property-value-ecmascript
+731 silly ADD node_modules/unicode-match-property-ecmascript
+732 silly ADD node_modules/unicode-canonical-property-names-ecmascript
+733 silly ADD node_modules/to-fast-properties
+734 silly ADD node_modules/supports-preserve-symlinks-flag
+735 silly ADD node_modules/supports-color
+736 silly ADD node_modules/semver
+737 silly ADD node_modules/rollup-pluginutils
+738 silly ADD node_modules/rollup-plugin-babel
+739 silly ADD node_modules/rollup
+740 silly ADD node_modules/resolve
+741 silly ADD node_modules/regjsparser
+742 silly ADD node_modules/regjsparser/node_modules/jsesc
+743 silly ADD node_modules/regexpu-core
+744 silly ADD node_modules/regenerator-transform
+745 silly ADD node_modules/regenerator-runtime
+746 silly ADD node_modules/regenerate-unicode-properties
+747 silly ADD node_modules/regenerate
+748 silly ADD node_modules/picocolors
+749 silly ADD node_modules/path-parse
+750 silly ADD node_modules/node-releases
+751 silly ADD node_modules/ms
+752 silly ADD node_modules/lru-cache
+753 silly ADD node_modules/lodash.debounce
+754 silly ADD node_modules/json5
+755 silly ADD node_modules/jsesc
+756 silly ADD node_modules/js-tokens
+757 silly ADD node_modules/is-core-module
+758 silly ADD node_modules/hasown
+759 silly ADD node_modules/has-flag
+760 silly ADD node_modules/globals
+761 silly ADD node_modules/gensync
+762 silly ADD node_modules/function-bind
+763 silly ADD
+764 silly ADD node_modules/esutils
+765 silly ADD node_modules/estree-walker
+766 silly ADD node_modules/escape-string-regexp
+767 silly ADD node_modules/escalade
+768 silly ADD node_modules/electron-to-chromium
+769 silly ADD node_modules/debug
+770 silly ADD node_modules/core-js-compat
+771 silly ADD node_modules/convert-source-map
+772 silly ADD node_modules/color-name
+773 silly ADD node_modules/color-convert
+774 silly ADD node_modules/chalk
+775 silly ADD node_modules/caniuse-lite
+776 silly ADD node_modules/browserslist
+777 silly ADD node_modules/babel-plugin-polyfill-regenerator
+778 silly ADD node_modules/babel-plugin-polyfill-corejs3
+779 silly ADD node_modules/babel-plugin-polyfill-corejs2
+780 silly ADD node_modules/ansi-styles
+781 silly ADD node_modules/@jridgewell/trace-mapping
+782 silly ADD node_modules/@jridgewell/sourcemap-codec
+783 silly ADD node_modules/@jridgewell/set-array
+784 silly ADD node_modules/@jridgewell/resolve-uri
+785 silly ADD node_modules/@jridgewell/gen-mapping
+786 silly ADD node_modules/@babel/types
+787 silly ADD node_modules/@babel/traverse
+788 silly ADD node_modules/@babel/template
+789 silly ADD node_modules/@babel/runtime
+790 silly ADD node_modules/@babel/regjsgen
+791 silly ADD node_modules/@babel/preset-modules
+792 silly ADD node_modules/@babel/preset-env
+793 silly ADD node_modules/@babel/plugin-transform-unicode-sets-regex
+794 silly ADD node_modules/@babel/plugin-transform-unicode-regex
+795 silly ADD node_modules/@babel/plugin-transform-unicode-property-regex
+796 silly ADD node_modules/@babel/plugin-transform-unicode-escapes
+797 silly ADD node_modules/@babel/plugin-transform-typeof-symbol
+798 silly ADD node_modules/@babel/plugin-transform-template-literals
+799 silly ADD node_modules/@babel/plugin-transform-sticky-regex
+800 silly ADD node_modules/@babel/plugin-transform-spread
+801 silly ADD node_modules/@babel/plugin-transform-shorthand-properties
+802 silly ADD node_modules/@babel/plugin-transform-reserved-words
+803 silly ADD node_modules/@babel/plugin-transform-regenerator
+804 silly ADD node_modules/@babel/plugin-transform-property-literals
+805 silly ADD node_modules/@babel/plugin-transform-private-property-in-object
+806 silly ADD node_modules/@babel/plugin-transform-private-methods
+807 silly ADD node_modules/@babel/plugin-transform-parameters
+808 silly ADD node_modules/@babel/plugin-transform-optional-chaining
+809 silly ADD node_modules/@babel/plugin-transform-optional-catch-binding
+810 silly ADD node_modules/@babel/plugin-transform-object-super
+811 silly ADD node_modules/@babel/plugin-transform-object-rest-spread
+812 silly ADD node_modules/@babel/plugin-transform-numeric-separator
+813 silly ADD node_modules/@babel/plugin-transform-nullish-coalescing-operator
+814 silly ADD node_modules/@babel/plugin-transform-new-target
+815 silly ADD node_modules/@babel/plugin-transform-named-capturing-groups-regex
+816 silly ADD node_modules/@babel/plugin-transform-modules-umd
+817 silly ADD node_modules/@babel/plugin-transform-modules-systemjs
+818 silly ADD node_modules/@babel/plugin-transform-modules-commonjs
+819 silly ADD node_modules/@babel/plugin-transform-modules-amd
+820 silly ADD node_modules/@babel/plugin-transform-member-expression-literals
+821 silly ADD node_modules/@babel/plugin-transform-logical-assignment-operators
+822 silly ADD node_modules/@babel/plugin-transform-literals
+823 silly ADD node_modules/@babel/plugin-transform-json-strings
+824 silly ADD node_modules/@babel/plugin-transform-function-name
+825 silly ADD node_modules/@babel/plugin-transform-for-of
+826 silly ADD node_modules/@babel/plugin-transform-export-namespace-from
+827 silly ADD node_modules/@babel/plugin-transform-exponentiation-operator
+828 silly ADD node_modules/@babel/plugin-transform-dynamic-import
+829 silly ADD node_modules/@babel/plugin-transform-duplicate-keys
+830 silly ADD node_modules/@babel/plugin-transform-dotall-regex
+831 silly ADD node_modules/@babel/plugin-transform-destructuring
+832 silly ADD node_modules/@babel/plugin-transform-computed-properties
+833 silly ADD node_modules/@babel/plugin-transform-classes
+834 silly ADD node_modules/@babel/plugin-transform-class-static-block
+835 silly ADD node_modules/@babel/plugin-transform-class-properties
+836 silly ADD node_modules/@babel/plugin-transform-block-scoping
+837 silly ADD node_modules/@babel/plugin-transform-block-scoped-functions
+838 silly ADD node_modules/@babel/plugin-transform-async-to-generator
+839 silly ADD node_modules/@babel/plugin-transform-async-generator-functions
+840 silly ADD node_modules/@babel/plugin-transform-arrow-functions
+841 silly ADD node_modules/@babel/plugin-syntax-unicode-sets-regex
+842 silly ADD node_modules/@babel/plugin-syntax-top-level-await
+843 silly ADD node_modules/@babel/plugin-syntax-private-property-in-object
+844 silly ADD node_modules/@babel/plugin-syntax-optional-chaining
+845 silly ADD node_modules/@babel/plugin-syntax-optional-catch-binding
+846 silly ADD node_modules/@babel/plugin-syntax-object-rest-spread
+847 silly ADD node_modules/@babel/plugin-syntax-numeric-separator
+848 silly ADD node_modules/@babel/plugin-syntax-nullish-coalescing-operator
+849 silly ADD node_modules/@babel/plugin-syntax-logical-assignment-operators
+850 silly ADD node_modules/@babel/plugin-syntax-json-strings
+851 silly ADD node_modules/@babel/plugin-syntax-import-meta
+852 silly ADD node_modules/@babel/plugin-syntax-import-attributes
+853 silly ADD node_modules/@babel/plugin-syntax-import-assertions
+854 silly ADD node_modules/@babel/plugin-syntax-export-namespace-from
+855 silly ADD node_modules/@babel/plugin-syntax-dynamic-import
+856 silly ADD node_modules/@babel/plugin-syntax-class-static-block
+857 silly ADD node_modules/@babel/plugin-syntax-class-properties
+858 silly ADD node_modules/@babel/plugin-syntax-async-generators
+859 silly ADD node_modules/@babel/plugin-proposal-private-property-in-object
+860 silly ADD node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly
+861 silly ADD node_modules/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining
+862 silly ADD node_modules/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression
+863 silly ADD node_modules/@babel/plugin-bugfix-firefox-class-in-computed-class-key
+864 silly ADD node_modules/@babel/parser
+865 silly ADD node_modules/@babel/highlight
+866 silly ADD node_modules/@babel/helpers
+867 silly ADD node_modules/@babel/helper-wrap-function
+868 silly ADD node_modules/@babel/helper-validator-option
+869 silly ADD node_modules/@babel/helper-validator-identifier
+870 silly ADD node_modules/@babel/helper-string-parser
+871 silly ADD node_modules/@babel/helper-split-export-declaration
+872 silly ADD node_modules/@babel/helper-skip-transparent-expression-wrappers
+873 silly ADD node_modules/@babel/helper-simple-access
+874 silly ADD node_modules/@babel/helper-replace-supers
+875 silly ADD node_modules/@babel/helper-remap-async-to-generator
+876 silly ADD node_modules/@babel/helper-plugin-utils
+877 silly ADD node_modules/@babel/helper-optimise-call-expression
+878 silly ADD node_modules/@babel/helper-module-transforms
+879 silly ADD node_modules/@babel/helper-module-imports
+880 silly ADD node_modules/@babel/helper-member-expression-to-functions
+881 silly ADD node_modules/@babel/helper-hoist-variables
+882 silly ADD node_modules/@babel/helper-function-name
+883 silly ADD node_modules/@babel/helper-environment-visitor
+884 silly ADD node_modules/@babel/helper-define-polyfill-provider
+885 silly ADD node_modules/@babel/helper-create-regexp-features-plugin
+886 silly ADD node_modules/@babel/helper-create-class-features-plugin
+887 silly ADD node_modules/@babel/helper-compilation-targets
+888 silly ADD node_modules/@babel/helper-builder-binary-assignment-operator-visitor
+889 silly ADD node_modules/@babel/helper-annotate-as-pure
+890 silly ADD node_modules/@babel/generator
+891 silly ADD node_modules/@babel/core
+892 silly ADD node_modules/@babel/compat-data
+893 silly ADD node_modules/@babel/code-frame
+894 silly ADD node_modules/@ampproject/remapping
+895 timing command:i Completed in 9340ms
+896 notice
+896 notice New [33mminor[39m version of npm available! [31m10.2.4[39m -> [32m10.8.1[39m
+896 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.8.1[39m
+896 notice Run [32mnpm install -g npm@10.8.1[39m to update!
+896 notice
+897 verbose exit 0
+898 timing npm Completed in 9726ms
+899 info ok

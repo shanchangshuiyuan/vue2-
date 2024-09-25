@@ -1,0 +1,2 @@
+
+d1504a164690398cd7c903112b3376725156bb90	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz","integrity":null,"time":1721811158576,"size":"262","metadata":{"time":1721811158576,"url":"https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:42 GMT","location":"https://registry.npmmirror.com/source-list-map/download/source-list-map-2.0.1.tgz"},"options":{"compress":true},"status":301}}

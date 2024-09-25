@@ -1,0 +1,2 @@
+
+a01ec81add4178705bf4f597b2fd64e93f7d1ea4	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/detect-node/download/detect-node-2.0.4.tgz","integrity":null,"time":1721811166387,"size":"262","metadata":{"time":1721811166387,"url":"https://registry.npm.taobao.org/detect-node/download/detect-node-2.0.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:50 GMT","location":"https://registry.npmmirror.com/detect-node/download/detect-node-2.0.4.tgz"},"options":{"compress":true},"status":301}}

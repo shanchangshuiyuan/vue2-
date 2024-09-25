@@ -1,0 +1,2 @@
+
+80ecb8a3b7e049c87230d257888a8dd273990d48	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/once/download/once-1.4.0.tgz","integrity":null,"time":1720596250752,"size":"262","metadata":{"time":1720596250752,"url":"https://registry.npm.taobao.org/once/download/once-1.4.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 10 Jul 2024 07:24:11 GMT","location":"https://registry.npmmirror.com/once/download/once-1.4.0.tgz"},"options":{"compress":true},"status":301}}

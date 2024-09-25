@@ -1,0 +1,2 @@
+
+bc197140d2d584e6f21246e67b4e15add8aad720	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/bonjour/download/bonjour-3.5.0.tgz","integrity":null,"time":1721811166822,"size":"262","metadata":{"time":1721811166822,"url":"https://registry.npm.taobao.org/bonjour/download/bonjour-3.5.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:51 GMT","location":"https://registry.npmmirror.com/bonjour/download/bonjour-3.5.0.tgz"},"options":{"compress":true},"status":301}}

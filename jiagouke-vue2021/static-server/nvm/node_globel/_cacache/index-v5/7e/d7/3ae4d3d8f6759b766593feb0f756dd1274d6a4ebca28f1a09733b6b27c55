@@ -1,0 +1,2 @@
+
+eb542b3f79f267a9f9e7e69b98d9ab654ab2da79	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/bytes/download/bytes-3.1.0.tgz","integrity":null,"time":1721823397182,"size":"262","metadata":{"time":1721823397181,"url":"https://registry.npm.taobao.org/bytes/download/bytes-3.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 12:16:37 GMT","location":"https://registry.npmmirror.com/bytes/download/bytes-3.1.0.tgz"},"options":{"compress":true},"status":301}}

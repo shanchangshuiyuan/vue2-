@@ -1,0 +1,2 @@
+
+5b47596ed9660747f78781f6092205c1c9d6335c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz","integrity":null,"time":1721823397121,"size":"262","metadata":{"time":1721823397120,"url":"https://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 12:16:37 GMT","location":"https://registry.npmmirror.com/mime/download/mime-1.6.0.tgz"},"options":{"compress":true},"status":301}}

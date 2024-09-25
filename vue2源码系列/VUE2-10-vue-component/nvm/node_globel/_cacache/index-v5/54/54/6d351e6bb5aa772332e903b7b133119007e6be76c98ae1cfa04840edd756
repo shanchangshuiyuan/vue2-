@@ -1,0 +1,2 @@
+
+79f4341aa72d4ea43499880b699817b8b24ab287	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/serve-index/download/serve-index-1.9.1.tgz","integrity":null,"time":1721811158833,"size":"262","metadata":{"time":1721811158833,"url":"https://registry.npm.taobao.org/serve-index/download/serve-index-1.9.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:43 GMT","location":"https://registry.npmmirror.com/serve-index/download/serve-index-1.9.1.tgz"},"options":{"compress":true},"status":301}}

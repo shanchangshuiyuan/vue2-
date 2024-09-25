@@ -24,4 +24,4 @@ export const VALIDATE = 'VALIDATE'; // 校验权限的  会调用一个action
 
 
 export const ADD_ROUTE = 'ADD_ROUTE'; // 动态添加路由
-export const SET_MENU_PERMISSION = 'SET_MENU_PERMISSION';
+export const SET_MENU_PERMISSION = 'SET_MENU_PERMISSION';  //设置菜单权限

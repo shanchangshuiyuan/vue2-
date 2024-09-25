@@ -1,0 +1,400 @@
+0 verbose cli F:\nvm\node\node.exe F:\nvm\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:F:\nvm\nvm\v20.11.1\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-5-PWA\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\zgy\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-5-PWA\nvm\node_globel\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 11ms
+17 timing npm:load:configload Completed in 11ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i web-push
+22 verbose argv "i" "web-push"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-5-PWA\nvm\node_globel\_logs\2024-07-10T10_23_07_066Z-
+26 verbose logfile F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-5-PWA\nvm\node_globel\_logs\2024-07-10T10_23_07_066Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 49ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 2 files
+33 timing idealTree:init Completed in 96ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest web-push@^3.4.4
+37 silly logfile done cleaning log files
+38 timing arborist:ctor Completed in 0ms
+39 http fetch GET 200 https://registry.npmmirror.com/web-push 225ms (cache revalidated)
+40 silly placeDep ROOT web-push@3.6.7 REPLACE for: pwa-back@1.0.0 want: ^3.4.4
+41 silly fetch manifest http_ece@1.2.0
+42 silly fetch manifest https-proxy-agent@^7.0.0
+43 http fetch GET 200 https://registry.npmmirror.com/https-proxy-agent 39ms (cache revalidated)
+44 http fetch GET 200 https://registry.npmmirror.com/http_ece 70ms (cache revalidated)
+45 timing idealTree:#root Completed in 308ms
+46 silly placeDep ROOT http_ece@1.2.0 OK for: web-push@3.6.7 want: 1.2.0
+47 silly placeDep ROOT https-proxy-agent@7.0.5 OK for: web-push@3.6.7 want: ^7.0.0
+48 silly fetch manifest agent-base@^7.0.2
+49 silly fetch manifest debug@4
+50 http fetch GET 200 https://registry.npmmirror.com/agent-base 21ms (cache revalidated)
+51 http fetch GET 200 https://registry.npmmirror.com/debug 24ms (cache updated)
+52 timing idealTree:node_modules/web-push Completed in 28ms
+53 timing idealTree:node_modules/http_ece Completed in 0ms
+54 silly placeDep ROOT agent-base@7.1.1 OK for: https-proxy-agent@7.0.5 want: ^7.0.2
+55 silly fetch manifest debug@^4.3.4
+56 silly placeDep node_modules/https-proxy-agent debug@4.3.5 OK for: https-proxy-agent@7.0.5 want: 4
+57 silly fetch manifest ms@2.1.2
+58 http fetch GET 200 https://registry.npmmirror.com/ms 14ms (cache revalidated)
+59 timing idealTree:node_modules/https-proxy-agent Completed in 18ms
+60 silly placeDep node_modules/agent-base debug@4.3.5 OK for: agent-base@7.1.1 want: ^4.3.4
+61 timing idealTree:node_modules/agent-base Completed in 2ms
+62 silly placeDep node_modules/agent-base ms@2.1.2 OK for: debug@4.3.5 want: 2.1.2
+63 timing idealTree:node_modules/agent-base/node_modules/debug Completed in 2ms
+64 timing idealTree:node_modules/agent-base/node_modules/ms Completed in 0ms
+65 silly placeDep node_modules/https-proxy-agent ms@2.1.2 OK for: debug@4.3.5 want: 2.1.2
+66 timing idealTree:node_modules/https-proxy-agent/node_modules/debug Completed in 1ms
+67 timing idealTree:node_modules/https-proxy-agent/node_modules/ms Completed in 0ms
+68 timing idealTree:buildDeps Completed in 362ms
+69 timing idealTree:fixDepFlags Completed in 1ms
+70 timing idealTree Completed in 465ms
+71 timing reify:loadTrees Completed in 465ms
+72 timing reify:diffTrees Completed in 6ms
+73 silly reify mark retired [
+73 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\agent-base'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\http_ece'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\https-proxy-agent'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\urlsafe-base64'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\web-push',
+77 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push',
+77 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push.cmd',
+77 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push.ps1'
+77 silly reify ]
+78 silly reify moves {
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\agent-base': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.agent-base-EehOfisu',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\http_ece': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.http_ece-OSLYBSoI',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\https-proxy-agent': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.https-proxy-agent-8mOeZnTQ',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\urlsafe-base64': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.urlsafe-base64-9FAoTnbM',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\web-push': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.web-push-d9miqcC9',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\.web-push-igy7pLj6',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push.cmd': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\.web-push.cmd-5SLPzFnl',
+78 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\web-push.ps1': 'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\.bin\\.web-push.ps1-Iw930FOC'
+78 silly reify }
+79 timing reify:retireShallow Completed in 10ms
+80 timing reify:createSparse Completed in 2ms
+81 timing reify:loadBundles Completed in 0ms
+82 silly audit bulk request {
+82 silly audit   '@sindresorhus/is': [ '0.14.0' ],
+82 silly audit   '@szmarczak/http-timer': [ '1.1.2' ],
+82 silly audit   abbrev: [ '1.1.1' ],
+82 silly audit   accepts: [ '1.3.7' ],
+82 silly audit   debug: [ '2.6.9', '3.2.7', '4.3.5' ],
+82 silly audit   ms: [ '2.0.0', '2.1.3', '2.1.1', '2.1.2' ],
+82 silly audit   'ansi-align': [ '3.0.0' ],
+82 silly audit   'string-width': [ '3.1.0', '4.2.0' ],
+82 silly audit   'ansi-regex': [ '4.1.0', '5.0.0' ],
+82 silly audit   'ansi-styles': [ '4.3.0', '3.2.1' ],
+82 silly audit   anymatch: [ '3.1.1' ],
+82 silly audit   'array-flatten': [ '1.1.1' ],
+82 silly audit   'asn1.js': [ '5.4.1' ],
+82 silly audit   'balanced-match': [ '1.0.0' ],
+82 silly audit   'binary-extensions': [ '2.1.0' ],
+82 silly audit   'bn.js': [ '4.11.9' ],
+82 silly audit   'body-parser': [ '1.19.0' ],
+82 silly audit   boxen: [ '4.2.0' ],
+82 silly audit   'brace-expansion': [ '1.1.11' ],
+82 silly audit   braces: [ '3.0.2' ],
+82 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+82 silly audit   bytes: [ '3.1.0' ],
+82 silly audit   'cacheable-request': [ '6.1.0' ],
+82 silly audit   'get-stream': [ '5.2.0', '4.1.0' ],
+82 silly audit   'lowercase-keys': [ '2.0.0', '1.0.1' ],
+82 silly audit   camelcase: [ '5.3.1' ],
+82 silly audit   chalk: [ '3.0.0', '2.4.2' ],
+82 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+82 silly audit   'supports-color': [ '7.2.0', '5.5.0', '6.1.0' ],
+82 silly audit   chokidar: [ '3.4.3' ],
+82 silly audit   'ci-info': [ '2.0.0' ],
+82 silly audit   'cli-boxes': [ '2.2.1' ],
+82 silly audit   cliui: [ '5.0.0' ],
+82 silly audit   'clone-response': [ '1.0.2' ],
+82 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+82 silly audit   'color-name': [ '1.1.4', '1.1.3' ],
+82 silly audit   'concat-map': [ '0.0.1' ],
+82 silly audit   concurrently: [ '5.3.0' ],
+82 silly audit   configstore: [ '5.0.1' ],
+82 silly audit   'content-disposition': [ '0.5.3' ],
+82 silly audit   'content-type': [ '1.0.4' ],
+82 silly audit   cookie: [ '0.4.0' ],
+82 silly audit   'cookie-signature': [ '1.0.6' ],
+82 silly audit   'crypto-random-string': [ '2.0.0' ],
+82 silly audit   'date-fns': [ '2.16.1' ],
+82 silly audit   decamelize: [ '1.2.0' ],
+82 silly audit   'decompress-response': [ '3.3.0' ],
+82 silly audit   'deep-extend': [ '0.6.0' ],
+82 silly audit   'defer-to-connect': [ '1.1.3' ],
+82 silly audit   depd: [ '1.1.2' ],
+82 silly audit   destroy: [ '1.0.4' ],
+82 silly audit   'dot-prop': [ '5.3.0' ],
+82 silly audit   duplexer3: [ '0.1.4' ],
+82 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+82 silly audit   'ee-first': [ '1.1.1' ],
+82 silly audit   'emoji-regex': [ '7.0.3', '8.0.0' ],
+82 silly audit   encodeurl: [ '1.0.2' ],
+82 silly audit   'end-of-stream': [ '1.4.4' ],
+82 silly audit   'error-ex': [ '1.3.2' ],
+82 silly audit   'escape-goat': [ '2.1.1' ],
+82 silly audit   'escape-html': [ '1.0.3' ],
+82 silly audit   'escape-string-regexp': [ '1.0.5' ],
+82 silly audit   etag: [ '1.8.1' ],
+82 silly audit   express: [ '4.17.1' ],
+82 silly audit   'fill-range': [ '7.0.1' ],
+82 silly audit   finalhandler: [ '1.1.2' ],
+82 silly audit   'find-up': [ '3.0.0' ],
+82 silly audit   forwarded: [ '0.1.2' ],
+82 silly audit   fresh: [ '0.5.2' ],
+82 silly audit   fsevents: [ '2.1.3' ],
+82 silly audit   'function-bind': [ '1.1.1' ],
+82 silly audit   'get-caller-file': [ '2.0.5' ],
+82 silly audit   'glob-parent': [ '5.1.1' ],
+82 silly audit   'global-dirs': [ '2.1.0' ],
+82 silly audit   got: [ '9.6.0' ],
+82 silly audit   'graceful-fs': [ '4.2.4' ],
+82 silly audit   has: [ '1.0.3' ],
+82 silly audit   'has-yarn': [ '2.1.0' ],
+82 silly audit   'hosted-git-info': [ '2.8.8' ],
+82 silly audit   'http-cache-semantics': [ '4.1.0' ],
+82 silly audit   'http-errors': [ '1.7.2' ],
+82 silly audit   'iconv-lite': [ '0.4.24' ],
+82 silly audit   'ignore-by-default': [ '1.0.1' ],
+82 silly audit   'import-lazy': [ '2.1.0' ],
+82 silly audit   imurmurhash: [ '0.1.4' ],
+82 silly audit   inherits: [ '2.0.3' ],
+82 silly audit   ini: [ '1.3.7' ],
+82 silly audit   'ipaddr.js': [ '1.9.1' ],
+82 silly audit   'is-arrayish': [ '0.2.1' ],
+82 silly audit   'is-binary-path': [ '2.1.0' ],
+82 silly audit   'is-ci': [ '2.0.0' ],
+82 silly audit   'is-core-module': [ '2.2.0' ],
+82 silly audit   'is-extglob': [ '2.1.1' ],
+82 silly audit   'is-fullwidth-code-point': [ '2.0.0', '3.0.0' ],
+82 silly audit   'is-glob': [ '4.0.1' ],
+82 silly audit   'is-installed-globally': [ '0.3.2' ],
+82 silly audit   'is-npm': [ '4.0.0' ],
+82 silly audit   'is-number': [ '7.0.0' ],
+82 silly audit   'is-obj': [ '2.0.0' ],
+82 silly audit   'is-path-inside': [ '3.0.2' ],
+82 silly audit   'is-typedarray': [ '1.0.0' ],
+82 silly audit   'is-yarn-global': [ '0.3.0' ],
+82 silly audit   'json-buffer': [ '3.0.0' ],
+82 silly audit   'json-parse-better-errors': [ '1.0.2' ],
+82 silly audit   jwa: [ '2.0.0' ],
+82 silly audit   jws: [ '4.0.0' ],
+82 silly audit   keyv: [ '3.1.0' ],
+82 silly audit   'latest-version': [ '5.1.0' ],
+82 silly audit   'locate-path': [ '3.0.0' ],
+82 silly audit   lodash: [ '4.17.20' ],
+82 silly audit   'make-dir': [ '3.1.0' ],
+82 silly audit   semver: [ '6.3.0', '5.7.1' ],
+82 silly audit   'media-typer': [ '0.3.0' ],
+82 silly audit   'merge-descriptors': [ '1.0.1' ],
+82 silly audit   methods: [ '1.1.2' ],
+82 silly audit   mime: [ '1.6.0' ],
+82 silly audit   'mime-db': [ '1.44.0' ],
+82 silly audit   'mime-types': [ '2.1.27' ],
+82 silly audit   'mimic-response': [ '1.0.1' ],
+82 silly audit   'minimalistic-assert': [ '1.0.1' ],
+82 silly audit   minimatch: [ '3.0.4' ],
+82 silly audit   minimist: [ '1.2.5' ],
+82 silly audit   negotiator: [ '0.6.2' ],
+82 silly audit   nodemon: [ '2.0.6' ],
+82 silly audit   nopt: [ '1.0.10' ],
+82 silly audit   'normalize-package-data': [ '2.5.0' ],
+82 silly audit   'normalize-path': [ '3.0.0' ],
+82 silly audit   'normalize-url': [ '4.5.0' ],
+82 silly audit   'on-finished': [ '2.3.0' ],
+82 silly audit   once: [ '1.4.0' ],
+82 silly audit   'p-cancelable': [ '1.1.0' ],
+82 silly audit   'p-limit': [ '2.3.0' ],
+82 silly audit   'p-locate': [ '3.0.0' ],
+82 silly audit   'p-try': [ '2.2.0' ],
+82 silly audit   'package-json': [ '6.5.0' ],
+82 silly audit   'parse-json': [ '4.0.0' ],
+82 silly audit   parseurl: [ '1.3.3' ],
+82 silly audit   'path-exists': [ '3.0.0' ],
+82 silly audit   'path-parse': [ '1.0.6' ],
+82 silly audit   'path-to-regexp': [ '0.1.7' ],
+82 silly audit   picomatch: [ '2.2.2' ],
+82 silly audit   pify: [ '3.0.0' ],
+82 silly audit   'prepend-http': [ '2.0.0' ],
+82 silly audit   'proxy-addr': [ '2.0.6' ],
+82 silly audit   'pstree.remy': [ '1.1.8' ],
+82 silly audit   pump: [ '3.0.0' ],
+82 silly audit   pupa: [ '2.1.1' ],
+82 silly audit   qs: [ '6.7.0' ],
+82 silly audit   'range-parser': [ '1.2.1' ],
+82 silly audit   'raw-body': [ '2.4.0' ],
+82 silly audit   rc: [ '1.2.8' ],
+82 silly audit   'read-pkg': [ '4.0.1' ],
+82 silly audit   readdirp: [ '3.5.0' ],
+82 silly audit   'registry-auth-token': [ '4.2.1' ],
+82 silly audit   'registry-url': [ '5.1.0' ],
+82 silly audit   'require-directory': [ '2.1.1' ],
+82 silly audit   'require-main-filename': [ '2.0.0' ],
+82 silly audit   resolve: [ '1.19.0' ],
+82 silly audit   responselike: [ '1.0.2' ],
+82 silly audit   rxjs: [ '6.6.3' ],
+82 silly audit   'safe-buffer': [ '5.1.2' ],
+82 silly audit   'safer-buffer': [ '2.1.2' ],
+82 silly audit   'semver-diff': [ '3.1.1' ],
+82 silly audit   send: [ '0.17.1' ],
+82 silly audit   'serve-static': [ '1.14.1' ],
+82 silly audit   'set-blocking': [ '2.0.0' ],
+82 silly audit   setprototypeof: [ '1.1.1' ],
+82 silly audit   'signal-exit': [ '3.0.3' ],
+82 silly audit   'spawn-command': [ '0.0.2-1' ],
+82 silly audit   'spdx-correct': [ '3.1.1' ],
+82 silly audit   'spdx-exceptions': [ '2.3.0' ],
+82 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+82 silly audit   'spdx-license-ids': [ '3.0.7' ],
+82 silly audit   statuses: [ '1.5.0' ],
+82 silly audit   'strip-ansi': [ '6.0.0', '5.2.0' ],
+82 silly audit   'strip-json-comments': [ '2.0.1' ],
+82 silly audit   'term-size': [ '2.2.1' ],
+82 silly audit   'to-readable-stream': [ '1.0.0' ],
+82 silly audit   'to-regex-range': [ '5.0.1' ],
+82 silly audit   toidentifier: [ '1.0.0' ],
+82 silly audit   touch: [ '3.1.0' ],
+82 silly audit   'tree-kill': [ '1.2.2' ],
+82 silly audit   tslib: [ '1.14.1' ],
+82 silly audit   'type-fest': [ '0.8.1' ],
+82 silly audit   'type-is': [ '1.6.18' ],
+82 silly audit   'typedarray-to-buffer': [ '3.1.5' ],
+82 silly audit   undefsafe: [ '2.0.3' ],
+82 silly audit   'unique-string': [ '2.0.0' ],
+82 silly audit   unpipe: [ '1.0.0' ],
+82 silly audit   'update-notifier': [ '4.1.3' ],
+82 silly audit   'url-parse-lax': [ '3.0.0' ],
+82 silly audit   'utils-merge': [ '1.0.1' ],
+82 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+82 silly audit   vary: [ '1.1.2' ],
+82 silly audit   'which-module': [ '2.0.0' ],
+82 silly audit   'widest-line': [ '3.1.0' ],
+82 silly audit   'wrap-ansi': [ '5.1.0' ],
+82 silly audit   wrappy: [ '1.0.2' ],
+82 silly audit   'write-file-atomic': [ '3.0.3' ],
+82 silly audit   'xdg-basedir': [ '4.0.0' ],
+82 silly audit   y18n: [ '4.0.1' ],
+82 silly audit   yargs: [ '13.3.2' ],
+82 silly audit   'yargs-parser': [ '13.1.2' ],
+82 silly audit   'web-push': [ '3.6.7' ],
+82 silly audit   http_ece: [ '1.2.0' ],
+82 silly audit   'https-proxy-agent': [ '7.0.5' ],
+82 silly audit   'agent-base': [ '7.1.1' ]
+82 silly audit }
+83 verbose reify failed optional dependency F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-5-PWA\node_modules\fsevents
+84 silly reify mark deleted [
+84 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-5-PWA\\node_modules\\fsevents'
+84 silly reify ]
+85 timing reifyNode:node_modules/fsevents Completed in 5ms
+86 silly tarball no local data for web-push@https://registry.npmmirror.com/web-push/-/web-push-3.6.7.tgz. Extracting by manifest.
+87 silly tarball no local data for https-proxy-agent@https://registry.npmmirror.com/https-proxy-agent/-/https-proxy-agent-7.0.5.tgz. Extracting by manifest.
+88 silly tarball no local data for http_ece@https://registry.npmmirror.com/http_ece/-/http_ece-1.2.0.tgz. Extracting by manifest.
+89 silly tarball no local data for ms@https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+90 silly tarball no local data for agent-base@https://registry.npmmirror.com/agent-base/-/agent-base-7.1.1.tgz. Extracting by manifest.
+91 silly tarball no local data for ms@https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+92 silly tarball no local data for debug@https://registry.npmmirror.com/debug/-/debug-4.3.5.tgz. Extracting by manifest.
+93 silly tarball no local data for debug@https://registry.npmmirror.com/debug/-/debug-4.3.5.tgz. Extracting by manifest.
+94 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 25ms
+95 silly audit bulk request failed [object Object]
+96 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 13ms
+97 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+97 verbose audit error     at F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+97 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+97 verbose audit error     at async [getReport] (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:335:21)
+97 verbose audit error     at async AuditReport.run (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+97 verbose audit error   headers: [Object: null prototype] {
+97 verbose audit error     server: [ 'Tengine' ],
+97 verbose audit error     date: [ 'Wed, 10 Jul 2024 10:23:07 GMT' ],
+97 verbose audit error     'content-type': [ 'application/json' ],
+97 verbose audit error     'transfer-encoding': [ 'chunked' ],
+97 verbose audit error     connection: [ 'keep-alive' ],
+97 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+97 verbose audit error     via: [ 'kunlun7.cn1596[,404666]' ],
+97 verbose audit error     'timing-allow-origin': [ '*' ],
+97 verbose audit error     eagleid: [ '8cf93d9b17206069879997269e' ],
+97 verbose audit error     'x-fetch-attempts': [ '1' ]
+97 verbose audit error   },
+97 verbose audit error   statusCode: 404,
+97 verbose audit error   code: 'E404',
+97 verbose audit error   method: 'POST',
+97 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+97 verbose audit error   body: {
+97 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+97 verbose audit error   },
+97 verbose audit error   pkgid: undefined
+97 verbose audit error }
+98 silly audit error [object Object]
+99 timing auditReport:getReport Completed in 108ms
+100 silly audit report null
+101 timing reify:audit Completed in 108ms
+102 http fetch GET 200 https://cdn.npmmirror.com/packages/web-push/3.6.7/web-push-3.6.7.tgz 203ms (cache miss)
+103 timing reifyNode:node_modules/web-push Completed in 237ms
+104 http fetch GET 200 https://cdn.npmmirror.com/packages/https-proxy-agent/7.0.5/https-proxy-agent-7.0.5.tgz 247ms (cache miss)
+105 http fetch GET 200 https://cdn.npmmirror.com/packages/ms/2.1.2/ms-2.1.2.tgz 275ms (cache miss)
+106 timing reifyNode:node_modules/https-proxy-agent/node_modules/ms Completed in 287ms
+107 timing reifyNode:node_modules/https-proxy-agent Completed in 288ms
+108 http fetch GET 200 https://cdn.npmmirror.com/packages/ms/2.1.2/ms-2.1.2.tgz 277ms (cache miss)
+109 timing reifyNode:node_modules/agent-base/node_modules/ms Completed in 291ms
+110 http fetch GET 200 https://cdn.npmmirror.com/packages/http_ece/1.2.0/http_ece-1.2.0.tgz 301ms (cache miss)
+111 timing reifyNode:node_modules/http_ece Completed in 311ms
+112 http fetch GET 200 https://cdn.npmmirror.com/packages/debug/4.3.5/debug-4.3.5.tgz 307ms (cache miss)
+113 timing reifyNode:node_modules/agent-base/node_modules/debug Completed in 325ms
+114 http fetch GET 200 https://cdn.npmmirror.com/packages/debug/4.3.5/debug-4.3.5.tgz 362ms (cache miss)
+115 timing reifyNode:node_modules/https-proxy-agent/node_modules/debug Completed in 384ms
+116 http fetch GET 200 https://cdn.npmmirror.com/packages/agent-base/7.1.1/agent-base-7.1.1.tgz 557ms (cache miss)
+117 timing reifyNode:node_modules/agent-base Completed in 592ms
+118 timing reify:unpack Completed in 593ms
+119 timing reify:unretire Completed in 0ms
+120 timing build:queue Completed in 1ms
+121 timing build:link:node_modules/web-push Completed in 9ms
+122 timing build:link Completed in 9ms
+123 timing build:deps Completed in 12ms
+124 timing build Completed in 12ms
+125 timing reify:build Completed in 12ms
+126 timing reify:trash Completed in 11ms
+127 timing reify:save Completed in 92ms
+128 timing reify Completed in 1254ms
+129 silly ADD
+130 silly CHANGE node_modules/web-push
+131 silly REMOVE node_modules/urlsafe-base64
+132 silly CHANGE node_modules/https-proxy-agent
+133 silly CHANGE node_modules/https-proxy-agent/node_modules/ms
+134 silly CHANGE node_modules/https-proxy-agent/node_modules/debug
+135 silly CHANGE node_modules/http_ece
+136 silly CHANGE node_modules/agent-base
+137 silly CHANGE node_modules/agent-base/node_modules/ms
+138 silly CHANGE node_modules/agent-base/node_modules/debug
+139 timing command:i Completed in 1265ms
+140 verbose exit 0
+141 timing npm Completed in 1568ms
+142 info ok

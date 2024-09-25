@@ -1,0 +1,875 @@
+0 verbose cli F:\nvm\node\node.exe F:\nvm\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:F:\nvm\nvm\v20.11.1\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-8-diff\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\zgy\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-8-diff\nvm\node_globel\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 9ms
+17 timing npm:load:configload Completed in 9ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i
+22 verbose argv "i"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-8-diff\nvm\node_globel\_logs\2024-07-18T10_44_56_736Z-
+26 verbose logfile F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-8-diff\nvm\node_globel\_logs\2024-07-18T10_44_56_736Z-debug-0.log
+27 timing npm:load:logFile Completed in 9ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 43ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 80ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 1ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 83ms
+40 timing reify:loadTrees Completed in 87ms
+41 timing reify:diffTrees Completed in 2ms
+42 silly reify moves {}
+43 timing reify:retireShallow Completed in 1ms
+44 timing reify:createSparse Completed in 77ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit bulk request {
+46 silly audit   '@babel/code-frame': [ '7.12.11' ],
+46 silly audit   '@babel/compat-data': [ '7.12.7' ],
+46 silly audit   '@babel/core': [ '7.12.10' ],
+46 silly audit   '@babel/generator': [ '7.12.11' ],
+46 silly audit   '@babel/helper-annotate-as-pure': [ '7.12.10' ],
+46 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.10.4' ],
+46 silly audit   '@babel/helper-compilation-targets': [ '7.12.5' ],
+46 silly audit   '@babel/helper-create-class-features-plugin': [ '7.12.1' ],
+46 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.12.7' ],
+46 silly audit   '@babel/helper-define-map': [ '7.10.5' ],
+46 silly audit   '@babel/helper-explode-assignable-expression': [ '7.12.1' ],
+46 silly audit   '@babel/helper-function-name': [ '7.12.11' ],
+46 silly audit   '@babel/helper-get-function-arity': [ '7.12.10' ],
+46 silly audit   '@babel/helper-hoist-variables': [ '7.10.4' ],
+46 silly audit   '@babel/helper-member-expression-to-functions': [ '7.12.7' ],
+46 silly audit   '@babel/helper-module-imports': [ '7.12.5' ],
+46 silly audit   '@babel/helper-module-transforms': [ '7.12.1' ],
+46 silly audit   '@babel/helper-optimise-call-expression': [ '7.12.10' ],
+46 silly audit   '@babel/helper-plugin-utils': [ '7.10.4' ],
+46 silly audit   '@babel/helper-remap-async-to-generator': [ '7.12.1' ],
+46 silly audit   '@babel/helper-replace-supers': [ '7.12.11' ],
+46 silly audit   '@babel/helper-simple-access': [ '7.12.1' ],
+46 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.12.1' ],
+46 silly audit   '@babel/helper-split-export-declaration': [ '7.12.11' ],
+46 silly audit   '@babel/helper-validator-identifier': [ '7.12.11' ],
+46 silly audit   '@babel/helper-validator-option': [ '7.12.11' ],
+46 silly audit   '@babel/helper-wrap-function': [ '7.12.3' ],
+46 silly audit   '@babel/helpers': [ '7.12.5' ],
+46 silly audit   '@babel/highlight': [ '7.10.4' ],
+46 silly audit   '@babel/parser': [ '7.12.11' ],
+46 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.12.12' ],
+46 silly audit   '@babel/plugin-proposal-class-properties': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-json-strings': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.12.7' ],
+46 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.12.7' ],
+46 silly audit   '@babel/plugin-proposal-private-methods': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+46 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+46 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+46 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+46 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-block-scoping': [ '7.12.12' ],
+46 silly audit   '@babel/plugin-transform-classes': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-computed-properties': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-destructuring': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-for-of': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-function-name': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-literals': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-modules-amd': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-modules-umd': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-new-target': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-object-super': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-parameters': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-property-literals': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-regenerator': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-reserved-words': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-spread': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.12.7' ],
+46 silly audit   '@babel/plugin-transform-template-literals': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.12.10' ],
+46 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.12.1' ],
+46 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.12.1' ],
+46 silly audit   '@babel/preset-env': [ '7.12.11' ],
+46 silly audit   '@babel/preset-modules': [ '0.1.4' ],
+46 silly audit   '@babel/runtime': [ '7.12.5' ],
+46 silly audit   '@babel/template': [ '7.12.7' ],
+46 silly audit   '@babel/traverse': [ '7.12.12' ],
+46 silly audit   '@babel/types': [ '7.12.12' ],
+46 silly audit   'ansi-styles': [ '3.2.1' ],
+46 silly audit   'babel-plugin-dynamic-import-node': [ '2.3.3' ],
+46 silly audit   browserslist: [ '4.16.0' ],
+46 silly audit   'call-bind': [ '1.0.0' ],
+46 silly audit   'caniuse-lite': [ '1.0.30001170' ],
+46 silly audit   chalk: [ '2.4.2' ],
+46 silly audit   'color-convert': [ '1.9.3' ],
+46 silly audit   'color-name': [ '1.1.3' ],
+46 silly audit   colorette: [ '1.2.1' ],
+46 silly audit   'convert-source-map': [ '1.7.0' ],
+46 silly audit   'core-js-compat': [ '3.8.1' ],
+46 silly audit   semver: [ '7.0.0', '5.7.1' ],
+46 silly audit   debug: [ '4.3.1' ],
+46 silly audit   'define-properties': [ '1.1.3' ],
+46 silly audit   'electron-to-chromium': [ '1.3.633' ],
+46 silly audit   escalade: [ '3.1.1' ],
+46 silly audit   'escape-string-regexp': [ '1.0.5' ],
+46 silly audit   'estree-walker': [ '0.6.1' ],
+46 silly audit   esutils: [ '2.0.3' ],
+46 silly audit   fsevents: [ '2.1.3' ],
+46 silly audit   'function-bind': [ '1.1.1' ],
+46 silly audit   gensync: [ '1.0.0-beta.2' ],
+46 silly audit   'get-intrinsic': [ '1.0.2' ],
+46 silly audit   globals: [ '11.12.0' ],
+46 silly audit   has: [ '1.0.3' ],
+46 silly audit   'has-flag': [ '3.0.0' ],
+46 silly audit   'has-symbols': [ '1.0.1' ],
+46 silly audit   'js-tokens': [ '4.0.0' ],
+46 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+46 silly audit   json5: [ '2.1.3' ],
+46 silly audit   lodash: [ '4.17.20' ],
+46 silly audit   minimist: [ '1.2.5' ],
+46 silly audit   ms: [ '2.1.2' ],
+46 silly audit   'node-releases': [ '1.1.67' ],
+46 silly audit   'object-keys': [ '1.1.1' ],
+46 silly audit   'object.assign': [ '4.1.2' ],
+46 silly audit   regenerate: [ '1.4.2' ],
+46 silly audit   'regenerate-unicode-properties': [ '8.2.0' ],
+46 silly audit   'regenerator-runtime': [ '0.13.7' ],
+46 silly audit   'regenerator-transform': [ '0.14.5' ],
+46 silly audit   'regexpu-core': [ '4.7.1' ],
+46 silly audit   regjsgen: [ '0.5.2' ],
+46 silly audit   regjsparser: [ '0.6.4' ],
+46 silly audit   rollup: [ '2.35.1' ],
+46 silly audit   'rollup-plugin-babel': [ '4.4.0' ],
+46 silly audit   'rollup-pluginutils': [ '2.8.2' ],
+46 silly audit   'safe-buffer': [ '5.1.2' ],
+46 silly audit   'source-map': [ '0.5.7' ],
+46 silly audit   'supports-color': [ '5.5.0' ],
+46 silly audit   'to-fast-properties': [ '2.0.0' ],
+46 silly audit   'unicode-canonical-property-names-ecmascript': [ '1.0.4' ],
+46 silly audit   'unicode-match-property-ecmascript': [ '1.0.4' ],
+46 silly audit   'unicode-match-property-value-ecmascript': [ '1.2.0' ],
+46 silly audit   'unicode-property-aliases-ecmascript': [ '1.1.0' ],
+46 silly audit   vue: [ '2.6.12' ]
+46 silly audit }
+47 verbose reify failed optional dependency F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-8-diff\node_modules\fsevents
+48 silly reify mark deleted [
+48 silly reify   'F:\\learn\\vue\\珠峰\\01-vue\\vue2\\vue2源码系列\\VUE2-8-diff\\node_modules\\fsevents'
+48 silly reify ]
+49 timing reifyNode:node_modules/fsevents Completed in 27ms
+50 silly tarball no local data for vue@https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz?cache=0&sync_timestamp=1609359858533&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue%2Fdownload%2Fvue-2.6.12.tgz. Extracting by manifest.
+51 silly tarball no local data for unicode-property-aliases-ecmascript@https://registry.npm.taobao.org/unicode-property-aliases-ecmascript/download/unicode-property-aliases-ecmascript-1.1.0.tgz. Extracting by manifest.
+52 silly tarball no local data for unicode-match-property-value-ecmascript@https://registry.npm.taobao.org/unicode-match-property-value-ecmascript/download/unicode-match-property-value-ecmascript-1.2.0.tgz. Extracting by manifest.
+53 silly tarball no local data for unicode-match-property-ecmascript@https://registry.npm.taobao.org/unicode-match-property-ecmascript/download/unicode-match-property-ecmascript-1.0.4.tgz. Extracting by manifest.
+54 silly tarball no local data for unicode-canonical-property-names-ecmascript@https://registry.npm.taobao.org/unicode-canonical-property-names-ecmascript/download/unicode-canonical-property-names-ecmascript-1.0.4.tgz. Extracting by manifest.
+55 silly tarball no local data for to-fast-properties@https://registry.npm.taobao.org/to-fast-properties/download/to-fast-properties-2.0.0.tgz. Extracting by manifest.
+56 silly tarball no local data for supports-color@https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz. Extracting by manifest.
+57 silly tarball no local data for source-map@https://registry.npm.taobao.org/source-map/download/source-map-0.5.7.tgz. Extracting by manifest.
+58 silly tarball no local data for semver@https://registry.npm.taobao.org/semver/download/semver-5.7.1.tgz?cache=0&sync_timestamp=1606851962993&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-5.7.1.tgz. Extracting by manifest.
+59 silly tarball no local data for safe-buffer@https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.2.tgz. Extracting by manifest.
+60 silly tarball no local data for rollup-pluginutils@https://registry.npm.taobao.org/rollup-pluginutils/download/rollup-pluginutils-2.8.2.tgz. Extracting by manifest.
+61 silly tarball no local data for rollup@https://registry.npm.taobao.org/rollup/download/rollup-2.35.1.tgz?cache=0&sync_timestamp=1607955456160&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frollup%2Fdownload%2Frollup-2.35.1.tgz. Extracting by manifest.
+62 silly tarball no local data for regexpu-core@https://registry.npm.taobao.org/regexpu-core/download/regexpu-core-4.7.1.tgz?cache=0&sync_timestamp=1600413484129&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregexpu-core%2Fdownload%2Fregexpu-core-4.7.1.tgz. Extracting by manifest.
+63 silly tarball no local data for regjsgen@https://registry.npm.taobao.org/regjsgen/download/regjsgen-0.5.2.tgz?cache=0&sync_timestamp=1590335923060&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregjsgen%2Fdownload%2Fregjsgen-0.5.2.tgz. Extracting by manifest.
+64 silly tarball no local data for regenerator-transform@https://registry.npm.taobao.org/regenerator-transform/download/regenerator-transform-0.14.5.tgz. Extracting by manifest.
+65 silly tarball no local data for regjsparser@https://registry.npm.taobao.org/regjsparser/download/regjsparser-0.6.4.tgz. Extracting by manifest.
+66 silly tarball no local data for regenerator-runtime@https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz. Extracting by manifest.
+67 silly tarball no local data for regenerate-unicode-properties@https://registry.npm.taobao.org/regenerate-unicode-properties/download/regenerate-unicode-properties-8.2.0.tgz. Extracting by manifest.
+68 silly tarball no local data for rollup-plugin-babel@https://registry.npm.taobao.org/rollup-plugin-babel/download/rollup-plugin-babel-4.4.0.tgz. Extracting by manifest.
+69 silly tarball no local data for regenerate@https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.2.tgz?cache=0&sync_timestamp=1604218717329&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerate%2Fdownload%2Fregenerate-1.4.2.tgz. Extracting by manifest.
+70 silly tarball no local data for object.assign@https://registry.npm.taobao.org/object.assign/download/object.assign-4.1.2.tgz?cache=0&sync_timestamp=1604115085770&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject.assign%2Fdownload%2Fobject.assign-4.1.2.tgz. Extracting by manifest.
+71 silly tarball no local data for node-releases@https://registry.npm.taobao.org/node-releases/download/node-releases-1.1.67.tgz?cache=0&sync_timestamp=1605581335798&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-releases%2Fdownload%2Fnode-releases-1.1.67.tgz. Extracting by manifest.
+72 silly tarball no local data for object-keys@https://registry.npm.taobao.org/object-keys/download/object-keys-1.1.1.tgz. Extracting by manifest.
+73 silly tarball no local data for ms@https://registry.npm.taobao.org/ms/download/ms-2.1.2.tgz?cache=0&sync_timestamp=1607433856030&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.1.2.tgz. Extracting by manifest.
+74 silly tarball no local data for minimist@https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz. Extracting by manifest.
+75 silly tarball no local data for json5@https://registry.npm.taobao.org/json5/download/json5-2.1.3.tgz. Extracting by manifest.
+76 silly tarball no local data for jsesc@https://registry.npm.taobao.org/jsesc/download/jsesc-2.5.2.tgz?cache=0&sync_timestamp=1603892968504&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjsesc%2Fdownload%2Fjsesc-2.5.2.tgz. Extracting by manifest.
+77 silly tarball no local data for js-tokens@https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz. Extracting by manifest.
+78 silly tarball no local data for lodash@https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336147792&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz. Extracting by manifest.
+79 silly tarball no local data for has-symbols@https://registry.npm.taobao.org/has-symbols/download/has-symbols-1.0.1.tgz. Extracting by manifest.
+80 silly tarball no local data for has@https://registry.npm.taobao.org/has/download/has-1.0.3.tgz. Extracting by manifest.
+81 silly tarball no local data for has-flag@https://registry.npm.taobao.org/has-flag/download/has-flag-3.0.0.tgz. Extracting by manifest.
+82 silly tarball no local data for globals@https://registry.npm.taobao.org/globals/download/globals-11.12.0.tgz?cache=0&sync_timestamp=1608438470894&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fglobals%2Fdownload%2Fglobals-11.12.0.tgz. Extracting by manifest.
+83 silly tarball no local data for gensync@https://registry.npm.taobao.org/gensync/download/gensync-1.0.0-beta.2.tgz. Extracting by manifest.
+84 silly tarball no local data for get-intrinsic@https://registry.npm.taobao.org/get-intrinsic/download/get-intrinsic-1.0.2.tgz?cache=0&sync_timestamp=1608274341800&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fget-intrinsic%2Fdownload%2Fget-intrinsic-1.0.2.tgz. Extracting by manifest.
+85 silly tarball no local data for esutils@https://registry.npm.taobao.org/esutils/download/esutils-2.0.3.tgz. Extracting by manifest.
+86 silly tarball no local data for function-bind@https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz. Extracting by manifest.
+87 silly tarball no local data for estree-walker@https://registry.npm.taobao.org/estree-walker/download/estree-walker-0.6.1.tgz?cache=0&sync_timestamp=1607445592953&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Festree-walker%2Fdownload%2Festree-walker-0.6.1.tgz. Extracting by manifest.
+88 silly tarball no local data for escape-string-regexp@https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+89 silly tarball no local data for escalade@https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz?cache=0&sync_timestamp=1602567261690&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescalade%2Fdownload%2Fescalade-3.1.1.tgz. Extracting by manifest.
+90 silly tarball no local data for electron-to-chromium@https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.633.tgz?cache=0&sync_timestamp=1608748275325&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.633.tgz. Extracting by manifest.
+91 silly tarball no local data for define-properties@https://registry.npm.taobao.org/define-properties/download/define-properties-1.1.3.tgz. Extracting by manifest.
+92 silly tarball no local data for debug@https://registry.npm.taobao.org/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1607566551397&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz. Extracting by manifest.
+93 silly tarball no local data for core-js-compat@https://registry.npm.taobao.org/core-js-compat/download/core-js-compat-3.8.1.tgz?cache=0&sync_timestamp=1607219186981&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js-compat%2Fdownload%2Fcore-js-compat-3.8.1.tgz. Extracting by manifest.
+94 silly tarball no local data for convert-source-map@https://registry.npm.taobao.org/convert-source-map/download/convert-source-map-1.7.0.tgz. Extracting by manifest.
+95 silly tarball no local data for colorette@https://registry.npm.taobao.org/colorette/download/colorette-1.2.1.tgz. Extracting by manifest.
+96 silly tarball no local data for color-name@https://registry.npm.taobao.org/color-name/download/color-name-1.1.3.tgz. Extracting by manifest.
+97 silly tarball no local data for color-convert@https://registry.npm.taobao.org/color-convert/download/color-convert-1.9.3.tgz. Extracting by manifest.
+98 silly tarball no local data for chalk@https://registry.npm.taobao.org/chalk/download/chalk-2.4.2.tgz?cache=0&sync_timestamp=1591687042638&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchalk%2Fdownload%2Fchalk-2.4.2.tgz. Extracting by manifest.
+99 silly tarball no local data for caniuse-lite@https://registry.npm.taobao.org/caniuse-lite/download/caniuse-lite-1.0.30001170.tgz?cache=0&sync_timestamp=1608444145107&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcaniuse-lite%2Fdownload%2Fcaniuse-lite-1.0.30001170.tgz. Extracting by manifest.
+100 silly tarball no local data for call-bind@https://registry.npm.taobao.org/call-bind/download/call-bind-1.0.0.tgz?cache=0&sync_timestamp=1604117008862&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcall-bind%2Fdownload%2Fcall-bind-1.0.0.tgz. Extracting by manifest.
+101 silly tarball no local data for browserslist@https://registry.npm.taobao.org/browserslist/download/browserslist-4.16.0.tgz?cache=0&sync_timestamp=1607663784354&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbrowserslist%2Fdownload%2Fbrowserslist-4.16.0.tgz. Extracting by manifest.
+102 silly tarball no local data for ansi-styles@https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz?cache=0&sync_timestamp=1606792322351&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-styles%2Fdownload%2Fansi-styles-3.2.1.tgz. Extracting by manifest.
+103 silly tarball no local data for babel-plugin-dynamic-import-node@https://registry.npm.taobao.org/babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz?cache=0&sync_timestamp=1589682128702&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-plugin-dynamic-import-node%2Fdownload%2Fbabel-plugin-dynamic-import-node-2.3.3.tgz. Extracting by manifest.
+104 silly tarball no local data for @babel/types@https://registry.npm.taobao.org/@babel/types/download/@babel/types-7.12.12.tgz?cache=0&sync_timestamp=1608730513422&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.12.12.tgz. Extracting by manifest.
+105 silly tarball no local data for @babel/traverse@https://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.12.12.tgz?cache=0&sync_timestamp=1608730458225&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Ftraverse%2Fdownload%2F%40babel%2Ftraverse-7.12.12.tgz. Extracting by manifest.
+106 silly tarball no local data for @babel/template@https://registry.npm.taobao.org/@babel/template/download/@babel/template-7.12.7.tgz. Extracting by manifest.
+107 silly tarball no local data for @babel/runtime@https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.12.5.tgz?cache=0&sync_timestamp=1604441085826&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.5.tgz. Extracting by manifest.
+108 silly tarball no local data for @babel/preset-modules@https://registry.npm.taobao.org/@babel/preset-modules/download/@babel/preset-modules-0.1.4.tgz?cache=0&sync_timestamp=1598549824644&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fpreset-modules%2Fdownload%2F%40babel%2Fpreset-modules-0.1.4.tgz. Extracting by manifest.
+109 silly tarball no local data for @babel/preset-env@https://registry.npm.taobao.org/@babel/preset-env/download/@babel/preset-env-7.12.11.tgz?cache=0&sync_timestamp=1608076805354&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fpreset-env%2Fdownload%2F%40babel%2Fpreset-env-7.12.11.tgz. Extracting by manifest.
+110 silly tarball no local data for @babel/plugin-transform-unicode-regex@https://registry.npm.taobao.org/@babel/plugin-transform-unicode-regex/download/@babel/plugin-transform-unicode-regex-7.12.1.tgz?cache=0&sync_timestamp=1602801938686&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-unicode-regex%2Fdownload%2F%40babel%2Fplugin-transform-unicode-regex-7.12.1.tgz. Extracting by manifest.
+111 silly tarball no local data for @babel/plugin-transform-unicode-escapes@https://registry.npm.taobao.org/@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.12.1.tgz. Extracting by manifest.
+112 silly tarball no local data for @babel/plugin-transform-template-literals@https://registry.npm.taobao.org/@babel/plugin-transform-template-literals/download/@babel/plugin-transform-template-literals-7.12.1.tgz. Extracting by manifest.
+113 silly tarball no local data for @babel/plugin-transform-typeof-symbol@https://registry.npm.taobao.org/@babel/plugin-transform-typeof-symbol/download/@babel/plugin-transform-typeof-symbol-7.12.10.tgz?cache=0&sync_timestamp=1607569554208&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-typeof-symbol%2Fdownload%2F%40babel%2Fplugin-transform-typeof-symbol-7.12.10.tgz. Extracting by manifest.
+114 silly tarball no local data for @babel/plugin-transform-sticky-regex@https://registry.npm.taobao.org/@babel/plugin-transform-sticky-regex/download/@babel/plugin-transform-sticky-regex-7.12.7.tgz. Extracting by manifest.
+115 silly tarball no local data for @babel/plugin-transform-shorthand-properties@https://registry.npm.taobao.org/@babel/plugin-transform-shorthand-properties/download/@babel/plugin-transform-shorthand-properties-7.12.1.tgz. Extracting by manifest.
+116 silly tarball no local data for @babel/plugin-transform-spread@https://registry.npm.taobao.org/@babel/plugin-transform-spread/download/@babel/plugin-transform-spread-7.12.1.tgz. Extracting by manifest.
+117 silly tarball no local data for @babel/plugin-transform-reserved-words@https://registry.npm.taobao.org/@babel/plugin-transform-reserved-words/download/@babel/plugin-transform-reserved-words-7.12.1.tgz?cache=0&sync_timestamp=1602801643725&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-reserved-words%2Fdownload%2F%40babel%2Fplugin-transform-reserved-words-7.12.1.tgz. Extracting by manifest.
+118 silly tarball no local data for @babel/plugin-transform-regenerator@https://registry.npm.taobao.org/@babel/plugin-transform-regenerator/download/@babel/plugin-transform-regenerator-7.12.1.tgz?cache=0&sync_timestamp=1602799821599&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-regenerator%2Fdownload%2F%40babel%2Fplugin-transform-regenerator-7.12.1.tgz. Extracting by manifest.
+119 silly tarball no local data for @babel/plugin-transform-property-literals@https://registry.npm.taobao.org/@babel/plugin-transform-property-literals/download/@babel/plugin-transform-property-literals-7.12.1.tgz?cache=0&sync_timestamp=1602799819743&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-property-literals%2Fdownload%2F%40babel%2Fplugin-transform-property-literals-7.12.1.tgz. Extracting by manifest.
+120 silly tarball no local data for @babel/plugin-transform-parameters@https://registry.npm.taobao.org/@babel/plugin-transform-parameters/download/@babel/plugin-transform-parameters-7.12.1.tgz?cache=0&sync_timestamp=1602799819857&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-parameters%2Fdownload%2F%40babel%2Fplugin-transform-parameters-7.12.1.tgz. Extracting by manifest.
+121 silly tarball no local data for @babel/plugin-transform-object-super@https://registry.npm.taobao.org/@babel/plugin-transform-object-super/download/@babel/plugin-transform-object-super-7.12.1.tgz. Extracting by manifest.
+122 silly tarball no local data for @babel/plugin-transform-new-target@https://registry.npm.taobao.org/@babel/plugin-transform-new-target/download/@babel/plugin-transform-new-target-7.12.1.tgz?cache=0&sync_timestamp=1602799819377&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-new-target%2Fdownload%2F%40babel%2Fplugin-transform-new-target-7.12.1.tgz. Extracting by manifest.
+123 silly tarball no local data for @babel/plugin-transform-modules-umd@https://registry.npm.taobao.org/@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.12.1.tgz. Extracting by manifest.
+124 silly tarball no local data for @babel/plugin-transform-modules-systemjs@https://registry.npm.taobao.org/@babel/plugin-transform-modules-systemjs/download/@babel/plugin-transform-modules-systemjs-7.12.1.tgz. Extracting by manifest.
+125 silly tarball no local data for @babel/plugin-transform-modules-commonjs@https://registry.npm.taobao.org/@babel/plugin-transform-modules-commonjs/download/@babel/plugin-transform-modules-commonjs-7.12.1.tgz. Extracting by manifest.
+126 silly tarball no local data for @babel/plugin-transform-modules-amd@https://registry.npm.taobao.org/@babel/plugin-transform-modules-amd/download/@babel/plugin-transform-modules-amd-7.12.1.tgz. Extracting by manifest.
+127 silly tarball no local data for @babel/plugin-transform-named-capturing-groups-regex@https://registry.npm.taobao.org/@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.12.1.tgz?cache=0&sync_timestamp=1602801937845&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-named-capturing-groups-regex%2Fdownload%2F%40babel%2Fplugin-transform-named-capturing-groups-regex-7.12.1.tgz. Extracting by manifest.
+128 silly tarball no local data for @babel/plugin-transform-member-expression-literals@https://registry.npm.taobao.org/@babel/plugin-transform-member-expression-literals/download/@babel/plugin-transform-member-expression-literals-7.12.1.tgz?cache=0&sync_timestamp=1602799819477&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-member-expression-literals%2Fdownload%2F%40babel%2Fplugin-transform-member-expression-literals-7.12.1.tgz. Extracting by manifest.
+129 silly tarball no local data for @babel/plugin-transform-literals@https://registry.npm.taobao.org/@babel/plugin-transform-literals/download/@babel/plugin-transform-literals-7.12.1.tgz?cache=0&sync_timestamp=1602799819255&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-literals%2Fdownload%2F%40babel%2Fplugin-transform-literals-7.12.1.tgz. Extracting by manifest.
+130 silly tarball no local data for @babel/plugin-transform-function-name@https://registry.npm.taobao.org/@babel/plugin-transform-function-name/download/@babel/plugin-transform-function-name-7.12.1.tgz?cache=0&sync_timestamp=1602799817699&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-function-name%2Fdownload%2F%40babel%2Fplugin-transform-function-name-7.12.1.tgz. Extracting by manifest.
+131 silly tarball no local data for @babel/plugin-transform-for-of@https://registry.npm.taobao.org/@babel/plugin-transform-for-of/download/@babel/plugin-transform-for-of-7.12.1.tgz?cache=0&sync_timestamp=1602799817589&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-for-of%2Fdownload%2F%40babel%2Fplugin-transform-for-of-7.12.1.tgz. Extracting by manifest.
+132 silly tarball no local data for @babel/plugin-transform-exponentiation-operator@https://registry.npm.taobao.org/@babel/plugin-transform-exponentiation-operator/download/@babel/plugin-transform-exponentiation-operator-7.12.1.tgz?cache=0&sync_timestamp=1602799819083&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-exponentiation-operator%2Fdownload%2F%40babel%2Fplugin-transform-exponentiation-operator-7.12.1.tgz. Extracting by manifest.
+133 silly tarball no local data for @babel/plugin-transform-duplicate-keys@https://registry.npm.taobao.org/@babel/plugin-transform-duplicate-keys/download/@babel/plugin-transform-duplicate-keys-7.12.1.tgz?cache=0&sync_timestamp=1602799818983&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-duplicate-keys%2Fdownload%2F%40babel%2Fplugin-transform-duplicate-keys-7.12.1.tgz. Extracting by manifest.
+134 silly tarball no local data for @babel/plugin-transform-dotall-regex@https://registry.npm.taobao.org/@babel/plugin-transform-dotall-regex/download/@babel/plugin-transform-dotall-regex-7.12.1.tgz?cache=0&sync_timestamp=1602801937541&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-dotall-regex%2Fdownload%2F%40babel%2Fplugin-transform-dotall-regex-7.12.1.tgz. Extracting by manifest.
+135 silly tarball no local data for @babel/plugin-transform-destructuring@https://registry.npm.taobao.org/@babel/plugin-transform-destructuring/download/@babel/plugin-transform-destructuring-7.12.1.tgz?cache=0&sync_timestamp=1602799817283&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-destructuring%2Fdownload%2F%40babel%2Fplugin-transform-destructuring-7.12.1.tgz. Extracting by manifest.
+136 silly tarball no local data for @babel/plugin-transform-computed-properties@https://registry.npm.taobao.org/@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.12.1.tgz?cache=0&sync_timestamp=1602799817477&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-computed-properties%2Fdownload%2F%40babel%2Fplugin-transform-computed-properties-7.12.1.tgz. Extracting by manifest.
+137 silly tarball no local data for @babel/plugin-transform-classes@https://registry.npm.taobao.org/@babel/plugin-transform-classes/download/@babel/plugin-transform-classes-7.12.1.tgz. Extracting by manifest.
+138 silly tarball no local data for @babel/plugin-transform-block-scoping@https://registry.npm.taobao.org/@babel/plugin-transform-block-scoping/download/@babel/plugin-transform-block-scoping-7.12.12.tgz?cache=0&sync_timestamp=1608730550190&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-block-scoping%2Fdownload%2F%40babel%2Fplugin-transform-block-scoping-7.12.12.tgz. Extracting by manifest.
+139 silly tarball no local data for @babel/plugin-transform-block-scoped-functions@https://registry.npm.taobao.org/@babel/plugin-transform-block-scoped-functions/download/@babel/plugin-transform-block-scoped-functions-7.12.1.tgz?cache=0&sync_timestamp=1602799817382&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-block-scoped-functions%2Fdownload%2F%40babel%2Fplugin-transform-block-scoped-functions-7.12.1.tgz. Extracting by manifest.
+140 silly tarball no local data for @babel/plugin-transform-async-to-generator@https://registry.npm.taobao.org/@babel/plugin-transform-async-to-generator/download/@babel/plugin-transform-async-to-generator-7.12.1.tgz. Extracting by manifest.
+141 silly tarball no local data for @babel/plugin-transform-arrow-functions@https://registry.npm.taobao.org/@babel/plugin-transform-arrow-functions/download/@babel/plugin-transform-arrow-functions-7.12.1.tgz?cache=0&sync_timestamp=1602799817162&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-arrow-functions%2Fdownload%2F%40babel%2Fplugin-transform-arrow-functions-7.12.1.tgz. Extracting by manifest.
+142 silly tarball no local data for @babel/plugin-syntax-top-level-await@https://registry.npm.taobao.org/@babel/plugin-syntax-top-level-await/download/@babel/plugin-syntax-top-level-await-7.12.1.tgz?cache=0&sync_timestamp=1602799816748&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-syntax-top-level-await%2Fdownload%2F%40babel%2Fplugin-syntax-top-level-await-7.12.1.tgz. Extracting by manifest.
+143 silly tarball no local data for @babel/plugin-syntax-optional-chaining@https://registry.npm.taobao.org/@babel/plugin-syntax-optional-chaining/download/@babel/plugin-syntax-optional-chaining-7.8.3.tgz. Extracting by manifest.
+144 silly tarball no local data for @babel/plugin-syntax-optional-catch-binding@https://registry.npm.taobao.org/@babel/plugin-syntax-optional-catch-binding/download/@babel/plugin-syntax-optional-catch-binding-7.8.3.tgz. Extracting by manifest.
+145 silly tarball no local data for @babel/plugin-syntax-object-rest-spread@https://registry.npm.taobao.org/@babel/plugin-syntax-object-rest-spread/download/@babel/plugin-syntax-object-rest-spread-7.8.3.tgz. Extracting by manifest.
+146 silly tarball no local data for @babel/plugin-syntax-numeric-separator@https://registry.npm.taobao.org/@babel/plugin-syntax-numeric-separator/download/@babel/plugin-syntax-numeric-separator-7.10.4.tgz. Extracting by manifest.
+147 silly tarball no local data for @babel/plugin-syntax-nullish-coalescing-operator@https://registry.npm.taobao.org/@babel/plugin-syntax-nullish-coalescing-operator/download/@babel/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz. Extracting by manifest.
+148 silly tarball no local data for @babel/plugin-syntax-logical-assignment-operators@https://registry.npm.taobao.org/@babel/plugin-syntax-logical-assignment-operators/download/@babel/plugin-syntax-logical-assignment-operators-7.10.4.tgz?cache=0&sync_timestamp=1593522984333&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-syntax-logical-assignment-operators%2Fdownload%2F%40babel%2Fplugin-syntax-logical-assignment-operators-7.10.4.tgz. Extracting by manifest.
+149 silly tarball no local data for @babel/plugin-syntax-json-strings@https://registry.npm.taobao.org/@babel/plugin-syntax-json-strings/download/@babel/plugin-syntax-json-strings-7.8.3.tgz. Extracting by manifest.
+150 silly tarball no local data for @babel/plugin-syntax-export-namespace-from@https://registry.npm.taobao.org/@babel/plugin-syntax-export-namespace-from/download/@babel/plugin-syntax-export-namespace-from-7.8.3.tgz. Extracting by manifest.
+151 silly tarball no local data for @babel/plugin-syntax-async-generators@https://registry.npm.taobao.org/@babel/plugin-syntax-async-generators/download/@babel/plugin-syntax-async-generators-7.8.4.tgz. Extracting by manifest.
+152 silly tarball no local data for @babel/plugin-syntax-dynamic-import@https://registry.npm.taobao.org/@babel/plugin-syntax-dynamic-import/download/@babel/plugin-syntax-dynamic-import-7.8.3.tgz. Extracting by manifest.
+153 silly tarball no local data for @babel/plugin-syntax-class-properties@https://registry.npm.taobao.org/@babel/plugin-syntax-class-properties/download/@babel/plugin-syntax-class-properties-7.12.1.tgz. Extracting by manifest.
+154 silly tarball no local data for @babel/plugin-proposal-unicode-property-regex@https://registry.npm.taobao.org/@babel/plugin-proposal-unicode-property-regex/download/@babel/plugin-proposal-unicode-property-regex-7.12.1.tgz?cache=0&sync_timestamp=1602801937192&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-proposal-unicode-property-regex%2Fdownload%2F%40babel%2Fplugin-proposal-unicode-property-regex-7.12.1.tgz. Extracting by manifest.
+155 silly tarball no local data for @babel/plugin-proposal-private-methods@https://registry.npm.taobao.org/@babel/plugin-proposal-private-methods/download/@babel/plugin-proposal-private-methods-7.12.1.tgz. Extracting by manifest.
+156 silly tarball no local data for @babel/plugin-proposal-optional-chaining@https://registry.npm.taobao.org/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.12.7.tgz. Extracting by manifest.
+157 silly tarball no local data for @babel/plugin-proposal-optional-catch-binding@https://registry.npm.taobao.org/@babel/plugin-proposal-optional-catch-binding/download/@babel/plugin-proposal-optional-catch-binding-7.12.1.tgz?cache=0&sync_timestamp=1602799815786&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-proposal-optional-catch-binding%2Fdownload%2F%40babel%2Fplugin-proposal-optional-catch-binding-7.12.1.tgz. Extracting by manifest.
+158 silly tarball no local data for @babel/plugin-proposal-object-rest-spread@https://registry.npm.taobao.org/@babel/plugin-proposal-object-rest-spread/download/@babel/plugin-proposal-object-rest-spread-7.12.1.tgz?cache=0&sync_timestamp=1602801936891&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-proposal-object-rest-spread%2Fdownload%2F%40babel%2Fplugin-proposal-object-rest-spread-7.12.1.tgz. Extracting by manifest.
+159 silly tarball no local data for @babel/plugin-proposal-numeric-separator@https://registry.npm.taobao.org/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.12.7.tgz. Extracting by manifest.
+160 silly tarball no local data for @babel/plugin-proposal-nullish-coalescing-operator@https://registry.npm.taobao.org/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.12.1.tgz. Extracting by manifest.
+161 silly tarball no local data for @babel/plugin-proposal-logical-assignment-operators@https://registry.npm.taobao.org/@babel/plugin-proposal-logical-assignment-operators/download/@babel/plugin-proposal-logical-assignment-operators-7.12.1.tgz. Extracting by manifest.
+162 silly tarball no local data for @babel/plugin-proposal-json-strings@https://registry.npm.taobao.org/@babel/plugin-proposal-json-strings/download/@babel/plugin-proposal-json-strings-7.12.1.tgz. Extracting by manifest.
+163 silly tarball no local data for @babel/plugin-proposal-export-namespace-from@https://registry.npm.taobao.org/@babel/plugin-proposal-export-namespace-from/download/@babel/plugin-proposal-export-namespace-from-7.12.1.tgz. Extracting by manifest.
+164 silly tarball no local data for @babel/plugin-proposal-dynamic-import@https://registry.npm.taobao.org/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.12.1.tgz. Extracting by manifest.
+165 silly tarball no local data for @babel/plugin-proposal-class-properties@https://registry.npm.taobao.org/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.12.1.tgz. Extracting by manifest.
+166 silly tarball no local data for @babel/plugin-proposal-async-generator-functions@https://registry.npm.taobao.org/@babel/plugin-proposal-async-generator-functions/download/@babel/plugin-proposal-async-generator-functions-7.12.12.tgz?cache=0&sync_timestamp=1608730464501&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-proposal-async-generator-functions%2Fdownload%2F%40babel%2Fplugin-proposal-async-generator-functions-7.12.12.tgz. Extracting by manifest.
+167 silly tarball no local data for @babel/parser@https://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.12.11.tgz?cache=0&sync_timestamp=1608076801657&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.12.11.tgz. Extracting by manifest.
+168 silly tarball no local data for @babel/highlight@https://registry.npm.taobao.org/@babel/highlight/download/@babel/highlight-7.10.4.tgz. Extracting by manifest.
+169 silly tarball no local data for @babel/helpers@https://registry.npm.taobao.org/@babel/helpers/download/@babel/helpers-7.12.5.tgz?cache=0&sync_timestamp=1604441254673&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelpers%2Fdownload%2F%40babel%2Fhelpers-7.12.5.tgz. Extracting by manifest.
+170 silly tarball no local data for @babel/helper-validator-option@https://registry.npm.taobao.org/@babel/helper-validator-option/download/@babel/helper-validator-option-7.12.11.tgz?cache=0&sync_timestamp=1608076874660&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-validator-option%2Fdownload%2F%40babel%2Fhelper-validator-option-7.12.11.tgz. Extracting by manifest.
+171 silly tarball no local data for @babel/helper-wrap-function@https://registry.npm.taobao.org/@babel/helper-wrap-function/download/@babel/helper-wrap-function-7.12.3.tgz?cache=0&sync_timestamp=1602883724516&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-wrap-function%2Fdownload%2F%40babel%2Fhelper-wrap-function-7.12.3.tgz. Extracting by manifest.
+172 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npm.taobao.org/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.12.11.tgz. Extracting by manifest.
+173 silly tarball no local data for @babel/helper-split-export-declaration@https://registry.npm.taobao.org/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.12.11.tgz?cache=0&sync_timestamp=1608076804774&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-split-export-declaration%2Fdownload%2F%40babel%2Fhelper-split-export-declaration-7.12.11.tgz. Extracting by manifest.
+174 silly tarball no local data for @babel/helper-skip-transparent-expression-wrappers@https://registry.npm.taobao.org/@babel/helper-skip-transparent-expression-wrappers/download/@babel/helper-skip-transparent-expression-wrappers-7.12.1.tgz?cache=0&sync_timestamp=1602800117050&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-skip-transparent-expression-wrappers%2Fdownload%2F%40babel%2Fhelper-skip-transparent-expression-wrappers-7.12.1.tgz. Extracting by manifest.
+175 silly tarball no local data for @babel/helper-simple-access@https://registry.npm.taobao.org/@babel/helper-simple-access/download/@babel/helper-simple-access-7.12.1.tgz?cache=0&sync_timestamp=1602801934412&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-simple-access%2Fdownload%2F%40babel%2Fhelper-simple-access-7.12.1.tgz. Extracting by manifest.
+176 silly tarball no local data for @babel/helper-replace-supers@https://registry.npm.taobao.org/@babel/helper-replace-supers/download/@babel/helper-replace-supers-7.12.11.tgz. Extracting by manifest.
+177 silly tarball no local data for @babel/helper-remap-async-to-generator@https://registry.npm.taobao.org/@babel/helper-remap-async-to-generator/download/@babel/helper-remap-async-to-generator-7.12.1.tgz?cache=0&sync_timestamp=1602800116971&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-remap-async-to-generator%2Fdownload%2F%40babel%2Fhelper-remap-async-to-generator-7.12.1.tgz. Extracting by manifest.
+178 silly tarball no local data for @babel/helper-plugin-utils@https://registry.npm.taobao.org/@babel/helper-plugin-utils/download/@babel/helper-plugin-utils-7.10.4.tgz. Extracting by manifest.
+179 silly tarball no local data for @babel/helper-optimise-call-expression@https://registry.npm.taobao.org/@babel/helper-optimise-call-expression/download/@babel/helper-optimise-call-expression-7.12.10.tgz?cache=0&sync_timestamp=1607576902250&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-optimise-call-expression%2Fdownload%2F%40babel%2Fhelper-optimise-call-expression-7.12.10.tgz. Extracting by manifest.
+180 silly tarball no local data for @babel/helper-module-transforms@https://registry.npm.taobao.org/@babel/helper-module-transforms/download/@babel/helper-module-transforms-7.12.1.tgz. Extracting by manifest.
+181 silly tarball no local data for @babel/helper-member-expression-to-functions@https://registry.npm.taobao.org/@babel/helper-member-expression-to-functions/download/@babel/helper-member-expression-to-functions-7.12.7.tgz. Extracting by manifest.
+182 silly tarball no local data for @babel/helper-module-imports@https://registry.npm.taobao.org/@babel/helper-module-imports/download/@babel/helper-module-imports-7.12.5.tgz?cache=0&sync_timestamp=1604441049232&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-module-imports%2Fdownload%2F%40babel%2Fhelper-module-imports-7.12.5.tgz. Extracting by manifest.
+183 silly tarball no local data for @babel/helper-hoist-variables@https://registry.npm.taobao.org/@babel/helper-hoist-variables/download/@babel/helper-hoist-variables-7.10.4.tgz. Extracting by manifest.
+184 silly tarball no local data for @babel/helper-get-function-arity@https://registry.npm.taobao.org/@babel/helper-get-function-arity/download/@babel/helper-get-function-arity-7.12.10.tgz?cache=0&sync_timestamp=1607584550563&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-get-function-arity%2Fdownload%2F%40babel%2Fhelper-get-function-arity-7.12.10.tgz. Extracting by manifest.
+185 silly tarball no local data for @babel/helper-function-name@https://registry.npm.taobao.org/@babel/helper-function-name/download/@babel/helper-function-name-7.12.11.tgz?cache=0&sync_timestamp=1608076808489&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-function-name%2Fdownload%2F%40babel%2Fhelper-function-name-7.12.11.tgz. Extracting by manifest.
+186 silly tarball no local data for @babel/helper-explode-assignable-expression@https://registry.npm.taobao.org/@babel/helper-explode-assignable-expression/download/@babel/helper-explode-assignable-expression-7.12.1.tgz?cache=0&sync_timestamp=1602800116491&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-explode-assignable-expression%2Fdownload%2F%40babel%2Fhelper-explode-assignable-expression-7.12.1.tgz. Extracting by manifest.
+187 silly tarball no local data for @babel/helper-define-map@https://registry.npm.taobao.org/@babel/helper-define-map/download/@babel/helper-define-map-7.10.5.tgz. Extracting by manifest.
+188 silly tarball no local data for @babel/helper-create-regexp-features-plugin@https://registry.npm.taobao.org/@babel/helper-create-regexp-features-plugin/download/@babel/helper-create-regexp-features-plugin-7.12.7.tgz. Extracting by manifest.
+189 silly tarball no local data for @babel/helper-compilation-targets@https://registry.npm.taobao.org/@babel/helper-compilation-targets/download/@babel/helper-compilation-targets-7.12.5.tgz?cache=0&sync_timestamp=1604441313732&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-compilation-targets%2Fdownload%2F%40babel%2Fhelper-compilation-targets-7.12.5.tgz. Extracting by manifest.
+190 silly tarball no local data for @babel/helper-create-class-features-plugin@https://registry.npm.taobao.org/@babel/helper-create-class-features-plugin/download/@babel/helper-create-class-features-plugin-7.12.1.tgz. Extracting by manifest.
+191 silly tarball no local data for @babel/helper-builder-binary-assignment-operator-visitor@https://registry.npm.taobao.org/@babel/helper-builder-binary-assignment-operator-visitor/download/@babel/helper-builder-binary-assignment-operator-visitor-7.10.4.tgz. Extracting by manifest.
+192 silly tarball no local data for @babel/helper-annotate-as-pure@https://registry.npm.taobao.org/@babel/helper-annotate-as-pure/download/@babel/helper-annotate-as-pure-7.12.10.tgz?cache=0&sync_timestamp=1607583950931&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhelper-annotate-as-pure%2Fdownload%2F%40babel%2Fhelper-annotate-as-pure-7.12.10.tgz. Extracting by manifest.
+193 silly tarball no local data for @babel/generator@https://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.12.11.tgz?cache=0&sync_timestamp=1608076804367&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fgenerator%2Fdownload%2F%40babel%2Fgenerator-7.12.11.tgz. Extracting by manifest.
+194 silly tarball no local data for @babel/core@https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.12.10.tgz?cache=0&sync_timestamp=1607568965941&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.12.10.tgz. Extracting by manifest.
+195 silly tarball no local data for @babel/compat-data@https://registry.npm.taobao.org/@babel/compat-data/download/@babel/compat-data-7.12.7.tgz. Extracting by manifest.
+196 silly tarball no local data for @babel/code-frame@https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.12.11.tgz?cache=0&sync_timestamp=1608076799939&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.12.11.tgz. Extracting by manifest.
+197 silly tarball no local data for jsesc@https://registry.npm.taobao.org/jsesc/download/jsesc-0.5.0.tgz?cache=0&sync_timestamp=1603892968504&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjsesc%2Fdownload%2Fjsesc-0.5.0.tgz. Extracting by manifest.
+198 silly tarball no local data for semver@https://registry.npm.taobao.org/semver/download/semver-7.0.0.tgz?cache=0&sync_timestamp=1606851962993&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-7.0.0.tgz. Extracting by manifest.
+199 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 346ms
+200 silly audit bulk request failed [object Object]
+201 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 43ms
+202 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+202 verbose audit error     at F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+202 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+202 verbose audit error     at async [getReport] (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:335:21)
+202 verbose audit error     at async AuditReport.run (F:\nvm\nvm\v20.11.1\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+202 verbose audit error   headers: [Object: null prototype] {
+202 verbose audit error     server: [ 'Tengine' ],
+202 verbose audit error     date: [ 'Thu, 18 Jul 2024 10:44:57 GMT' ],
+202 verbose audit error     'content-type': [ 'application/json' ],
+202 verbose audit error     'transfer-encoding': [ 'chunked' ],
+202 verbose audit error     connection: [ 'keep-alive' ],
+202 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+202 verbose audit error     via: [ 'kunlun9.cn5864[,404666]' ],
+202 verbose audit error     'timing-allow-origin': [ '*' ],
+202 verbose audit error     eagleid: [ 'b6284e8b17212994976421034e' ],
+202 verbose audit error     'x-fetch-attempts': [ '1' ]
+202 verbose audit error   },
+202 verbose audit error   statusCode: 404,
+202 verbose audit error   code: 'E404',
+202 verbose audit error   method: 'POST',
+202 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+202 verbose audit error   body: {
+202 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+202 verbose audit error   },
+202 verbose audit error   pkgid: undefined
+202 verbose audit error }
+203 silly audit error [object Object]
+204 timing auditReport:getReport Completed in 448ms
+205 silly audit report null
+206 timing reify:audit Completed in 448ms
+207 http fetch GET 200 https://registry.npmmirror.com/npm 674ms (cache miss)
+208 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-block-scoping/7.12.12/plugin-transform-block-scoping-7.12.12.tgz 1399ms (cache miss)
+209 timing reifyNode:node_modules/@babel/plugin-transform-block-scoping Completed in 1507ms
+210 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-property-aliases-ecmascript/1.1.0/unicode-property-aliases-ecmascript-1.1.0.tgz 3185ms (cache miss)
+211 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-named-capturing-groups-regex/7.12.1/plugin-transform-named-capturing-groups-regex-7.12.1.tgz 3135ms (cache miss)
+212 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-logical-assignment-operators/7.12.1/plugin-proposal-logical-assignment-operators-7.12.1.tgz 3114ms (cache miss)
+213 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-numeric-separator/7.12.7/plugin-proposal-numeric-separator-7.12.7.tgz 3119ms (cache miss)
+214 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-explode-assignable-expression/7.12.1/helper-explode-assignable-expression-7.12.1.tgz 3098ms (cache miss)
+215 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-sticky-regex/7.12.7/plugin-transform-sticky-regex-7.12.7.tgz 3155ms (cache miss)
+216 http fetch GET 200 https://cdn.npmmirror.com/packages/esutils/2.0.3/esutils-2.0.3.tgz 3176ms (cache miss)
+217 http fetch GET 200 https://cdn.npmmirror.com/packages/babel-plugin-dynamic-import-node/2.3.3/babel-plugin-dynamic-import-node-2.3.3.tgz 3163ms (cache miss)
+218 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-canonical-property-names-ecmascript/1.0.4/unicode-canonical-property-names-ecmascript-1.0.4.tgz 3194ms (cache miss)
+219 http fetch GET 200 https://cdn.npmmirror.com/packages/object-keys/1.1.1/object-keys-1.1.1.tgz 3186ms (cache miss)
+220 http fetch GET 200 https://cdn.npmmirror.com/packages/escape-string-regexp/1.0.5/escape-string-regexp-1.0.5.tgz 3176ms (cache miss)
+221 timing reifyNode:node_modules/escape-string-regexp Completed in 3249ms
+222 timing reifyNode:node_modules/unicode-canonical-property-names-ecmascript Completed in 3252ms
+223 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-literals/7.12.1/plugin-transform-literals-7.12.1.tgz 3146ms (cache miss)
+224 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-export-namespace-from/7.12.1/plugin-proposal-export-namespace-from-7.12.1.tgz 3125ms (cache miss)
+225 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-async-to-generator/7.12.1/plugin-transform-async-to-generator-7.12.1.tgz 3142ms (cache miss)
+226 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-private-methods/7.12.1/plugin-proposal-private-methods-7.12.1.tgz 3130ms (cache miss)
+227 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-class-properties/7.12.1/plugin-proposal-class-properties-7.12.1.tgz 3126ms (cache miss)
+228 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-exponentiation-operator/7.12.1/plugin-transform-exponentiation-operator-7.12.1.tgz 3147ms (cache miss)
+229 http fetch GET 200 https://cdn.npmmirror.com/packages/to-fast-properties/2.0.0/to-fast-properties-2.0.0.tgz 3199ms (cache miss)
+230 http fetch GET 200 https://cdn.npmmirror.com/packages/has-flag/3.0.0/has-flag-3.0.0.tgz 3186ms (cache miss)
+231 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-export-namespace-from/7.8.3/plugin-syntax-export-namespace-from-7.8.3.tgz 3135ms (cache miss)
+232 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-umd/7.12.1/plugin-transform-modules-umd-7.12.1.tgz 3154ms (cache miss)
+233 http fetch GET 200 https://cdn.npmmirror.com/packages/debug/4.3.1/debug-4.3.1.tgz 3178ms (cache miss)
+234 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-module-transforms/7.12.1/helper-module-transforms-7.12.1.tgz 3114ms (cache miss)
+235 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-builder-binary-assignment-operator-visitor/7.10.4/helper-builder-binary-assignment-operator-visitor-7.10.4.tgz 3104ms (cache miss)
+236 timing reifyNode:node_modules/has-flag Completed in 3255ms
+237 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-computed-properties/7.12.1/plugin-transform-computed-properties-7.12.1.tgz 3148ms (cache miss)
+238 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-block-scoped-functions/7.12.1/plugin-transform-block-scoped-functions-7.12.1.tgz 3146ms (cache miss)
+239 timing reifyNode:node_modules/to-fast-properties Completed in 3258ms
+240 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-top-level-await/7.12.1/plugin-syntax-top-level-await-7.12.1.tgz 3146ms (cache miss)
+241 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-hoist-variables/7.10.4/helper-hoist-variables-7.10.4.tgz 3114ms (cache miss)
+242 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-create-class-features-plugin/7.12.1/helper-create-class-features-plugin-7.12.1.tgz 3108ms (cache miss)
+243 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-match-property-ecmascript/1.0.4/unicode-match-property-ecmascript-1.0.4.tgz 3206ms (cache miss)
+244 timing reifyNode:node_modules/unicode-match-property-ecmascript Completed in 3261ms
+245 timing reifyNode:node_modules/@babel/plugin-transform-sticky-regex Completed in 3270ms
+246 timing reifyNode:node_modules/@babel/plugin-transform-literals Completed in 3271ms
+247 warn deprecated @babel/plugin-proposal-private-methods@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+248 timing reifyNode:node_modules/@babel/plugin-proposal-private-methods Completed in 3272ms
+249 timing reifyNode:node_modules/@babel/plugin-transform-async-to-generator Completed in 3274ms
+250 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerate/1.4.2/regenerate-1.4.2.tgz 3217ms (cache miss)
+251 timing reifyNode:node_modules/@babel/plugin-syntax-export-namespace-from Completed in 3274ms
+252 warn deprecated @babel/plugin-proposal-export-namespace-from@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
+253 timing reifyNode:node_modules/@babel/plugin-proposal-export-namespace-from Completed in 3276ms
+254 warn deprecated @babel/plugin-proposal-class-properties@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+255 timing reifyNode:node_modules/@babel/plugin-proposal-class-properties Completed in 3277ms
+256 timing reifyNode:node_modules/@babel/helper-builder-binary-assignment-operator-visitor Completed in 3276ms
+257 timing reifyNode:node_modules/@babel/plugin-transform-exponentiation-operator Completed in 3279ms
+258 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-split-export-declaration/7.12.11/helper-split-export-declaration-7.12.11.tgz 3149ms (cache miss)
+259 timing reifyNode:node_modules/@babel/plugin-syntax-top-level-await Completed in 3279ms
+260 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-destructuring/7.12.1/plugin-transform-destructuring-7.12.1.tgz 3174ms (cache miss)
+261 timing reifyNode:node_modules/@babel/plugin-transform-computed-properties Completed in 3280ms
+262 timing reifyNode:node_modules/@babel/helper-split-export-declaration Completed in 3278ms
+263 timing reifyNode:node_modules/@babel/helper-hoist-variables Completed in 3279ms
+264 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-systemjs/7.12.1/plugin-transform-modules-systemjs-7.12.1.tgz 3182ms (cache miss)
+265 timing reifyNode:node_modules/@babel/plugin-transform-modules-umd Completed in 3282ms
+266 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-logical-assignment-operators/7.10.4/plugin-syntax-logical-assignment-operators-7.10.4.tgz 3169ms (cache miss)
+267 timing reifyNode:node_modules/@babel/plugin-transform-block-scoped-functions Completed in 3283ms
+268 http fetch GET 200 https://cdn.npmmirror.com/packages/convert-source-map/1.7.0/convert-source-map-1.7.0.tgz 3208ms (cache miss)
+269 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-class-properties/7.12.1/plugin-syntax-class-properties-7.12.1.tgz 3165ms (cache miss)
+270 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-json-strings/7.12.1/plugin-proposal-json-strings-7.12.1.tgz 3160ms (cache miss)
+271 timing reifyNode:node_modules/unicode-property-aliases-ecmascript Completed in 3289ms
+272 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-optimise-call-expression/7.12.10/helper-optimise-call-expression-7.12.10.tgz 3151ms (cache miss)
+273 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-regex/7.12.1/plugin-transform-unicode-regex-7.12.1.tgz 3198ms (cache miss)
+274 timing reifyNode:node_modules/convert-source-map Completed in 3288ms
+275 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-amd/7.12.1/plugin-transform-modules-amd-7.12.1.tgz 3186ms (cache miss)
+276 http fetch GET 200 https://cdn.npmmirror.com/packages/safe-buffer/5.1.2/safe-buffer-5.1.2.tgz 3232ms (cache miss)
+277 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/template/7.12.7/template-7.12.7.tgz 3203ms (cache miss)
+278 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-validator-identifier/7.12.11/helper-validator-identifier-7.12.11.tgz 3158ms (cache miss)
+279 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-duplicate-keys/7.12.1/plugin-transform-duplicate-keys-7.12.1.tgz 3184ms (cache miss)
+280 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-annotate-as-pure/7.12.10/helper-annotate-as-pure-7.12.10.tgz 3138ms (cache miss)
+281 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-optional-chaining/7.12.7/plugin-proposal-optional-chaining-7.12.7.tgz 3168ms (cache miss)
+282 http fetch GET 200 https://cdn.npmmirror.com/packages/color-name/1.1.3/color-name-1.1.3.tgz 3212ms (cache miss)
+283 http fetch GET 200 https://cdn.npmmirror.com/packages/define-properties/1.1.3/define-properties-1.1.3.tgz 3215ms (cache miss)
+284 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-validator-option/7.12.11/helper-validator-option-7.12.11.tgz 3161ms (cache miss)
+285 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-optional-chaining/7.8.3/plugin-syntax-optional-chaining-7.8.3.tgz 3180ms (cache miss)
+286 timing reifyNode:node_modules/@babel/plugin-syntax-optional-chaining Completed in 3291ms
+287 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-shorthand-properties/7.12.1/plugin-transform-shorthand-properties-7.12.1.tgz 3201ms (cache miss)
+288 timing reifyNode:node_modules/@babel/plugin-transform-shorthand-properties Completed in 3292ms
+289 http fetch GET 200 https://cdn.npmmirror.com/packages/ms/2.1.2/ms-2.1.2.tgz 3230ms (cache miss)
+290 timing reifyNode:node_modules/ms Completed in 3294ms
+291 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-nullish-coalescing-operator/7.8.3/plugin-syntax-nullish-coalescing-operator-7.8.3.tgz 3180ms (cache miss)
+292 timing reifyNode:node_modules/@babel/plugin-syntax-nullish-coalescing-operator Completed in 3292ms
+293 http fetch GET 200 https://cdn.npmmirror.com/packages/escalade/3.1.1/escalade-3.1.1.tgz 3221ms (cache miss)
+294 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-object-rest-spread/7.8.3/plugin-syntax-object-rest-spread-7.8.3.tgz 3182ms (cache miss)
+295 timing reifyNode:node_modules/@babel/plugin-syntax-object-rest-spread Completed in 3293ms
+296 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-function-name/7.12.1/plugin-transform-function-name-7.12.1.tgz 3191ms (cache miss)
+297 timing reifyNode:node_modules/@babel/plugin-transform-function-name Completed in 3294ms
+298 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-parameters/7.12.1/plugin-transform-parameters-7.12.1.tgz 3198ms (cache miss)
+299 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-object-super/7.12.1/plugin-transform-object-super-7.12.1.tgz 3197ms (cache miss)
+300 timing reifyNode:node_modules/@babel/plugin-transform-object-super Completed in 3295ms
+301 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-compilation-targets/7.12.5/helper-compilation-targets-7.12.5.tgz 3147ms (cache miss)
+302 http fetch GET 200 https://cdn.npmmirror.com/packages/regjsgen/0.5.2/regjsgen-0.5.2.tgz 3239ms (cache miss)
+303 timing reifyNode:node_modules/regjsgen Completed in 3298ms
+304 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-modules-commonjs/7.12.1/plugin-transform-modules-commonjs-7.12.1.tgz 3195ms (cache miss)
+305 timing reifyNode:node_modules/@babel/plugin-transform-modules-commonjs Completed in 3295ms
+306 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-remap-async-to-generator/7.12.1/helper-remap-async-to-generator-7.12.1.tgz 3163ms (cache miss)
+307 timing reifyNode:node_modules/@babel/helper-remap-async-to-generator Completed in 3293ms
+308 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-unicode-escapes/7.12.1/plugin-transform-unicode-escapes-7.12.1.tgz 3209ms (cache miss)
+309 timing reifyNode:node_modules/@babel/plugin-transform-unicode-escapes Completed in 3297ms
+310 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-numeric-separator/7.10.4/plugin-syntax-numeric-separator-7.10.4.tgz 3184ms (cache miss)
+311 timing reifyNode:node_modules/@babel/plugin-syntax-numeric-separator Completed in 3296ms
+312 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup-plugin-babel/4.4.0/rollup-plugin-babel-4.4.0.tgz 3240ms (cache miss)
+313 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-template-literals/7.12.1/plugin-transform-template-literals-7.12.1.tgz 3209ms (cache miss)
+314 timing reifyNode:node_modules/@babel/plugin-transform-template-literals Completed in 3298ms
+315 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-arrow-functions/7.12.1/plugin-transform-arrow-functions-7.12.1.tgz 3188ms (cache miss)
+316 timing reifyNode:node_modules/@babel/plugin-transform-arrow-functions Completed in 3298ms
+317 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-member-expression-literals/7.12.1/plugin-transform-member-expression-literals-7.12.1.tgz 3197ms (cache miss)
+318 timing reifyNode:node_modules/@babel/plugin-transform-member-expression-literals Completed in 3298ms
+319 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/highlight/7.10.4/highlight-7.10.4.tgz 3171ms (cache miss)
+320 timing reifyNode:node_modules/@babel/highlight Completed in 3298ms
+321 http fetch GET 200 https://cdn.npmmirror.com/packages/estree-walker/0.6.1/estree-walker-0.6.1.tgz 3229ms (cache miss)
+322 http fetch GET 200 https://cdn.npmmirror.com/packages/unicode-match-property-value-ecmascript/1.2.0/unicode-match-property-value-ecmascript-1.2.0.tgz 3249ms (cache miss)
+323 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-async-generators/7.8.4/plugin-syntax-async-generators-7.8.4.tgz 3182ms (cache miss)
+324 timing reifyNode:node_modules/@babel/plugin-syntax-async-generators Completed in 3299ms
+325 http fetch GET 200 https://cdn.npmmirror.com/packages/function-bind/1.1.1/function-bind-1.1.1.tgz 3231ms (cache miss)
+326 timing reifyNode:node_modules/@babel/plugin-syntax-logical-assignment-operators Completed in 3300ms
+327 timing reifyNode:node_modules/@babel/plugin-transform-destructuring Completed in 3301ms
+328 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-dotall-regex/7.12.1/plugin-transform-dotall-regex-7.12.1.tgz 3198ms (cache miss)
+329 timing reifyNode:node_modules/@babel/plugin-transform-dotall-regex Completed in 3303ms
+330 timing reifyNode:node_modules/@babel/plugin-syntax-class-properties Completed in 3309ms
+331 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-unicode-property-regex/7.12.1/plugin-proposal-unicode-property-regex-7.12.1.tgz 3192ms (cache miss)
+332 warn deprecated @babel/plugin-proposal-unicode-property-regex@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+333 timing reifyNode:node_modules/@babel/plugin-proposal-unicode-property-regex Completed in 3311ms
+334 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-function-name/7.12.11/helper-function-name-7.12.11.tgz 3169ms (cache miss)
+335 http fetch GET 200 https://cdn.npmmirror.com/packages/ansi-styles/3.2.1/ansi-styles-3.2.1.tgz 3230ms (cache miss)
+336 timing reifyNode:node_modules/ansi-styles Completed in 3313ms
+337 timing reifyNode:node_modules/@babel/plugin-transform-named-capturing-groups-regex Completed in 3314ms
+338 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-simple-access/7.12.1/helper-simple-access-7.12.1.tgz 3182ms (cache miss)
+339 timing reifyNode:node_modules/@babel/plugin-transform-modules-amd Completed in 3314ms
+340 warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+341 timing reifyNode:node_modules/@babel/plugin-proposal-logical-assignment-operators Completed in 3314ms
+342 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-regenerator/7.12.1/plugin-transform-regenerator-7.12.1.tgz 3224ms (cache miss)
+343 timing reifyNode:node_modules/@babel/plugin-transform-duplicate-keys Completed in 3316ms
+344 warn deprecated @babel/plugin-proposal-json-strings@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
+345 timing reifyNode:node_modules/@babel/plugin-proposal-json-strings Completed in 3317ms
+346 timing reifyNode:node_modules/@babel/plugin-transform-unicode-regex Completed in 3320ms
+347 timing reifyNode:node_modules/@babel/plugin-transform-regenerator Completed in 3320ms
+348 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/code-frame/7.12.11/code-frame-7.12.11.tgz 3167ms (cache miss)
+349 timing reifyNode:node_modules/@babel/helper-optimise-call-expression Completed in 3319ms
+350 timing reifyNode:node_modules/@babel/helper-explode-assignable-expression Completed in 3319ms
+351 warn deprecated @babel/plugin-proposal-numeric-separator@7.12.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+352 timing reifyNode:node_modules/@babel/plugin-proposal-numeric-separator Completed in 3322ms
+353 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-typeof-symbol/7.12.10/plugin-transform-typeof-symbol-7.12.10.tgz 3234ms (cache miss)
+354 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-optional-catch-binding/7.8.3/plugin-syntax-optional-catch-binding-7.8.3.tgz 3213ms (cache miss)
+355 timing reifyNode:node_modules/@babel/helper-annotate-as-pure Completed in 3322ms
+356 timing reifyNode:node_modules/@babel/plugin-transform-typeof-symbol Completed in 3325ms
+357 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerator-runtime/0.13.7/regenerator-runtime-0.13.7.tgz 3268ms (cache miss)
+358 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-define-map/7.10.5/helper-define-map-7.10.5.tgz 3180ms (cache miss)
+359 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-plugin-utils/7.10.4/helper-plugin-utils-7.10.4.tgz 3192ms (cache miss)
+360 http fetch GET 200 https://cdn.npmmirror.com/packages/call-bind/1.0.0/call-bind-1.0.0.tgz 3246ms (cache miss)
+361 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/preset-modules/0.1.4/preset-modules-0.1.4.tgz 3241ms (cache miss)
+362 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-replace-supers/7.12.11/helper-replace-supers-7.12.11.tgz 3194ms (cache miss)
+363 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-new-target/7.12.1/plugin-transform-new-target-7.12.1.tgz 3229ms (cache miss)
+364 timing reifyNode:node_modules/@babel/plugin-transform-new-target Completed in 3328ms
+365 http fetch GET 200 https://cdn.npmmirror.com/packages/chalk/2.4.2/chalk-2.4.2.tgz 3250ms (cache miss)
+366 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-spread/7.12.1/plugin-transform-spread-7.12.1.tgz 3237ms (cache miss)
+367 timing reifyNode:node_modules/@babel/plugin-transform-spread Completed in 3329ms
+368 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-nullish-coalescing-operator/7.12.1/plugin-proposal-nullish-coalescing-operator-7.12.1.tgz 3205ms (cache miss)
+369 warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+370 timing reifyNode:node_modules/@babel/plugin-proposal-nullish-coalescing-operator Completed in 3333ms
+371 http fetch GET 200 https://cdn.npmmirror.com/packages/colorette/1.2.1/colorette-1.2.1.tgz 3259ms (cache miss)
+372 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-object-rest-spread/7.12.1/plugin-proposal-object-rest-spread-7.12.1.tgz 3214ms (cache miss)
+373 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-dynamic-import/7.8.3/plugin-syntax-dynamic-import-7.8.3.tgz 3217ms (cache miss)
+374 timing reifyNode:node_modules/@babel/plugin-syntax-dynamic-import Completed in 3334ms
+375 http fetch GET 200 https://cdn.npmmirror.com/packages/globals/11.12.0/globals-11.12.0.tgz 3270ms (cache miss)
+376 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-syntax-json-strings/7.8.3/plugin-syntax-json-strings-7.8.3.tgz 3222ms (cache miss)
+377 timing reifyNode:node_modules/@babel/plugin-syntax-json-strings Completed in 3335ms
+378 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-property-literals/7.12.1/plugin-transform-property-literals-7.12.1.tgz 3243ms (cache miss)
+379 timing reifyNode:node_modules/@babel/plugin-transform-property-literals Completed in 3337ms
+380 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-dynamic-import/7.12.1/plugin-proposal-dynamic-import-7.12.1.tgz 3212ms (cache miss)
+381 warn deprecated @babel/plugin-proposal-dynamic-import@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
+382 timing reifyNode:node_modules/@babel/plugin-proposal-dynamic-import Completed in 3337ms
+383 timing reifyNode:node_modules/regenerate Completed in 3341ms
+384 warn deprecated @babel/plugin-proposal-object-rest-spread@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+385 timing reifyNode:node_modules/@babel/plugin-proposal-object-rest-spread Completed in 3338ms
+386 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-reserved-words/7.12.1/plugin-transform-reserved-words-7.12.1.tgz 3249ms (cache miss)
+387 timing reifyNode:node_modules/@babel/plugin-transform-reserved-words Completed in 3341ms
+388 http fetch GET 200 https://cdn.npmmirror.com/packages/js-tokens/4.0.0/js-tokens-4.0.0.tgz 3277ms (cache miss)
+389 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-async-generator-functions/7.12.12/plugin-proposal-async-generator-functions-7.12.12.tgz 3214ms (cache miss)
+390 timing reifyNode:node_modules/@babel/helper-simple-access Completed in 3338ms
+391 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-wrap-function/7.12.3/helper-wrap-function-7.12.3.tgz 3212ms (cache miss)
+392 timing reifyNode:node_modules/@babel/helper-wrap-function Completed in 3340ms
+393 timing reifyNode:node_modules/@babel/helper-function-name Completed in 3339ms
+394 timing reifyNode:node_modules/@babel/plugin-transform-modules-systemjs Completed in 3342ms
+395 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-member-expression-to-functions/7.12.7/helper-member-expression-to-functions-7.12.7.tgz 3203ms (cache miss)
+396 http fetch GET 200 https://cdn.npmmirror.com/packages/jsesc/0.5.0/jsesc-0.5.0.tgz 3188ms (cache miss)
+397 timing reifyNode:node_modules/@babel/code-frame Completed in 3341ms
+398 timing reifyNode:node_modules/@babel/plugin-syntax-optional-catch-binding Completed in 3343ms
+399 timing reifyNode:node_modules/@babel/helper-replace-supers Completed in 3342ms
+400 timing reifyNode:node_modules/@babel/helper-plugin-utils Completed in 3342ms
+401 timing reifyNode:node_modules/@babel/helper-define-map Completed in 3343ms
+402 http fetch GET 200 https://cdn.npmmirror.com/packages/supports-color/5.5.0/supports-color-5.5.0.tgz 3299ms (cache miss)
+403 http fetch GET 200 https://cdn.npmmirror.com/packages/minimist/1.2.5/minimist-1.2.5.tgz 3293ms (cache miss)
+404 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-proposal-optional-catch-binding/7.12.1/plugin-proposal-optional-catch-binding-7.12.1.tgz 3242ms (cache miss)
+405 warn deprecated @babel/plugin-proposal-optional-catch-binding@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+406 timing reifyNode:node_modules/@babel/plugin-proposal-optional-catch-binding Completed in 3364ms
+407 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-get-function-arity/7.12.10/helper-get-function-arity-7.12.10.tgz 3226ms (cache miss)
+408 timing reifyNode:node_modules/@babel/helper-get-function-arity Completed in 3366ms
+409 http fetch GET 200 https://cdn.npmmirror.com/packages/has/1.0.3/has-1.0.3.tgz 3303ms (cache miss)
+410 http fetch GET 200 https://cdn.npmmirror.com/packages/has-symbols/1.0.1/has-symbols-1.0.1.tgz 3304ms (cache miss)
+411 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-skip-transparent-expression-wrappers/7.12.1/helper-skip-transparent-expression-wrappers-7.12.1.tgz 3238ms (cache miss)
+412 timing reifyNode:node_modules/@babel/helper-skip-transparent-expression-wrappers Completed in 3367ms
+413 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-for-of/7.12.1/plugin-transform-for-of-7.12.1.tgz 3267ms (cache miss)
+414 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/compat-data/7.12.7/compat-data-7.12.7.tgz 3233ms (cache miss)
+415 timing reifyNode:node_modules/supports-color Completed in 3391ms
+416 timing reifyNode:node_modules/unicode-match-property-value-ecmascript Completed in 3408ms
+417 warn deprecated @babel/plugin-proposal-async-generator-functions@7.12.12: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+418 timing reifyNode:node_modules/@babel/plugin-proposal-async-generator-functions Completed in 3405ms
+419 timing reifyNode:node_modules/js-tokens Completed in 3414ms
+420 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helpers/7.12.5/helpers-7.12.5.tgz 3288ms (cache miss)
+421 timing reifyNode:node_modules/globals Completed in 3421ms
+422 timing reifyNode:node_modules/@babel/plugin-transform-for-of Completed in 3422ms
+423 timing reifyNode:node_modules/safe-buffer Completed in 3427ms
+424 timing reifyNode:node_modules/regenerator-runtime Completed in 3427ms
+425 http fetch GET 200 https://cdn.npmmirror.com/packages/regjsparser/0.6.4/regjsparser-0.6.4.tgz 3374ms (cache miss)
+426 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/plugin-transform-classes/7.12.1/plugin-transform-classes-7.12.1.tgz 3325ms (cache miss)
+427 timing reifyNode:node_modules/@babel/helper-member-expression-to-functions Completed in 3430ms
+428 timing reifyNode:node_modules/has Completed in 3435ms
+429 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-create-regexp-features-plugin/7.12.7/helper-create-regexp-features-plugin-7.12.7.tgz 3287ms (cache miss)
+430 warn deprecated @babel/plugin-proposal-optional-chaining@7.12.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+431 timing reifyNode:node_modules/@babel/plugin-proposal-optional-chaining Completed in 3440ms
+432 timing reifyNode:node_modules/@babel/plugin-transform-parameters Completed in 3454ms
+433 http fetch GET 200 https://cdn.npmmirror.com/packages/regexpu-core/4.7.1/regexpu-core-4.7.1.tgz 3399ms (cache miss)
+434 timing reifyNode:node_modules/@babel/helpers Completed in 3453ms
+435 timing reifyNode:node_modules/colorette Completed in 3465ms
+436 timing reifyNode:node_modules/@babel/helper-validator-option Completed in 3462ms
+437 timing reifyNode:node_modules/regjsparser Completed in 3475ms
+438 timing reifyNode:node_modules/@babel/plugin-transform-classes Completed in 3474ms
+439 timing reifyNode:node_modules/@babel/helper-create-regexp-features-plugin Completed in 3474ms
+440 http fetch GET 200 https://cdn.npmmirror.com/packages/jsesc/2.5.2/jsesc-2.5.2.tgz 3414ms (cache miss)
+441 http fetch GET 200 https://cdn.npmmirror.com/packages/color-convert/1.9.3/color-convert-1.9.3.tgz 3409ms (cache miss)
+442 timing reifyNode:node_modules/regexpu-core Completed in 3502ms
+443 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/helper-module-imports/7.12.5/helper-module-imports-7.12.5.tgz 3364ms (cache miss)
+444 http fetch GET 200 https://cdn.npmmirror.com/packages/gensync/1.0.0-beta.2/gensync-1.0.0-beta.2.tgz 3437ms (cache miss)
+445 timing reifyNode:node_modules/color-name Completed in 3516ms
+446 timing reifyNode:node_modules/regjsparser/node_modules/jsesc Completed in 3519ms
+447 timing reifyNode:node_modules/estree-walker Completed in 3522ms
+448 timing reifyNode:node_modules/chalk Completed in 3531ms
+449 timing reifyNode:node_modules/debug Completed in 3533ms
+450 timing reifyNode:node_modules/jsesc Completed in 3534ms
+451 timing reifyNode:node_modules/gensync Completed in 3536ms
+452 timing reifyNode:node_modules/color-convert Completed in 3538ms
+453 http fetch GET 200 https://cdn.npmmirror.com/packages/semver/5.7.1/semver-5.7.1.tgz 3490ms (cache miss)
+454 timing reifyNode:node_modules/@babel/helper-module-imports Completed in 3541ms
+455 timing reifyNode:node_modules/esutils Completed in 3546ms
+456 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 3543ms
+457 timing reifyNode:node_modules/semver Completed in 3561ms
+458 timing reifyNode:node_modules/@babel/helper-module-transforms Completed in 3568ms
+459 timing reifyNode:node_modules/escalade Completed in 3580ms
+460 http fetch GET 200 https://cdn.npmmirror.com/packages/electron-to-chromium/1.3.633/electron-to-chromium-1.3.633.tgz 3511ms (cache miss)
+461 timing reifyNode:node_modules/@babel/helper-create-class-features-plugin Completed in 3588ms
+462 timing reifyNode:node_modules/electron-to-chromium Completed in 3604ms
+463 timing reifyNode:node_modules/@babel/helper-compilation-targets Completed in 3615ms
+464 timing reifyNode:node_modules/define-properties Completed in 3640ms
+465 http fetch GET 200 https://cdn.npmmirror.com/packages/node-releases/1.1.67/node-releases-1.1.67.tgz 3587ms (cache miss)
+466 timing reifyNode:node_modules/babel-plugin-dynamic-import-node Completed in 3652ms
+467 timing reifyNode:node_modules/object-keys Completed in 3667ms
+468 timing reifyNode:node_modules/@babel/template Completed in 3668ms
+469 timing reifyNode:node_modules/function-bind Completed in 3736ms
+470 http fetch GET 200 https://cdn.npmmirror.com/packages/browserslist/4.16.0/browserslist-4.16.0.tgz 3687ms (cache miss)
+471 timing reifyNode:node_modules/browserslist Completed in 3790ms
+472 timing reifyNode:node_modules/call-bind Completed in 3793ms
+473 warn deprecated rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+474 timing reifyNode:node_modules/rollup-plugin-babel Completed in 3812ms
+475 http fetch GET 200 https://cdn.npmmirror.com/packages/get-intrinsic/1.0.2/get-intrinsic-1.0.2.tgz 3740ms (cache miss)
+476 timing reifyNode:node_modules/get-intrinsic Completed in 3823ms
+477 timing reifyNode:node_modules/@babel/compat-data Completed in 3845ms
+478 timing reifyNode:node_modules/has-symbols Completed in 3852ms
+479 http fetch GET 200 https://cdn.npmmirror.com/packages/core-js-compat/3.8.1/core-js-compat-3.8.1.tgz 3784ms (cache miss)
+480 timing reifyNode:node_modules/core-js-compat Completed in 3869ms
+481 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup-pluginutils/2.8.2/rollup-pluginutils-2.8.2.tgz 3825ms (cache miss)
+482 timing reifyNode:node_modules/rollup-pluginutils Completed in 3895ms
+483 http fetch GET 200 https://cdn.npmmirror.com/packages/json5/2.1.3/json5-2.1.3.tgz 3850ms (cache miss)
+484 timing reifyNode:node_modules/node-releases Completed in 3932ms
+485 timing reifyNode:node_modules/minimist Completed in 3941ms
+486 timing reifyNode:node_modules/json5 Completed in 3941ms
+487 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerator-transform/0.14.5/regenerator-transform-0.14.5.tgz 3891ms (cache miss)
+488 timing reifyNode:node_modules/regenerator-transform Completed in 3978ms
+489 http fetch GET 200 https://cdn.npmmirror.com/packages/object.assign/4.1.2/object.assign-4.1.2.tgz 3922ms (cache miss)
+490 timing reifyNode:node_modules/object.assign Completed in 3992ms
+491 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/generator/7.12.11/generator-7.12.11.tgz 3840ms (cache miss)
+492 timing reifyNode:node_modules/@babel/generator Completed in 3992ms
+493 timing reifyNode:node_modules/@babel/preset-modules Completed in 4077ms
+494 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/parser/7.12.11/parser-7.12.11.tgz 3981ms (cache miss)
+495 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/traverse/7.12.12/traverse-7.12.12.tgz 4029ms (cache miss)
+496 timing reifyNode:node_modules/@babel/parser Completed in 4120ms
+497 timing reifyNode:node_modules/@babel/traverse Completed in 4130ms
+498 http fetch GET 200 https://cdn.npmmirror.com/packages/source-map/0.5.7/source-map-0.5.7.tgz 4093ms (cache miss)
+499 timing reifyNode:node_modules/source-map Completed in 4152ms
+500 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/preset-env/7.12.11/preset-env-7.12.11.tgz 4070ms (cache miss)
+501 timing reifyNode:node_modules/@babel/preset-env Completed in 4164ms
+502 http fetch GET 200 https://cdn.npmmirror.com/packages/semver/7.0.0/semver-7.0.0.tgz 4046ms (cache miss)
+503 timing reifyNode:node_modules/core-js-compat/node_modules/semver Completed in 4204ms
+504 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/core/7.12.10/core-7.12.10.tgz 4154ms (cache miss)
+505 timing reifyNode:node_modules/@babel/core Completed in 4310ms
+506 http fetch GET 200 https://cdn.npmmirror.com/packages/rollup/2.35.1/rollup-2.35.1.tgz 4337ms (cache miss)
+507 timing reifyNode:node_modules/rollup Completed in 4397ms
+508 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/types/7.12.12/types-7.12.12.tgz 4521ms (cache miss)
+509 timing reifyNode:node_modules/@babel/types Completed in 4607ms
+510 http fetch GET 200 https://cdn.npmmirror.com/packages/%40babel/runtime/7.12.5/runtime-7.12.5.tgz 4536ms (cache miss)
+511 timing reifyNode:node_modules/@babel/runtime Completed in 4624ms
+512 http fetch GET 200 https://cdn.npmmirror.com/packages/regenerate-unicode-properties/8.2.0/regenerate-unicode-properties-8.2.0.tgz 5046ms (cache miss)
+513 timing reifyNode:node_modules/regenerate-unicode-properties Completed in 5109ms
+514 http fetch GET 200 https://cdn.npmmirror.com/packages/vue/2.6.12/vue-2.6.12.tgz 5429ms (cache miss)
+515 warn deprecated vue@2.6.12: Vue 2 has reached EOL and is no longer actively maintained. See https://v2.vuejs.org/eol/ for more details.
+516 timing reifyNode:node_modules/vue Completed in 5488ms
+517 http fetch GET 200 https://cdn.npmmirror.com/packages/lodash/4.17.20/lodash-4.17.20.tgz 6356ms (cache miss)
+518 timing reifyNode:node_modules/lodash Completed in 6425ms
+519 http fetch GET 200 https://cdn.npmmirror.com/packages/caniuse-lite/1.0.30001170/caniuse-lite-1.0.30001170.tgz 7146ms (cache miss)
+520 timing reifyNode:node_modules/caniuse-lite Completed in 7230ms
+521 timing reify:unpack Completed in 7233ms
+522 timing reify:unretire Completed in 0ms
+523 timing build:queue Completed in 5ms
+524 timing build:link:node_modules/@babel/parser Completed in 168ms
+525 timing build:link:node_modules/core-js-compat/node_modules/semver Completed in 166ms
+526 timing build:link:node_modules/regjsparser/node_modules/jsesc Completed in 167ms
+527 timing build:link:node_modules/jsesc Completed in 168ms
+528 timing build:link:node_modules/json5 Completed in 168ms
+529 timing build:link:node_modules/rollup Completed in 168ms
+530 timing build:link:node_modules/semver Completed in 167ms
+531 timing build:link:node_modules/regjsparser Completed in 168ms
+532 timing build:link:node_modules/browserslist Completed in 168ms
+533 timing build:link Completed in 170ms
+534 timing build:deps Completed in 175ms
+535 timing build Completed in 175ms
+536 timing reify:build Completed in 176ms
+537 timing reify:trash Completed in 1ms
+538 timing reify:save Completed in 71ms
+539 timing reify Completed in 7762ms
+540 silly ADD node_modules/vue
+541 silly ADD node_modules/unicode-property-aliases-ecmascript
+542 silly ADD node_modules/unicode-match-property-value-ecmascript
+543 silly ADD node_modules/unicode-match-property-ecmascript
+544 silly ADD node_modules/unicode-canonical-property-names-ecmascript
+545 silly ADD node_modules/to-fast-properties
+546 silly ADD node_modules/supports-color
+547 silly ADD node_modules/source-map
+548 silly ADD node_modules/semver
+549 silly ADD node_modules/safe-buffer
+550 silly ADD node_modules/rollup-pluginutils
+551 silly ADD node_modules/rollup-plugin-babel
+552 silly ADD node_modules/rollup
+553 silly ADD node_modules/regjsparser
+554 silly ADD node_modules/regjsparser/node_modules/jsesc
+555 silly ADD node_modules/regjsgen
+556 silly ADD node_modules/regexpu-core
+557 silly ADD node_modules/regenerator-transform
+558 silly ADD node_modules/regenerator-runtime
+559 silly ADD node_modules/regenerate-unicode-properties
+560 silly ADD node_modules/regenerate
+561 silly ADD node_modules/object.assign
+562 silly ADD node_modules/object-keys
+563 silly ADD node_modules/node-releases
+564 silly ADD node_modules/ms
+565 silly ADD node_modules/minimist
+566 silly ADD node_modules/lodash
+567 silly ADD node_modules/json5
+568 silly ADD node_modules/jsesc
+569 silly ADD node_modules/js-tokens
+570 silly ADD node_modules/has-symbols
+571 silly ADD node_modules/has-flag
+572 silly ADD node_modules/has
+573 silly ADD node_modules/globals
+574 silly ADD node_modules/get-intrinsic
+575 silly ADD node_modules/gensync
+576 silly ADD node_modules/function-bind
+577 silly ADD
+578 silly ADD node_modules/esutils
+579 silly ADD node_modules/estree-walker
+580 silly ADD node_modules/escape-string-regexp
+581 silly ADD node_modules/escalade
+582 silly ADD node_modules/electron-to-chromium
+583 silly ADD node_modules/define-properties
+584 silly ADD node_modules/debug
+585 silly ADD node_modules/core-js-compat
+586 silly ADD node_modules/core-js-compat/node_modules/semver
+587 silly ADD node_modules/convert-source-map
+588 silly ADD node_modules/colorette
+589 silly ADD node_modules/color-name
+590 silly ADD node_modules/color-convert
+591 silly ADD node_modules/chalk
+592 silly ADD node_modules/caniuse-lite
+593 silly ADD node_modules/call-bind
+594 silly ADD node_modules/browserslist
+595 silly ADD node_modules/babel-plugin-dynamic-import-node
+596 silly ADD node_modules/ansi-styles
+597 silly ADD node_modules/@babel/types
+598 silly ADD node_modules/@babel/traverse
+599 silly ADD node_modules/@babel/template
+600 silly ADD node_modules/@babel/runtime
+601 silly ADD node_modules/@babel/preset-modules
+602 silly ADD node_modules/@babel/preset-env
+603 silly ADD node_modules/@babel/plugin-transform-unicode-regex
+604 silly ADD node_modules/@babel/plugin-transform-unicode-escapes
+605 silly ADD node_modules/@babel/plugin-transform-typeof-symbol
+606 silly ADD node_modules/@babel/plugin-transform-template-literals
+607 silly ADD node_modules/@babel/plugin-transform-sticky-regex
+608 silly ADD node_modules/@babel/plugin-transform-spread
+609 silly ADD node_modules/@babel/plugin-transform-shorthand-properties
+610 silly ADD node_modules/@babel/plugin-transform-reserved-words
+611 silly ADD node_modules/@babel/plugin-transform-regenerator
+612 silly ADD node_modules/@babel/plugin-transform-property-literals
+613 silly ADD node_modules/@babel/plugin-transform-parameters
+614 silly ADD node_modules/@babel/plugin-transform-object-super
+615 silly ADD node_modules/@babel/plugin-transform-new-target
+616 silly ADD node_modules/@babel/plugin-transform-named-capturing-groups-regex
+617 silly ADD node_modules/@babel/plugin-transform-modules-umd
+618 silly ADD node_modules/@babel/plugin-transform-modules-systemjs
+619 silly ADD node_modules/@babel/plugin-transform-modules-commonjs
+620 silly ADD node_modules/@babel/plugin-transform-modules-amd
+621 silly ADD node_modules/@babel/plugin-transform-member-expression-literals
+622 silly ADD node_modules/@babel/plugin-transform-literals
+623 silly ADD node_modules/@babel/plugin-transform-function-name
+624 silly ADD node_modules/@babel/plugin-transform-for-of
+625 silly ADD node_modules/@babel/plugin-transform-exponentiation-operator
+626 silly ADD node_modules/@babel/plugin-transform-duplicate-keys
+627 silly ADD node_modules/@babel/plugin-transform-dotall-regex
+628 silly ADD node_modules/@babel/plugin-transform-destructuring
+629 silly ADD node_modules/@babel/plugin-transform-computed-properties
+630 silly ADD node_modules/@babel/plugin-transform-classes
+631 silly ADD node_modules/@babel/plugin-transform-block-scoping
+632 silly ADD node_modules/@babel/plugin-transform-block-scoped-functions
+633 silly ADD node_modules/@babel/plugin-transform-async-to-generator
+634 silly ADD node_modules/@babel/plugin-transform-arrow-functions
+635 silly ADD node_modules/@babel/plugin-syntax-top-level-await
+636 silly ADD node_modules/@babel/plugin-syntax-optional-chaining
+637 silly ADD node_modules/@babel/plugin-syntax-optional-catch-binding
+638 silly ADD node_modules/@babel/plugin-syntax-object-rest-spread
+639 silly ADD node_modules/@babel/plugin-syntax-numeric-separator
+640 silly ADD node_modules/@babel/plugin-syntax-nullish-coalescing-operator
+641 silly ADD node_modules/@babel/plugin-syntax-logical-assignment-operators
+642 silly ADD node_modules/@babel/plugin-syntax-json-strings
+643 silly ADD node_modules/@babel/plugin-syntax-export-namespace-from
+644 silly ADD node_modules/@babel/plugin-syntax-dynamic-import
+645 silly ADD node_modules/@babel/plugin-syntax-class-properties
+646 silly ADD node_modules/@babel/plugin-syntax-async-generators
+647 silly ADD node_modules/@babel/plugin-proposal-unicode-property-regex
+648 silly ADD node_modules/@babel/plugin-proposal-private-methods
+649 silly ADD node_modules/@babel/plugin-proposal-optional-chaining
+650 silly ADD node_modules/@babel/plugin-proposal-optional-catch-binding
+651 silly ADD node_modules/@babel/plugin-proposal-object-rest-spread
+652 silly ADD node_modules/@babel/plugin-proposal-numeric-separator
+653 silly ADD node_modules/@babel/plugin-proposal-nullish-coalescing-operator
+654 silly ADD node_modules/@babel/plugin-proposal-logical-assignment-operators
+655 silly ADD node_modules/@babel/plugin-proposal-json-strings
+656 silly ADD node_modules/@babel/plugin-proposal-export-namespace-from
+657 silly ADD node_modules/@babel/plugin-proposal-dynamic-import
+658 silly ADD node_modules/@babel/plugin-proposal-class-properties
+659 silly ADD node_modules/@babel/plugin-proposal-async-generator-functions
+660 silly ADD node_modules/@babel/parser
+661 silly ADD node_modules/@babel/highlight
+662 silly ADD node_modules/@babel/helpers
+663 silly ADD node_modules/@babel/helper-wrap-function
+664 silly ADD node_modules/@babel/helper-validator-option
+665 silly ADD node_modules/@babel/helper-validator-identifier
+666 silly ADD node_modules/@babel/helper-split-export-declaration
+667 silly ADD node_modules/@babel/helper-skip-transparent-expression-wrappers
+668 silly ADD node_modules/@babel/helper-simple-access
+669 silly ADD node_modules/@babel/helper-replace-supers
+670 silly ADD node_modules/@babel/helper-remap-async-to-generator
+671 silly ADD node_modules/@babel/helper-plugin-utils
+672 silly ADD node_modules/@babel/helper-optimise-call-expression
+673 silly ADD node_modules/@babel/helper-module-transforms
+674 silly ADD node_modules/@babel/helper-module-imports
+675 silly ADD node_modules/@babel/helper-member-expression-to-functions
+676 silly ADD node_modules/@babel/helper-hoist-variables
+677 silly ADD node_modules/@babel/helper-get-function-arity
+678 silly ADD node_modules/@babel/helper-function-name
+679 silly ADD node_modules/@babel/helper-explode-assignable-expression
+680 silly ADD node_modules/@babel/helper-define-map
+681 silly ADD node_modules/@babel/helper-create-regexp-features-plugin
+682 silly ADD node_modules/@babel/helper-create-class-features-plugin
+683 silly ADD node_modules/@babel/helper-compilation-targets
+684 silly ADD node_modules/@babel/helper-builder-binary-assignment-operator-visitor
+685 silly ADD node_modules/@babel/helper-annotate-as-pure
+686 silly ADD node_modules/@babel/generator
+687 silly ADD node_modules/@babel/core
+688 silly ADD node_modules/@babel/compat-data
+689 silly ADD node_modules/@babel/code-frame
+690 timing command:i Completed in 7776ms
+691 notice
+691 notice New [33mminor[39m version of npm available! [31m10.2.4[39m -> [32m10.8.2[39m
+691 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.8.2[39m
+691 notice Run [32mnpm install -g npm@10.8.2[39m to update!
+691 notice
+692 verbose exit 0
+693 timing npm Completed in 8060ms
+694 info ok

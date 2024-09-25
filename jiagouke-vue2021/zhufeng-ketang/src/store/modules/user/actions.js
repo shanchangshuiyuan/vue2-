@@ -20,7 +20,7 @@ const filterRouter = (authList) => { // 我要拿每个路由去看在不在权�
 const userActions = {
     async [Types.SET_USER]({ commit }, { userInfo, has }) {
         commit(Types.SET_USER, userInfo);
-        commit(Types.SET_PERMISSION, has)
+        commit(Types.SET_PERMISSION, has);
     },
     async [Types.SET_LOGIN]({ commit, dispatch }, payload) {
         let userInfo = await toLogin(payload);
@@ -48,7 +48,7 @@ const userActions = {
         route.children = routes; // 告诉你这是你的儿子 ，儿子是动态添加的
         router.addRoutes([route]); // 动态再次添加进入
 
-        console.log(router)
+        // console.log(router)
         commit(Types.SET_MENU_PERMISSION,true);
     }
 }

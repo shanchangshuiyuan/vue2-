@@ -1,0 +1,2 @@
+
+0d49987d4de8a9bda5d0a8ac7947d6e1bd7814e3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/glob/download/glob-7.1.6.tgz","integrity":null,"time":1721811164851,"size":"262","metadata":{"time":1721811164851,"url":"https://registry.npm.taobao.org/glob/download/glob-7.1.6.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:48 GMT","location":"https://registry.npmmirror.com/glob/download/glob-7.1.6.tgz"},"options":{"compress":true},"status":301}}

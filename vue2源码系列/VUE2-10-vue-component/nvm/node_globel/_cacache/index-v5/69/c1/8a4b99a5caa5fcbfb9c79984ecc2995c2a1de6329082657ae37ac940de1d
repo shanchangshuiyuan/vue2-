@@ -1,0 +1,2 @@
+
+00f3908d557cd589c40939bfd7368ebeb678108b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/compressible/download/compressible-2.0.18.tgz","integrity":null,"time":1721811166519,"size":"262","metadata":{"time":1721811166519,"url":"https://registry.npm.taobao.org/compressible/download/compressible-2.0.18.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:50 GMT","location":"https://registry.npmmirror.com/compressible/download/compressible-2.0.18.tgz"},"options":{"compress":true},"status":301}}

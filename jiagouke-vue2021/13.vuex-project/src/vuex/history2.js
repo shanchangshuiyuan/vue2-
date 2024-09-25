@@ -1,84 +1,124 @@
-import { Vue } from './install'
-import ModuleCollection from './module/module-collection';
-import { forEach } from './util';
+import { Vue } from "./install";
+import ModuleCollection from "./module/module-collection";
+import { forEach } from "./utils";
 
+// [a,b,c,d] => b/c
+function installModules(store, rootState, path, module) {
+  //   module.state => 放到rootState对应的儿子里
 
-function installModule(store, rootState, path, module) { //  a/b/c/d
-    // 需要循环当前模块的
+  // 获取moduleCollection类的实例
+  let ns = store._modules.getNamespaced(path);
 
-    // 获取moduleCollection类的实例
-    let ns = store._modules.getNamespace(path);
-    // module.state => 放到rootState对应的儿子里
-    if (path.length > 0) { // 儿子模块 
-        // 需要找到对应父模块，将状态声明上去
-        // {name:'zf',age:'12',a:aState}
-        let parent = path.slice(0, -1).reduce((memo, current) => {
-            return memo[current];
-        }, rootState);
-        // 对象新增属性不能导致重新更新视图
-        Vue.set(parent, path[path.length - 1], module.state);
-    }
-    module.forEachGetter((fn, key) => {
-        store.wrapperGetters[ns + key] = function() {
-            return fn.call(store, module.state);
-        }
+  //将状态设置为响应式
+  if (path.length > 0) {
+    // [a] [a,c]
+    //儿子模块 {name: 'zgy', age: 12, a:{aState}}
+
+    // 需要找到对应夫模块，将状态声明上去
+    let parent = path.slice(0, -1).reduce((memo, current) => {
+      return memo[current];
+    }, rootState);
+    Vue.set(parent, path[path.length - 1], module.state);
+  }
+
+  //收集getters
+  module.forEachGetters((fn, key) => {
+    store.wrapperGetters[ns + key] = () => {
+      return fn.call(store, module.state);
+    };
+  });
+
+  //收集mutations
+  module.forEachMutations((fn, key) => {
+    //{{myAge:[fn, fn, fn]}
+    store.mutations[ns + key] = store.mutations[ns + key] || [];
+
+    store.mutations[ns + key].push((payload) => {
+      return fn.call(store, module.state, payload);
     });
-    module.forEachMutation((fn, key) => { // {myAge:[fn,fn]}
-        store.mutations[ns + key] = store.mutations[ns + key] || [];
-        store.mutations[ns + key].push((payload) => {
-            return fn.call(store, module.state, payload)
-        })
+  });
+
+  //收集actions
+  module.forEachActions((fn, key) => {
+    store.actions[ns + key] = store.actions[ns + key] || [];
+
+    store.actions[ns + key].push((payload) => {
+      return fn.call(store, store, payload);
     });
-    module.forEachAction((fn, key) => {
-        store.actions[ns + key] = store.actions[ns + key] || [];
-        store.actions[ns + key].push((payload) => {
-            return fn.call(store, store, payload)
-        })
-    });
-    module.forEachChildren((child, key) => {
-        installModule(store, rootState, path.concat(key), child);
-    });
+  });
+
+  //digui收集子模块
+  module.forEachChilds((child, key) => {
+    installModules(store, rootState, path.concat(key), child);
+  });
 }
 class Store {
-    constructor(options) {
-        // 对用户的模块进行整合 
-        // 当前格式化完毕的数据 放到了this._modules里
-        this._modules = new ModuleCollection(options); // 对用户的参数进行格式化操作
-        this.wrapperGetters = {}
-        this.getters = {}; // 我需要将模块中的所有的getters，mutations,actions进行收集
-        this.mutations = {};
-        this.actions = {};
-        const computed = {};
-        // 没有namespace的时候 getters都放在根上 ,actions,mutations 会被合并数组
-        let state = options.state;
-        installModule(this, state, [], this._modules.root);
-        forEach(this.wrapperGetters,(getter,key)=>{
-            computed[key] = getter;
-            Object.defineProperty(this.getters,key,{
-                get:()=>this._vm[key]
-            })
-        });
-        this._vm = new Vue({
-            data: {
-                $$state: state
-            },
-            computed
-        });
-    
-        console.log(this.getters,this.mutations,this.actions)
-    }
+  constructor(options) {
+    //对用户的模块进行整合
+    this._modules = new ModuleCollection(options); // 对用户的参数进行格式化操作
 
+    this.wrapperGetters = {}; //需要将模块中的所有getters，mutations actions 进行收集
+    this.getters = {};
+    this.mutations = {};
+    this.actions = {};
 
+    const computed = {};
 
-    get state() {
-        return this._vm._data.$$state
-    }
-    commit = (mutationName, payload) => { // 发布
-        this.mutations[mutationName] && this.mutations[mutationName].forEach(fn => fn(payload))
-    }
-    dispatch = (actionName, payload) => {
-        this.actions[actionName] && this.actions[actionName].forEach(fn => fn(payload))
-    }
+    let state = options.state;
+    //没有namespaced属性的时候 getters放在根上，actions，mutations 会被合并数组
+    installModules(this, state, [], this._modules.root);
+
+    forEach(this.wrapperGetters, (getter, key) => {
+      computed[key] = getter;
+
+      Object.defineProperty(this.getters, key, {
+        get: () => {
+          return this._vm[key];
+        },
+      });
+    });
+
+    //根据用户传递的state进行格式化
+    this._vm = new Vue({
+      data: {
+        $$state: state,
+      },
+      computed,
+    });
+
+  }
+
+  // 类的属性访问器
+  /**
+   * state: state实现逻辑
+   */
+  get state() {
+    // this.$store.state
+
+    //依赖于vue的响应式原理
+    return this._vm._data.$$state;
+  }
+
+  /**
+   * mutations: mutations实现逻辑
+   */
+  commit = (mutationName, payload) => {
+    // console.log('commit', mutationName, payload);
+    // console.log(this.state);
+    //发布
+    this.mutations[mutationName] &&
+      this.mutations[mutationName].forEach(fn=>fn(payload));
+  };
+
+  /**
+   * actions: actions实现逻辑
+   */
+  //   这儿有 this 丢失的问题
+  dispatch = (actionName, payload) => {
+    this.actions[actionName] &&
+      this.actions[actionName].forEach(fn=>fn(payload));
+  };
 }
-// state getters action mutation  （modules 分层)
+
+//state, mutations, actions, getters, (modules 分层),
 export default Store;

@@ -1,0 +1,2 @@
+
+fe20581cd3ed215e7923f29a86cac561a125eb15	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/pseudomap/download/pseudomap-1.0.2.tgz","integrity":null,"time":1721811159635,"size":"262","metadata":{"time":1721811159635,"url":"https://registry.npm.taobao.org/pseudomap/download/pseudomap-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:43 GMT","location":"https://registry.npmmirror.com/pseudomap/download/pseudomap-1.0.2.tgz"},"options":{"compress":true},"status":301}}

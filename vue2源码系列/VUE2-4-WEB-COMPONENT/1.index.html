@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+        :root{
+            --background-color: black;
+            --text-color:yellow
+        }
+    </style>
+
+    <zgy-button type="primary">按钮</zgy-button>
+    <zgy-button>默认按钮</zgy-button>
+
+    <template id="btn">
+      <button class="zgy-button">
+        <slot>默认按钮</slot>
+      </button>
+    </template>
+
+    <script>
+      class ZgyButton extends HTMLElement {
+        constructor() {
+          super();
+          let shadow = this.attachShadow({ mode: "open" });
+          let btnTmpl = document.getElementById("btn");
+
+          let cloneTemplate = btnTmpl.content.cloneNode(true);
+
+          const style = document.createElement("style");
+          let type = this.getAttribute("type") || "default";
+          const btnList = {
+            primary: {
+              background: "#409eff",
+              color: "#fff",
+            },
+            default: {
+              background: "#909399",
+              color: "#fff",
+            },
+          };
+          style.textContent = `
+                    .zgy-button{
+                        outline:none;
+                        border:none;
+                        border-radius:4px;
+                        padding:5px 20px;
+                        display:inline-flex;
+                        background:var(--background-color,${btnList[type].background});
+                        color:var(--text-color,${btnList[type].color});
+                        cursor:pointer
+                    }
+                `;
+          shadow.appendChild(style);
+          shadow.appendChild(cloneTemplate);
+        }
+      }
+
+      window.customElements.define("zgy-button", ZgyButton);
+    </script>
+  </body>
+</html>

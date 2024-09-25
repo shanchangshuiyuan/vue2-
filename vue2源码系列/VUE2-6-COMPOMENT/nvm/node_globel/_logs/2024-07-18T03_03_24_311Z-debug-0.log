@@ -1,0 +1,36 @@
+0 verbose cli F:\nvm\node\node.exe F:\nvm\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:F:\nvm\nvm\v20.11.1\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-6-COMPOMENT\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\zgy\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-6-COMPOMENT\nvm\node_globel\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm run dev
+22 verbose argv "run" "dev"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-6-COMPOMENT\nvm\node_globel\_logs\2024-07-18T03_03_24_311Z-
+26 verbose logfile F:\learn\vue\珠峰\01-vue\vue2\vue2源码系列\VUE2-6-COMPOMENT\nvm\node_globel\_logs\2024-07-18T03_03_24_311Z-debug-0.log
+27 timing npm:load:logFile Completed in 11ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 52ms
+31 silly logfile done cleaning log files
+32 timing command:run Completed in 14025425ms
+33 verbose exit 1
+34 timing npm Completed in 14025554ms
+35 verbose code 1

@@ -1,0 +1,2 @@
+
+b5deb1b8c66c4fd46d0f6743d53baa164e345d74	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/etag/download/etag-1.8.1.tgz","integrity":null,"time":1721811165894,"size":"262","metadata":{"time":1721811165893,"url":"https://registry.npm.taobao.org/etag/download/etag-1.8.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:49 GMT","location":"https://registry.npmmirror.com/etag/download/etag-1.8.1.tgz"},"options":{"compress":true},"status":301}}

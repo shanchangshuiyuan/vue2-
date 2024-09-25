@@ -1,51 +1,59 @@
-import install from './install';
-import Store from './store'
+import install from "./install.js";
+import Store from "./store.js";
 
-
-
+// mapState  mapGetters  mapMutations  mapActions辅助函数的实现
 function mapState(stateList) {
-    let obj = {};
-    for (let i = 0; i < stateList.length; i++) {
-      let stateName = stateList[i];
-      obj[stateName] = function () {
-        return this.$store.state[stateName];
-      };
-    }
-    return obj;
+  let obj = {};
+  for (let i = 0; i < stateList.length; i++) {
+    let stateName = stateList[i];
+    obj[stateName] = function() {
+      return this.$store.state[stateName];
+    };
   }
-  function mapGetters(gettersList) {
-    let obj = {};
-    for (let i = 0; i < gettersList.length; i++) {
-      let getterName = gettersList[i];
-      obj[getterName] = function () {
-        return this.$store.getters[getterName];
-      };
-    }
-    return obj;
+  return obj;
+}
+
+function mapGetters(gettersList) {
+  let obj = {};
+  for (let i = 0; i < gettersList.length; i++) {
+    let getterName = gettersList[i];
+    obj[getterName] = function() {
+      return this.$store.getters[getterName];
+    };
   }
-  function mapMutations(mutationList) {
-    let obj = {};
-    for (let i = 0; i < mutationList.length; i++) {
-      obj[mutationList[i]] = function (payload) {
-        this.$store.commit(mutationList[i], payload);
-      };
-    }
-    return obj;
+  return obj;
+}
+
+function mapMutations(mutationsList) {
+  let obj = {};
+  for (let i = 0; i < mutationsList.length; i++) {
+    let mutationName = mutationsList[i];
+    obj[mutationName] = function(payload) {
+      return this.$store.commit(mutationName, payload);
+    };
   }
-  function mapActions(actionList) {
-    let obj = {};
-    for (let i = 0; i < actionList.length; i++) {
-      obj[actionList[i]] = function (payload) {
-        this.$store.dispatch(actionList[i], payload);
-      };
-    }
-    return obj;
+  return obj;
+}
+
+function mapActions(actionsList) {
+  let obj = {};
+  for (let i = 0; i < actionsList.length; i++) {
+    let actionName = actionsList[i];
+    obj[actionName] = function(payload) {
+      return this.$store.dispatch(actionName, payload);
+    };
   }
+  return obj;
+}
+
 export default {
-    install,
-    Store,
-    mapState,
-    mapGetters,
-    mapMutations,
-    mapActions
+  install,
+  Store,
+};
+
+export {
+  mapState,
+  mapGetters,
+  mapMutations,
+  mapActions,
 }

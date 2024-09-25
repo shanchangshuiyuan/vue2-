@@ -50,7 +50,7 @@ export default {
             }else{
                 next();
             }
-        }else{
+        }else{ //用户没登录
             next();
         }
     }

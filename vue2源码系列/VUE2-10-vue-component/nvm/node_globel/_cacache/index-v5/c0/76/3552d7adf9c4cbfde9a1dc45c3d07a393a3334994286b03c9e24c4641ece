@@ -1,0 +1,2 @@
+
+853ec44206ae5b7f0a054838b89334d8cd7030d1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/spdy/download/spdy-4.0.2.tgz","integrity":null,"time":1721811158435,"size":"262","metadata":{"time":1721811158435,"url":"https://registry.npm.taobao.org/spdy/download/spdy-4.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:42 GMT","location":"https://registry.npmmirror.com/spdy/download/spdy-4.0.2.tgz"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+21d6cc14d310c4c70826b339cd88ddd218b903ff	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/asn1/download/asn1-0.2.4.tgz","integrity":null,"time":1721811167584,"size":"262","metadata":{"time":1721811167584,"url":"https://registry.npm.taobao.org/asn1/download/asn1-0.2.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:51 GMT","location":"https://registry.npmmirror.com/asn1/download/asn1-0.2.4.tgz"},"options":{"compress":true},"status":301}}

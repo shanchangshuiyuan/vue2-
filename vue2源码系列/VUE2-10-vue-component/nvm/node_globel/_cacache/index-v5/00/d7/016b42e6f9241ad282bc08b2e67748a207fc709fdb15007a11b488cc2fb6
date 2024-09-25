@@ -1,0 +1,2 @@
+
+38563bcd7a3c810106eb6af93898c368e873ee0d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/proxy-addr/download/proxy-addr-2.0.6.tgz","integrity":null,"time":1721811159642,"size":"262","metadata":{"time":1721811159642,"url":"https://registry.npm.taobao.org/proxy-addr/download/proxy-addr-2.0.6.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:43 GMT","location":"https://registry.npmmirror.com/proxy-addr/download/proxy-addr-2.0.6.tgz"},"options":{"compress":true},"status":301}}

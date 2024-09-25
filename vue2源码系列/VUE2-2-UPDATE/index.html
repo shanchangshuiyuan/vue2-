@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app" class="1" style="color: red; background-color: aliceblue">{{arr}}</div>
+    <script src="dist/vue.js"></script>
+    <script>
+      //viewModel 数据模型
+      let vm = new Vue({
+        el: "#app",
+        data() {
+          // this = vm;
+          return {
+            // name: "zgy",
+            // age: 18,
+            arr: [[1, 2, 3]],
+          };
+        },
+      });
+      //数组没有监控 索引的变化, 但是索引对应的内容是对象类型，需要被监控
+
+      //用户很少通过操作数据索引来操作数组，内部就不对索引进行拦截，因为性能消耗严重，内部不采用defineProperity
+
+      //push shift pop unshift reserve sort splice 七个变异方法(改变原数组)
+
+      // setTimeout(() => {
+      //   vm.name = "hello";
+      //   vm.name = "hello";
+      //   vm.name = "hello";
+      //   vm.name = "hello";
+      //   vm.name = 123;
+
+      //   vm.$nextTick(()=>{
+      //       console.log(vm.$el);
+      //   })
+
+      //   // vm._update(vm._render()); //重新调用render方法产生虚拟dom
+      // }, 1000);、
+
+      setTimeout(() => {
+        vm.arr[0].push(4);
+      }, 1000);
+    </script>
+  </body>
+</html>
+
+<!-- Vue中的嵌套层次不能太深，否则会有大量递归 -->
+<!-- Vue中通过的是defineProperity,拦截了get set 如果不存在的属性不会拦截 -->
+<!-- Vue中的数组改索引与长度，是不会影响更新的，只能通过七个方法更新 -->

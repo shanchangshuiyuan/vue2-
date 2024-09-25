@@ -1,0 +1,2 @@
+
+4cf415dd8461e9579880447257e4766a40057048	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/util/download/util-0.11.1.tgz","integrity":null,"time":1721811157827,"size":"262","metadata":{"time":1721811157827,"url":"https://registry.npm.taobao.org/util/download/util-0.11.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:42 GMT","location":"https://registry.npmmirror.com/util/download/util-0.11.1.tgz"},"options":{"compress":true},"status":301}}

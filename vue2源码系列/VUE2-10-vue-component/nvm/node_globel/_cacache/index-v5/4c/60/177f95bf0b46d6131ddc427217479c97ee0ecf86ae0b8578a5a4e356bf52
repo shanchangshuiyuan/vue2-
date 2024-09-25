@@ -1,0 +1,2 @@
+
+9090891fdeacd68bc92c74045540fbb24fd33291	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/assert/download/assert-1.5.0.tgz","integrity":null,"time":1721811167586,"size":"262","metadata":{"time":1721811167586,"url":"https://registry.npm.taobao.org/assert/download/assert-1.5.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:51 GMT","location":"https://registry.npmmirror.com/assert/download/assert-1.5.0.tgz"},"options":{"compress":true},"status":301}}

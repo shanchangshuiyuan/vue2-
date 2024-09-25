@@ -1,0 +1,2 @@
+
+0304ce6a0807c79029f60e78e404c5c8df2a123c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/range-parser/download/range-parser-1.2.1.tgz","integrity":null,"time":1721811159446,"size":"262","metadata":{"time":1721811159446,"url":"https://registry.npm.taobao.org/range-parser/download/range-parser-1.2.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:43 GMT","location":"https://registry.npmmirror.com/range-parser/download/range-parser-1.2.1.tgz"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+4ff98819bf14e7eb888f996161d3592806bf4def	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/send/download/send-0.17.1.tgz","integrity":null,"time":1720596250754,"size":"262","metadata":{"time":1720596250754,"url":"https://registry.npm.taobao.org/send/download/send-0.17.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 10 Jul 2024 07:24:11 GMT","location":"https://registry.npmmirror.com/send/download/send-0.17.1.tgz"},"options":{"compress":true},"status":301}}

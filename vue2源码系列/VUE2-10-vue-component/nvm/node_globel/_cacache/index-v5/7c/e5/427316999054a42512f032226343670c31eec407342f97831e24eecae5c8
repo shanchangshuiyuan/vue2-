@@ -1,0 +1,2 @@
+
+fd86f23622650aefe722fd231ae5d5c573ec37d5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz","integrity":null,"time":1721811161977,"size":"262","metadata":{"time":1721811161977,"url":"https://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/html","date":"Wed, 24 Jul 2024 08:52:45 GMT","location":"https://registry.npmmirror.com/minimatch/download/minimatch-3.0.4.tgz"},"options":{"compress":true},"status":301}}
